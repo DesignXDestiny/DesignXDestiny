@@ -1,8 +1,6 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Graduate|Gruppo|Londrina+Outline|Love+Ya+Like+A+Sister|Marcellus+SC|Megrim|Nixie+One|Poiret+One|Pompiere|UnifrakturMaguntia');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 	/*
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Major Mono Display', monospace;
@@ -19,56 +17,25 @@
 	font-family: 'Nixie One', cursive;
 	font-family: 'Graduate', cursive;
 	font-family: 'Pompiere', cursive;
-	font-family: 'Londrina Outline', cursive;
+	font-family: 'Lonz  drina Outline', cursive;
 	font-family: 'Megrim', cursive;
 	font-family: 'UnifrakturMaguntia', cursive;
+
+	font-family: 'Montserrat', sans-serif;
 	*/
 
-.webdsn {
-	color: grey;
-	background-color: black; 
 
-}
-
-
-		.webdsn h1, h2, h3, h4, h5, h6 {
-				color: white;
-				font-size: 16px;
-		}
-
-		.webdsn a {
-			color: limegreen;
-		}
-
-
-/*
-		.flex-container {
-			  display: flex;
-			  flex-direction: row;
-			  flex-wrap: wrap;
-			  justify-content: center;
-			   align-items: center;
-				}
-*/
 
 			.lvpi {
 					border: 1px solid red;
 					float: left;
 			}
 
-					.lvpi p{
-						line-height: 1.5;
-						margin: auto;
-						padding: 4%;
-						font-size: 14px;
-						font-family: 'Nixie One', cursive;
 					}
 
 					.lvpi a {
 						color: red;
 					}
-
-
 
 
 		.bklst {
@@ -82,27 +49,33 @@
 					}
 
 
-					.sklwrk {
+					.sklwrk .gal {
 						float: right;
 						border: 1px solid pink;
 					}
+
+			.nonprofit {
+				float: left;
+				border: 1px solid green;
+			}
 
 	section {
 		width: 40%;
 		margin: auto;
 		margin: 2%;
 		padding: 1%;
-
+		border-radius: 30px;
+		display: center;
 	}
 
 
 html{
 	font-size: 100%;
-	font-family: 'Marcellus SC', serif;
 	margin: auto;
 
-		 --text-color-normal: #0a244d;
-  		--text-color-light: #8cabd9;
+   font-family: 'Montserrat', sans-serif;
+    color: white;
+  	    background: linear-gradient(#e66465, #9198e5, dodgerblue);
 }
 
 
@@ -118,28 +91,34 @@ html{
 
 
 p {
-
-	font-family: 'Gruppo', cursive;
-	line-height: 1.4;
-	max-width: 550px;
+	line-height: 2;
+	max-width: 500px;
 	padding: 3%;
 	margin: auto;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 h1, h2, h3, h4 {
 	text-align: center;
 	margin: auto;
+	text-shadow: 6px 7px 15px black;
 }
 
 	h1 {
-		font-size: 5vw;
+		font-size: 10vw;
 	}
 
 	h2 {
-		font-size: 3vw;
+		font-size: 5vw;
+		font-family: 'Fredericka the Great', serif;
 	}
+
+	h3 { 
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 4vw;
+	 }
+	h4 {font-family: 'Playfair Display';}
 
 a {
 	text-decoration: none;
@@ -147,22 +126,28 @@ a {
 }
 
 iframe {
-	min-width: 60%;
+	max-width: 500px;
 	min-height: 50%;
 	min-height: 300px;
-	margin: auto;
+	margin: 3%;
 	align-self: center;
 	scrolling: auto;
+	border-radius: 30px;
+	border: 2px grey solid;
 }
 
 
 
 
 footer {
-	color: white;
-	background-color: grey;
 	text-align: center;
 	clear: left;
+	    background-color: rgba(0, 0, 0, .6);
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 4%;
 }
 
 
@@ -170,6 +155,10 @@ footer {
 			color: white;
 			float: clear;
 		}
+
+name, span, small {
+    font-family: 'Amatic SC', cursive;
+}
 
 
 * {
@@ -348,27 +337,24 @@ footer {
 		/* DARK MODE ------------------- ----------------DARKMODE---- */
 
 @media (prefers-color-scheme: dark) {
-
-
-
 		html {
 			background-color: black;
 			color: silver;
-		}
+			}
 
 			h1, h2, h3, h4, h5, h6 {
 				color: white;
-			}
+				}
 
 	  img {
 	    opacity: .75;
 	    transition: opacity .5s ease-in-out;
-	  }
+		  }
 	  img:hover {
 	    opacity: 1;
-	  }
+		  }
 
-}
+	}
 
 
 
@@ -381,52 +367,51 @@ footer {
 .content {
 	column-count: 1;
 	display: block;
-}
+	}
 
 
 
 
 
 	/*  TYPEOGRAPHY    */
+
+
 		h1 {
-			font-size: 220%;
+			font-size: 8vw;
 			}
 
-		 h2, h3, h4, h5, h6 {
-			font-size: 200%;
-			}
+		h2 {
+			font-size: 6vw;
+		}
+
 			p {
 				font-size: 18px;
 				}
 
 
-			.lvpi {
-					border: 1.5px solid red;
-					display: block;
-					float: none;
-					}
 
-					.lvpi p{
-						line-height: 1.3;
-						margin: auto;
-						padding: 4%;
-						font-size: 16px;
-						font-family: 'Nixie One', cursive;
-						}
+			.lvpi {
+					border: 1px solid red;
+					float: none;
+					clear: left;
+					clear: right;
+				}
 
 					.lvpi a {
 						color: red;
-						}
+					}
+
 
 		.bklst {
 				float: none;
 				border: 1px solid dodgerblue;
-				display: block;
+
 				}
 
 					.bklst a {
 						color: dodgerblue;
-						}
+					}
+
 
 		.sklwrk {
 				display: block;
@@ -437,26 +422,30 @@ footer {
 	/*  STRUCTURE  */
 
 				section, div, article {
-
+						clear: left;
+						margin: 1%;
 				}
 
 				div {
 					display: block;
 					min-width: 100%;
 					float: none;
-				}
+					border-radius: 30px;
+					margin-bottom: 10px;
+					}
 
 				section {
 					min-width: 90%;
-				}
+					border-radius: 30px;
+					margin-bottom: 5px;
+					}
 
 				img {
 					min-width: 100%;
-				}
+					}
 
 				iframe {
 					margin: auto;
-					min-width: 80%;
-					margin-left: 8%;
-				}
-}
+					min-width: 100%;
+					}
+	}
