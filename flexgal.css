@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Graduate|Gruppo|Londrina+Outline|Love+Ya+Like+A+Sister|Marcellus+SC|Megrim|Nixie+One|Poiret+One|Pompiere|UnifrakturMaguntia');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+	/*
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Major Mono Display', monospace;
+	font-family: 'Special Elite', cursive;
+	font-family: 'Gochi Hand', cursive;
+
+	font-family: 'Amatic SC', cursive;
+	font-family: 'Poiret One', cursive;
+	font-family: 'Fredericka the Great', cursive;
+	font-family: 'Cabin Sketch', cursive;
+	font-family: 'Marcellus SC', serif;
+	font-family: 'Gruppo', cursive;
+	font-family: 'Love Ya Like A Sister', cursive;
+	font-family: 'Nixie One', cursive;
+	font-family: 'Graduate', cursive;
+	font-family: 'Pompiere', cursive;
+	font-family: 'Lonz  drina Outline', cursive;
+	font-family: 'Megrim', cursive;
+	font-family: 'UnifrakturMaguntia', cursive;
+
+	font-family: 'Montserrat', sans-serif;
+	*/
+
+	html {
+            		background-color: black;
+            		/* linear-gradient(black, red); */
+            		color: white;
+            		font-family: Century Gothic, sans-serif;
+            		padding-top: 0px;
+            		margin-top: 0px;
+	            	}
+
+            		img {
+            			max-width: 31%;
+            			max-height: 31%;
+            			opacity: .88;
+            			margin: 1%;
+    	        		}
+
+            		  img:hover {
+            				max-width: 40%;
+            				max-height: 40%;
+            				opacity: 1;
+            				margin: 2%;
+            			}
+
+            		.flex {
+            			display: flex;
+            			flex-wrap: wrap;
+            			justify-content: center;
+            			align-items: center;
+
+            			flex: 10;
+						align-content: space-between;
+        	    		}
+
+        	    		.flex-wrap {
+        	    			display: flex;
+            				flex-wrap: wrap;
+            				justify-content: center;
+            				align-items: center;
+            				flex: 5;
+            				align-content: space-around;
+        	    			}
+
+				div {
+
+					}
+
+            		section {
+            			padding: 5%;
+            			}
+
+            		footer {
+            			text-align: center;
+            			padding: 10%;
+
+            			color: silver;
+            			 }
+
+            		h1 {
+            			text-align: center;
+            			font-family: 'UnifrakturMaguntia', sans-serif;
+            			font-size: 10vw;
+            			z-index: -1;
+            			text-shadow: 8px 6px 50px pink;
+            			color: black;
+            			}
+
+            			h2 {        			
+            				text-align: center;
+							font-family: 'Amatic SC', serif;
+							font-size: 5vw;
+            			text-shadow: 8px 6px 30px white;
+            			color: black;
+            				}
+
+            			h3 {
+            				text-align: center;
+            				font-family: 'Amatic SC', serif;
+            				color: grey;
+            				font-size: 3vw;
+            				color: silver;
+            				color: black;
+							text-shadow: 8px 6px 25px silver;
+         		   			}
+
+            		p {
+            			column-width: 300px;
+            			align-self: center;
+            			padding-bottom: 2%;
+            			margin: auto;
+            			line-height: 1.5;
+            			}
+
+
+            		a {
+            			color: pink;
+            			text-decoration: none;
+
+            			    border-radius: 40px;
+            				border-bottom-width: 3px;
+            				border-width: 1px;
+            				border-color: pink; 
+            		}
+            			a:hover {
+            				color: yellow;
+            				}
+
+            		ul {
+            			padding: 1%;
+            			display: flex;
+            			flex-wrap: wrap;
+            			justify-content: center;
+            			align-items: center;
+            			}
+
+            			ul li{
+           					border-radius: 40px;
+            				border-bottom-width: 3px;
+            				border-width: 1px;
+            				border-color: pink; 
+            				border-style: solid;	
+            				text-decoration: none;
+            				flex: 3;
+            				margin-right: 5%;
+            				margin-left: 5%;
+            				text-align: center;
+            				}
+
+            				ul li :hover {
+            					border-color: yellow;
+            					text-decoration: none;
+            					background-color: black;
+            					}
+
+            				ul li a {
+            					font-family: 'Cabin Sketch', cursive;
+            					font-size: 22px;
+            					border-width: 1px;
+            					border-radius: 40px;
+            					border-bottom-width: 3px;
+            					border: 1px;
+            					border-color: pink;
+            					}
+
+
+
+        			nav {
+        					position: fixed;
+        					background-color: rgba(0, 0, 0, .7);
+							text-align: center;
+							display: inline-block;
+							text-align: justify;
+							top: 0;
+  							min-width: 100%;
+        					}
+
+        				nav	ul li {
+        					word-spacing: 2px;
+
+        					}
+
+
+
+        @media only screen and (min-width: 10px) and (max-width: 750px) {
+
+            		img {
+            			max-width: 45%;
+            			max-height: 45%;
+            			opacity: .88;
+            			padding: 1px;
+            			}
+
+            		  img:hover {
+            				max-width: 50%;
+            				max-height: 50%;
+            				opacity: 1;
+            				}
+
+            		.flex {
+            			display: flex;
+            			flex-wrap: wrap;
+            			justify-content: center;
+            			align-items: center;
+
+            			flex: 12;
+						align-content: space-between;
+            			}
+
+            		nav ul li {
+            			word-spacing: 5rem;
+            		}
+
+
+
+
+
+       		 }
+
