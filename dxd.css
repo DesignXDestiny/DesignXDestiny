@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Graduate|Gruppo|Londrina+Outline|Love+Ya+Like+A+Sister|Marcellus+SC|Megrim|Nixie+One|Poiret+One|Pompiere|UnifrakturMaguntia');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
@@ -24,7 +25,8 @@
 	font-family: 'Montserrat', sans-serif;
 	*/
 
-
+/* NOTE TO SELF
+		! font minimalization to quicken load time.  */
 
 
 #chromeFix { 
@@ -37,11 +39,11 @@
 			}
 
 			.lvpi {
-					border: 1px solid red;
+					border: 1px solid tomato;
 			}
 
 					.lvpi a {
-						color: red;
+						color: tomato;
 					}
 
 
@@ -60,7 +62,7 @@
 					}
 
 			.nonprofit {
-				border: 1px solid green;
+				border: 1px solid limegreen;
 			}
 				.nonprofit a {
 					color: limegreen;
@@ -76,6 +78,13 @@
             				align-content: space-around;
         	    			}
 
+        	   .smlinks img {
+        	   	border-radius: 50px;
+        	   	display: inline-flex;
+        	   	text-align: center;
+
+        	   	max-width: 5%;
+        	   }
 
 
 
@@ -85,7 +94,6 @@ html{
 	font-size: 100%;
 	margin: 0px;
 	padding: 0px;
-
    font-family: 'Montserrat', sans-serif;
     color: white;
   	background: linear-gradient(#e66465, #9198e5, dodgerblue);
@@ -103,7 +111,6 @@ html{
 				 		word-spacing: 2em;
 				 	}
 body {
-	background: linear-gradient(#e66465, #9198e5, dodgerblue);
 	margin: 0px;
 	padding: 0px;
 		}
@@ -111,7 +118,7 @@ body {
 
 
 	div {
-		   transition:all 0.3s ease;
+		 transition:all 0.3s ease;
 		display: block;
 		min-width: 100%;
 		float: none;
@@ -154,8 +161,9 @@ footer {
     display: block;
     min-width: 100%;
     max-width: 100%;
-    margin: 0;
+    margin: auto;
     padding: 4%;
+    margin-top: 6%;
 
 }
 
@@ -180,8 +188,8 @@ footer {
 	text-align: center;
 	padding: 1%;
 	margin-bottom: 10%;
-  transition: all 0.3s ease;
-}
+    transition: all 0.3s ease;
+	}
 
 	nav a {
 		margin: 0 auto;
@@ -199,6 +207,10 @@ footer {
 			color: white;
 			background-color: rgba(0, 0, 0, .8);
 			}
+
+		nav a:active{
+			color: pink;
+		}
 
 		nav a:visited{
 			color: dodgerblue;
@@ -272,16 +284,14 @@ a {
 
 
 .parallax { 
-
+	z-index: -1;
 
     /* The image used */
-    background-color: rgba(0, 0, 0, .5);
- 		background-image: url(img/desertsun.jpg);
+ 	background-image: url("Gallaries/img/lvout/desertsun.jpg");
 
     /* Full height */
     max-height: 100%; 
-
-
+    min-width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -289,7 +299,7 @@ a {
     background-size: cover;
 }
 
-	.parallax :active {
+	.parallax img :hover {
 			min-height: 100%;
 		}
 
@@ -355,9 +365,10 @@ a {
 
 
 		nav {
-			min-width: 90%;
+			min-width: 95%;
 			margin-top: -1px;
 			padding: 0px;
+			margin: auto;
 		}
 
 
@@ -395,7 +406,11 @@ a {
 					}
 
 		.w3c {
-			margin: 0 auto;
+			 margin: 0 auto;
+		     border: 0;
+             max-width: 88px;
+             height: 31px;
+             text-align: center;
 		}
 
 
