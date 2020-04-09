@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+          <meta charset="UTF-8">
+          <meta name="description" content="Design X Destiny Homepage">
+          <meta name="author" content="Destiny Barrett">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Design X Destiny</title>
+
+            <link rel="stylesheet" href="dxd.css">
+            <style>
+                @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
+            </style>
+
+                    <!-- Global site tag (gtag.js) - Google Analytics -->
+              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134369615-1"></script>
+            <script>
+               window.dataLayer = window.dataLayer || [];
+               function gtag(){dataLayer.push(arguments);}
+               gtag('js', new Date());
+
+               gtag('config', 'UA-134369615-1', { 'optimize_id': 'GTM-N68FW2K'});
+            </script>
+
+              <!-- Global site tag (gtag.js) - Google Analytics -
+
+                  Added to site on Mar 31, 2019--> 
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114925928-1">
+      </script> 
+      
+                <meta name="keywords" content="Las Vegas, Design, frontend web, web development, Graphic, Web, Art, Artist, downtown las vegas, drawing, painting, traditional art, portfolio, catcat">
+                
+                <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+            <script>
+
+              /* NAVIGATION Handles the page being scrolled by ensuring the navigation is always in
+ * view.
+ */
+function handleScroll(){
+
+  // check that this is a relatively modern browser
+  if (window.XMLHttpRequest){
+
+    // determine the distance scrolled down the page
+    var offset = window.pageYOffset
+               ? window.pageYOffset
+               : document.documentElement.scrollTop;
+
+    // set the appropriate class on the navigation
+    document.getElementById('navigation').className =
+        (offset > 104 ? 'fixed' : '');
+
+  }
+
+}
+
+// add the scroll event listener
+if (window.addEventListener){
+  window.addEventListener('scroll', handleScroll, false);
+}else{
+  window.attachEvent('onscroll', handleScroll);
+}
+</script>
+    </head>
+
+    <body>
+      <div>
+  <span class="homgo"> <a href="index.html"><img src="pinklogo.png" alt="Home"></a></span>
+
+    <nav id="navigation">
+      <a href="booklust/index.html">BookLust</a>
+      <a href="Gallaries/flex.html">Gallery</a>
+      <a href="codetech/index.html">MeauHaus</a>
+      <hr>
+      <a href="contact.html">Connect</a>
+      
+    </nav>
+
+      <header class="parallax">
+        <h1>Design X Destiny</h1>
+        <h3>Tell Me What You Want to Make Happen</h3>
+      </header>
+
+      <section>
+        <h2>Schedule Consultation</h2>
+
+        <h4><a tel="702-502-3772">Call Me</a></h4>
+
+                 <h5>Perspective</h5>
+
+              <p>
+                I am an artist.
+                A Traditional Art Background <wbr>
+                  is a unique perspective that 
+                  breathes life into my creations and designs.
+                </p>
+
+      </section>
+
+      <section>
+        <h3>Services</h3>
+
+          <ul>
+            <li>Web Design</li>
+              <ul>
+                <li>Web Site &amp; Page Layout</li>
+                <li>Branding</li>
+                <li>Logos</li>
+                <li>Color Schemes</li> 
+              </ul>
+
+            <li>Web Development</li>
+            <ul>
+              <li>Coding for web</li>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScipt</li>
+              </ul>
+              <li>Deployment</li>
+              <ul>
+                <li>File Transfer Protocol (FTP)</li>
+                <li>Hosting</li>
+                <li>Domains</li>
+                <li>Server Space</li>
+              </ul>
+              <li>Information Archetecture</li>
+              <li>Implempent Best File keeping practices</li>
+            </ul>
+
+            <li>Graphic Art</li>
+            <ul>
+              <li>Vector / Adobe Illusrator</li>
+              <li>Digital Painting</li>
+              <li>Photo Editing, Combination, color corection / Photoshop</li>
+              <li>Charachter Creation</li>
+              <li>Product Mock-up</li>
+            </ul>
+
+            </ul>
+
+
+            <p>Visit <a href="codetech/index.html">MeauHaus</a> for examples of my work.</p>
+
+          </section>
+
+
+      <footer>
+       <span> DXD &copy; 2020 </span>
+      </footer>
+
+    </div>
+
+    </body>
+
+</html>

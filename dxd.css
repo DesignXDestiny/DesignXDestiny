@@ -514,7 +514,7 @@ a {
 		}
 
 
-			.homego img {
+			.homgo img {
 				padding: 1%;
 				margin: auto;
 				background-color: rgba(0, 0, 0, .0);
@@ -525,7 +525,7 @@ a {
 				z-index: -1;
 				}
 
-				.homego img:hover {
+				.homgo img:hover {
 					size: 130%;
 					opacity: 1.0;
 					}
@@ -600,8 +600,8 @@ a {
 					border-radius: 30px;
 					margin-bottom: 13%;
 					padding-bottom: 5%; 
-					margin-right: 3%;
 					margin: 1%;
+					display: block;
 					}
 
 						section:hover{

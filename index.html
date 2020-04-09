@@ -31,36 +31,56 @@
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114925928-1">
       </script> 
       
-                <meta name="keywords" content="Las Vegas, Design, Graphic, Web, Art, Artist, downtown las vegas, drawing, painting, traditional art, portfolio, catcat">
+                <meta name="keywords" content="Las Vegas, Design, frontend web, web development, Graphic, Web, Art, Artist, downtown las vegas, drawing, painting, traditional art, portfolio, catcat">
+                
+                <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
+            <script>
 
+              /* NAVIGATION Handles the page being scrolled by ensuring the navigation is always in
+ * view.
+ */
+function handleScroll(){
+
+  // check that this is a relatively modern browser
+  if (window.XMLHttpRequest){
+
+    // determine the distance scrolled down the page
+    var offset = window.pageYOffset
+               ? window.pageYOffset
+               : document.documentElement.scrollTop;
+
+    // set the appropriate class on the navigation
+    document.getElementById('navigation').className =
+        (offset > 104 ? 'fixed' : '');
+
+  }
+
+}
+
+// add the scroll event listener
+if (window.addEventListener){
+  window.addEventListener('scroll', handleScroll, false);
+}else{
+  window.attachEvent('onscroll', handleScroll);
+}
+</script>
     </head>
 
   <body>
-<!--
-<nav>
-</nav>
--->
-<div id="home" 
-style="
-  z-index: -2; 
-  background-color: rgba(0, 0, 0, .3);
-  padding: 0px;
-  margin: 0px;
-  min-width: 100%;
-">
 
+    <div id="home">
 
-<nav>
-  <a href="#home">Home</a>
-  <hr>
-  <a href="booklust/index.html">BookLust</a>
-  <a href="Gallaries/flex.html">Gallery</a>
-  <hr>
-  <a href="#non">Charity</a>
-  <a href="#sm">Connect</a>
-  
-</nav>
+  <span class="homgo"> <a href="#home"><img src="pinklogo.png" alt="Home"></a></span>
+
+    <nav id="navigation">
+      <a href="booklust/index.html">BookLust</a>
+      <a href="Gallaries/flex.html">Gallery</a>
+      <a href="codetech/index.html">MeauHaus</a>
+      <a href="contact.html">Connect</a>
+      <a href="#sm">Bottom</a>
+      
+    </nav>
 
 
       <header class="parallax">
@@ -70,11 +90,9 @@ style="
             <p>
               <span>Welcome, Explore my projects</span> 
               <br>
-              Web Design, Graphic Design, &amp; Traditional Art.
+              FrontEnd Development, Graphic Design, &amp; Traditional Art.
              </p>
       </header>
-
-
 
 
 <br><br><br>
@@ -82,11 +100,10 @@ style="
   <div class="flex-wrap">
 
         <section id="book" class="bklst">
-            <h2><a href="booklust/index.html" target="_blank">BookLust</a></h2>
-
+            <a href="booklust/index.html" target="_blank">
+              <h2>BookLust</h2>
+              <h3>For the love of literature.</h3></a>
               <p>
-                <b>For the love of literature. </b>
-                <br>
                 Visit my book review site.
                 <br>
                 This is an Amazon Affiliate Marketing site.
@@ -102,7 +119,7 @@ style="
                 </iframe>-->
 
                 <p>
-                I enjoy many genres of book, fiction, or non-fiction. 
+                I enjoy <b>many genres of book, </b>fiction, or non-fiction. 
                 I admire peoples' ideas, like to share my own, and truly appreciate the way people can organize their larger ideas and share them, similar to the way we use the Internet. 
                 Perhaps the <em>library</em> is the back up, in case of Google-apocalypse.
               </p>
@@ -111,11 +128,9 @@ style="
 
 
           <section id="gal" class="gal">
-            <h2><a href="Gallaries/flex.html" target="blank">Gallery</a></h2>
-
+           <a href="Gallaries/flex.html" target="blank"> <h2>Gallery</h2>
+              <h3>Collection of my Artwork!</h3></a>
               <p>
-                View a collection of my <b>Artwork!</b> 
-                <br>
                 There is a variety of mediums and subjects. Monochromatic, to colour theory and cadmiums, wet, dry, on or off paper, still life, real life, and authentic imagination.  You can see my final work, as well as the sketches and thought processes that brought me there.
               </p>
 
@@ -124,81 +139,23 @@ style="
 
           </section>
 
-<!--
-
-<div>
-
-            <section class="sklwrk">
-              <h2><a href="Sklwrk/Sklwrk.html" target="_blank">School Work</a></h2>
-
-                  <p><b>This feature is coming soon to the web page.</b>
-                    <br>
-                    I attended the College of Southern Nevada, covering general education courses, traditional art, graphics, & Web. 
-                    <br>
-                    This is where my interest in coding and building websites from scratch started. My fascination with drawing pictures from observation was easily transferable to Graphic mediums. 
-                    I invite challenges.
-                  </p>
-              
-                <img src="/images/GRC104-NatureFontFinal+assets.db-01.jpg" 
-                     alt="Pencil drawing, Watercolor, Vector Font, MultiMedia School Project">
-
-      -->
-      <!--
-                    <h3><a href="Sklwrk/Blog Template/index.html" target="_blank">Blog Template</a></h3>
-                  <p>
-                    This is an assignment from a class I took in College.  This is an example of what kind of coding I am capable of. It includes site navigation media queries, CSS3, HTML5, and a bit of JavaScript.  I am using web fonts. I made any graphics myself, and or crated (gradients using Cascading Style Sheets).
-                  </p>
 
 
-                    <h3><a href="Slwrk/Eng102TechBlog/index.html" target="_blank">Tech Blog </a></h3>
-                      <p> 
-                       Naturally always having an interest in technology and what I was studying to make the worlds of drawing and computeres come together <b>(ADOBE)</b>, I wrote this essay, then used it as the content for a website.  The background is a repeating image of a blank scanned in page of my note book from that semester. 
-                       <br>Enjoy.
-                    <img>
-                    </img>
 
-            </section>-->
 
-  
-            <section id="non" class="nonprofit">
-                <h2><a href="http://holysmokvegas.com/">Non Profit</a></h2>
+        <section class="tech">
+          <a href="codetech/index.html" target="_blank"><h2>
+                MeauHaus</h2>
+            <h3>Code &amp; Technology</h3>
+              <p>
+                This is a collection of one page sites that I created. 
+                If you are interested in my tech insights, and coding capabilities, and/or designs click on.
+              </p></a>
 
-                  <p>
-                    This is a website created for the Non Profit organization known as:
-                   <br> <b> Holy Smoke Misfit Missionaries.</b>
-                  </p>
 
-            <!-- <iframe 
-            src="http://holysmokvegas.com/"
-            title="Holy Smoke Misfit Missionaries"
-            allow="fullscreen"
-           >
-              <p>Your browser does not support iframes (update it, or use Google Chrome),
-                <br>Click the link above to view the content instead.</p>
-            </iframe>-->
             </section>
 
 
-         <section class="lvpi">
-
-        <h2><a href="lvpi_director/about.html" target="_blank">Las Vegas Medical Directory</a> </h2>
-
-          <p>
-            Created for the Las Vegas Pain Institute.
-            I worked here for +1 year. 
-            Here is my project that eliminated many repetitive tasks when creating patient referrals, improving work flow. 
-          </p>
-
-        </section>
-
-        <section>
-          <h2><a href="robotluv/index.html" target="_blank">
-            I <3 Robots </a></h2>
-
-              <p>
-                This is a collection of one page sites that I created.
-                If you are interested in my tech insights, and coding capabilities, click on.
-              </p>
 
 
       </div>
@@ -245,14 +202,16 @@ style="
     </a>
 </p>
 
+            <p>      <a href="#home"><img src="pinklogo.png" alt="Home"></a></p>
 
           </footer>
-</div>
           <!--
         <img src="image/DigitalPainting-barrett.jpg" alt="Stefani, My Cousin">
         <p>Digital Painting 
           <br> Adobe Photoshop</p>
      -->
+
+   </div>
 
  </body>
 <!--https://stackoverflow.com/questions/425216/issue-with-background-color-and-google-chrome-->
