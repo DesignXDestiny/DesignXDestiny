@@ -94,10 +94,12 @@ html{
 	font-size: 100%;
 	margin: 0px;
 	padding: 0px;
-   font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
   	background: linear-gradient(#e66465, #9198e5, dodgerblue);
  	  min-width: 100%;
+ 	align-items: center;
+	 transition:all 2s ease;
 	}
 
 
@@ -135,15 +137,44 @@ body {
 
 	section {
 		width: 40%;
-		margin-right: 14%;
 		margin: 4%;
 		padding: 1%;
-		margin-bottom: 10%;
+		margin-bottom: 15%;
 		border-radius: 30px;
 		align-content: center;
 		text-align: center;
 		}
+		section:hover{
+   	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .1));
 
+						}
+
+		section footer {
+			border-radius: 25px;
+			}
+		section footer:hover {
+	 	background: linear-gradient(rgba(0, 0, 0, .02), rgba(0, 0, 0, .6));
+		}
+
+		article {
+			margin-bottom: 5%;
+			padding: auto;
+		}
+
+
+		ul {
+			padding: 3%;
+			margin: 5%;
+		}
+
+		li{
+			padding: 1%;
+			text-align: left;
+		}
+
+		ul li ul {
+
+		}
 
 
 
@@ -173,7 +204,7 @@ footer {
     min-width: 100%;
     max-width: 100%;
     margin: auto;
-    padding: 4%;
+    padding: 5%;
     margin-top: 6%;
     bottom: 0px;
 }
@@ -207,7 +238,7 @@ footer {
 	nav a {
 		margin: 1% auto;
 		padding: 1%;
-		background-color: rgba(0, 0, 0, .6);
+		/* background-color: rgba(0, 0, 0, .6); */
 		display: inline-block;
 		border-radius: 40px;
 		text-align: center;
@@ -217,7 +248,10 @@ footer {
 		}
 
 		nav a:link{
-			color: powderblue;
+		background: linear-gradient(#e66465, #9198e5, dodgerblue);
+		-webkit-background-clip: text;
+		-text-fill-color: transparent;
+		display: inline;
 		}
 		nav a:hover{
 			color: yellow;
@@ -448,7 +482,7 @@ a {
 
 
 
-	/* MEDIA QUERIES ~~~ medium screens */
+	/* MEDIA QUERIES ~~~ small screens */
 @media screen and (max-width: 700px) {
 
 .content {
@@ -487,7 +521,7 @@ a {
 		}
 		nav a:hover{
 			color: yellow;
-			background-color: rgba(0, 0, 0, .8);
+			background-color: rgba(0, 0, 0, .7);
 			font-size: 3rem;
 			padding: 3%;
 			border-radius: 60px;
@@ -510,7 +544,7 @@ a {
 		#navigation.fixed{
 		  position:fixed;
 		  bottom: 50%;
-		  left: 65%;
+		  left: 55%;
 		}
 
 
@@ -604,9 +638,8 @@ a {
 					display: block;
 					}
 
-						section:hover{
-   	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .1));
-
+					section:hover{
+   					background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .1));
 						}
 
 				img {
