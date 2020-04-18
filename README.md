@@ -1,12 +1,10 @@
-# Portfolio
-Design X Destiny
-## portfolio
+## Portfolio
 # Design X Destiny
 
 
 ### Description
 
-				This is _my website_.
+This is _my website_.
 
 
 ToC
@@ -15,7 +13,7 @@ ToC
 ### Medium
 
 Visit my website on your favorite browser.
-Here is the *hyperlink* below;
+Here is the *hyper-link* below;
 
 http://designxdestiny.com - automatic!
 [DXD](http://designxdestiny.com)
@@ -25,7 +23,7 @@ http://designxdestiny.com - automatic!
 
 __Explore Projects__ in:
 
-* Coding lang __ MeauHaus__
+* Coding lang __MeauHaus__
 	* HTML5
 	* CSS3
 	* JavaScript
@@ -45,11 +43,11 @@ __Explore Projects__ in:
 
 ### Contribute
 
-Email me about how I could imorove my site or services.
-Contact me regaurding your ideas fo a project.
+Email me about how I could improve my site or services.
+Contact me regarding your ideas fo a project.
 
 
-### Authour
+### Author
 
 Destiny.
 __CatCat__ is my main inspiration.
@@ -57,4 +55,3 @@ __CatCat__ is my main inspiration.
 
 
 &copy; 2020
-
