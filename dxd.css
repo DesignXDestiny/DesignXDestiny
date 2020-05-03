@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Graduate|Gruppo|Londrina+Outline|Love+Ya+Like+A+Sister|Marcellus+SC|Megrim|Nixie+One|Poiret+One|Pompiere|UnifrakturMaguntia');
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 	/*
@@ -38,37 +37,13 @@
 	left: 0px; 
 			}
 
-			.lvpi {
-					border: 1px solid tomato;
-			}
-
-					.lvpi a {
-						color: tomato;
-					}
+	
 
 
-		.bklst {
-				border: 1px solid dodgerblue;
-			}
-
-					.bklst a {
-						color: dodgerblue;
-					}
 
 
-					.sklwrk, .gal {
-						align-items: center;
-						border: 2px solid pink;
-					}
 
-			.tech {
-				border: 1px solid limegreen;
-			}
-				.tech a h3 {
-					color: limegreen;
-				}
-
-
+				
         	    		.flex-wrap {
         	    			display: flex;
             				flex-wrap: wrap;
@@ -78,28 +53,23 @@
             				align-content: space-around;
         	    			}
 
-        	   .smlinks img {
-        	   	border-radius: 50px;
-        	   	display: inline-flex;
-        	   	text-align: center;
-        	   	max-height: 20%;
-        	   	max-width: 5%;
-        	   }
+
+
 
 
 
 
 html{
-	   transition: all 2s ease;
-	font-size: 100%;
+	transition: all 2s ease;
+	font-size: 100% 1.5rem;
 	margin: 0px;
 	padding: 0px;
     font-family: 'Montserrat', sans-serif;
     color: white;
   	background: linear-gradient(#e66465, #9198e5, dodgerblue);
- 	  min-width: 100%;
+ 	min-width: 100%;
  	align-items: center;
-	 transition:all 2s ease;
+	transition:all 2s ease;
 	}
 
 
@@ -125,6 +95,8 @@ body {
 
 
 	div {
+		  min-height: 100%;
+	    min-width: 100vw;
 		 transition:all 2s ease;
 		display: block;
 		min-width: 100%;
@@ -136,28 +108,80 @@ body {
 		}
 
 	section {
-		width: 40%;
+		width: auto;
 		margin: 4%;
 		padding: 1%;
 		margin-bottom: 15%;
 		border-radius: 30px;
+		border-width: 1px 1px 3px 1px;
 		align-content: center;
 		text-align: center;
+		display: inline-block;
 		}
-		section:hover{
-   	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .1));
 
+		section:hover{
+ 		  	background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .1));
 						}
 
 		section footer {
 			border-radius: 25px;
 			}
 		section footer:hover {
-	 	background: linear-gradient(rgba(0, 0, 0, .02), rgba(0, 0, 0, .6));
-		}
+		 	background: linear-gradient(rgba(0, 0, 0, .01), rgba(0, 0, 0, .6));
+			}
+
+
+        	   .smlinks {
+        	   	display: inline-flex;
+        	   	text-align: center;
+        	   }
+
+        	   footer span {
+        	   		display: inline-block;
+        	   		padding: 1%;
+        	   		margin: 1%;
+        	   		justify-content: center;
+        	   		width: 8rem;
+        	   		border-radius: 30px;
+        	   		border: solid 1px black;
+		        	   }
+				 footer span:hover {
+				 	background-color: rgba(0, 0, 0, .4);
+				 	color: yellow;
+				 	}
+
+				 footer span a:active {
+				 	color: dodgerblue;
+				 	background-color: rgba(0, 0, 0, .8);
+					 }
+				 footer span a:visited {
+				 	color: pink;
+					 }
+
+
+
+					.gal a h2, a h3 {
+						color: pink;
+						align-items: center;
+						border: pink;						color: pink;
+						}
+
+			
+					.tech a h3, a h2 {
+						color: limegreen;
+						border: limegreen;
+						}
+
+					.bklst a h2, a h3 {
+						color: dodgerblue;
+						border: dodgerblue;
+						}
+						
+
 
 		article {
-			margin-bottom: 5%;
+			margin-bottom: 15%;
+			margin: 4%;
 			padding: auto;
 		}
 
@@ -221,7 +245,7 @@ footer {
 
 /* NAVIGATION */
 	nav {
-	font-family: 'Major Mono Display', monospace;
+	font-family: 'Megrim', cursive;
 	font-size: 2rem;
 	margin: auto;
 	position: fixed;
@@ -238,7 +262,7 @@ footer {
 	nav a {
 		margin: 1% auto;
 		padding: 1%;
-		/* background-color: rgba(0, 0, 0, .6); */
+		 background-color: rgba(0, 0, 0, .6);
 		display: inline-block;
 		border-radius: 40px;
 		text-align: center;
@@ -248,9 +272,9 @@ footer {
 		}
 
 		nav a:link{
-		background: linear-gradient(#e66465, #9198e5, dodgerblue);
+		/* background: linear-gradient(#e66465, #9198e5, dodgerblue);
 		-webkit-background-clip: text;
-		-text-fill-color: transparent;
+		-text-fill-color: transparent; */
 		display: inline;
 		}
 		nav a:hover{
@@ -283,21 +307,29 @@ footer {
 
 			.homego img {
 				padding: 1%;
-				margin: auto;
+				margin: auto 50%;
 				background-color: rgba(0, 0, 0, .0);
 				min-height: 70px;
 				max-width: 70px;
 				opacity: .85;
 				text-align: center;
+				align-content: center;
+				z-index: -1;
+
 				}
 
-				.homego:hover img {
-					size: 130%;
-						opacity: 1.0;
+				.homego img:hover {
+					size: 100%;
+					opacity: 1.0;
 				}
 
 
-
+				.blog nav {
+					position: fixed;
+					bottom: 0;
+					margin:auto;
+					text-align: center;
+				}
 
 
 
@@ -307,21 +339,32 @@ footer {
 
 p {
 	line-height: 2.5em;
-	max-width: 500px;
-	padding: 3%;
-	margin: auto;
+	max-width: 560px;
+	padding: 4%;
+	margin: 5% auto;
+	margin-top: 0px;
 	text-align: center;
 	font-size: 1.2rem;
 }
 
-h1, h2, h3, h4 {
+	.content p {
+		column-count: 2;
+		max-width: 1000px;
+		margin: auto;
+		column-gap: 12%;
+	}
+
+h1, h2, h3, h4, h5{
 	text-align: center;
 	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 0px;
+	padding: 1%;
 	text-shadow: 6px 7px 15px black;
 }
 
 	h1 {
-		font-size: 11vw;
+		font-size: 10vw;
 		padding-top: 5%;
 		margin-bottom: 40%: 
 		z-index: -1;
@@ -331,7 +374,8 @@ h1, h2, h3, h4 {
 	}
 
 	h2 {
-		font-size: 7vw;
+		margin-top: 10%;
+		font-size: 6vw;
 		font-family: 'Fredericka the Great', serif;
 	}
 
@@ -341,7 +385,12 @@ h1, h2, h3, h4 {
 	 }
 	h4 {
 		font-family: 'Playfair Display', serif;
-		font-size: 3vw;
+		font-size: 4vw;
+		}
+
+		h5 {
+			font-family: 'Megrim', cursive;
+			font-size: 2.7vw;
 		}
 
 a {
@@ -357,6 +406,8 @@ a {
 
 	span {
 		font-size: 2rem;
+	    max-height: 3em;
+	    display: inline-flex;
 	}
 
 
@@ -385,7 +436,7 @@ a {
 
 
 .parallax { 
-	z-index: -1;
+	z-index: -2;
 
     /* The image used */
  	background-image: url("Gallaries/img/lvout/desertsun.jpg");
@@ -400,7 +451,8 @@ a {
     background-size: cover;
 }
 
-	.parallax img :hover {
+
+	.parallax img:hover {
 			min-height: 100%;
 		}
 
@@ -469,6 +521,35 @@ a {
 
 
 
+	/* MEDIA QUERIES 2/3 ~~~ Medium Screens */
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+
+
+		html, body {
+
+		}
+
+		p {
+			line-height: 2rem;
+		}
+
+		.content p {
+			column-count: 1;
+			display: block;
+			column-gap: 9%;
+			}
+
+
+		nav{
+
+		}
+
+			h4 {
+				font-size: 5vw;
+			}
+
+}
 
 
 
@@ -477,18 +558,15 @@ a {
 
 
 
+	/* MEDIA QUERIES 3/3 ~~~ small screens */
+@media screen and (max-width: 599px) {
 
-
-
-
-
-	/* MEDIA QUERIES ~~~ small screens */
-@media screen and (max-width: 700px) {
-
-.content {
+.content p{
 	column-count: 1;
 	display: block;
 	}
+
+
 
 
 
@@ -579,10 +657,18 @@ a {
 		h2 {
 			font-size: 10vw;
 			}
-
+		h3 {
+			font-size: 7vw;
+		}
+		h4 {
+			font-size: 6vw;
+			margin-top: 25px;
+			margin-bottom: 0px;
+			padding-bottom: 0px;
+		}
 			p {
 				font-size: 1em;
-				line-height: 2em;
+				line-height: 1.8em;
 				}
 
 
@@ -602,6 +688,7 @@ a {
 					.tech h2, h3, h4, h5 {
 						color: lime-green;
 					}
+		}
 
 
 		.sklwrk, .gal {
@@ -620,7 +707,6 @@ a {
 
 	/*  STRUCTURE  */
 
-
 				div {
 					display: block;
 					min-width: 100%;
@@ -635,11 +721,13 @@ a {
 					margin-bottom: 13%;
 					padding-bottom: 5%; 
 					margin: 1%;
+					margin-top: 150px;
+					margin-bottom: 75px;
 					display: block;
 					}
 
 					section:hover{
-   					background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .1));
+   						background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .1));
 						}
 
 				img {
