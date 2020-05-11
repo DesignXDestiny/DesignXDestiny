@@ -1,13 +1,9 @@
-## Portfolio
 # Design X Destiny
 
-
 ### Description
+This is _my website_ &amp; portfolio.
 
-This is _my website_.
-
-
-ToC
+{ToC}
 
 
 ### Medium
@@ -15,10 +11,9 @@ ToC
 Visit my website on your favorite browser.
 Here is the *hyper-link* below;
 
-http://designxdestiny.com - automatic!
-[DXD](http://designxdestiny.com)
+[DXD](http://www.designxdestiny.com)
 
-
+The hosting company I have is called [IONOS](https://www.ionos.com), formerly known as 1&amp;1.
 ### Use
 
 __Explore Projects__ in:
@@ -42,16 +37,20 @@ __Explore Projects__ in:
 
 
 ### Contribute
+Here are some ways to contribute to my website.
 
+###### Your Opinion
 Email me about how I could improve my site or services.
 Contact me regarding your ideas fo a project.
 
+###### Your Money
+Purchase a product, schedule a meeting for a service, or click the donation button. 
+
 
 ### Author
-
 Destiny.
 __CatCat__ is my main inspiration.
 
 
 
-&copy; 2020
+&copy; 2020 DXD
