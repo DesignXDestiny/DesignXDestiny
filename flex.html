@@ -9,30 +9,439 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
           <title>Gallaries</title>
-
-
            
             <link rel="stylesheet" href="flexgal.css">
+            
             <style>
                 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
-            
             </style>
 
       </head>
 
-      <body>
-
+      <body id="top">
+        <div>
+          
       	<nav>
       		<ul>
-      			<li><a href="#flex">flex Code</a></li>
+      			<li><b><a href="https://www.DesignXDestiny.com">Home</a></b></li>
       			<li><a href="#art">Art Gallery</a></li>
-      			<li><a href="#lvout">LV Out</a></li>
       		</ul>
       	</nav>
 
+      	<h1>Galleries</h1>
 
-      	<h1>Gallaries</h1>
+              <!-- input tag -->
+            <input id="searchbar" onkeyup="search_art()" type="text"
+              name="search" placeholder="Search Artwork..."> 
 
+      	<div id="art" >
+          <section class="flex">
+
+            <hr><br>
+
+            <article class="artwork">
+              <h3>Tiki &amp; Toys</h3>
+
+            	<img src="img/art/tiki.jpg"
+            		alt="Charcoal. 24in x 18in. By Destiny Barrett.">
+                   <!--  <p id="tiki"> . . . </p>
+                   <button type="button"
+                    onclick="myFunction()">
+                    Description</button>-->
+                 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                      <option value="Regular">Regular $100.00 USD</option>
+                      <option value="Large">Large $120.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+  
+            </article>
+
+         <article>
+            <h2>Art</h2>
+              <h3>Fine &amp; Crude</h3>
+                <p>
+                  I created these drawings, paintings, the following etc. 
+                  <br><a href="mailto:DesignXDestiny@gmail.com"
+                  target="_blank"> Contact me </a>
+                  to order a print, commission a portrait, or original artwork for your home, business, or an irreplaceable gift.
+                </p>
+          </article>
+
+            <article class="artwork">
+              <h3>Caravaggio</h3>
+    			   <img src="img/art/carravagio.jpg"
+    		      	alt="Oil paint, on (unstreched). canvas paper. By Destiny Barrett."><!--
+                <p id="carravagio"> . . . </p>
+                <button type="button"
+                  onclick="myFunction()">
+                  Description</button>-->
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <table>
+                  <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                    <option value="Regular">Regular $100.00 USD</option>
+                    <option value="Large">Large $120.00 USD</option>
+                  </select> </td></tr>
+                  </table>
+                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHuQYJKoZIhvcNAQcEoIIHqjCCB6YCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCnIwGXRqSg5RpJ1zsw0PAwGQE9lZ6DR3o5ZDZDwOvBUsTFtjUTPHXEIUQOLGriva974BY0jD1qdnLfyj6x89MbIyOk74ILSGVY2CbCgD4NNs0Yzg12MM20J6pv6HXmBKR8yhg1btb4xhkLxbP7lhMZzv7ziHP9nf7unn5kRaTsbzELMAkGBSsOAwIaBQAwggE1BgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECAhMwVunQrHHgIIBELEU05eGQl+5EEn3klQVPXCF3iTMsfMU0Yu3n9Y3hbkF73im7Ui8hFBM3ZFHuUVvY3lI3klAYneflSOl47MTffnX/39TmcnD4ZeJVXLKzBmm94NmCUY2bpI1AbXujqFRXq7jbdyaj5CecjsOhdqNI1fF4igsRbNzZCHBiRNGOsyo0ttZp/zuJdaFfTulymW+V3qpPNOSRlRMHFS6CcHiLXOaMmyZhSf6JLngzKo/DTjPMpQtFfzldpORSDgpw/VGjdhpW+dHcEp3s8NxKr++S0niHxoSdOc12ahBTc1NzPv5przmdHBy33bRhk1TZTxaAYXjrNPtRdg5ERcNfv3gdVmzNrX42NH43B3rUJoKYP03oIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjAwNTI3MTUyMDIyWjAjBgkqhkiG9w0BCQQxFgQUdgM/krDzjRdWNy/kGacv8rMFO2EwDQYJKoZIhvcNAQEBBQAEgYB+Ja6C/0Y5tKfuqgaYRrihdslHMehfrB+Ta2alo2CCHOvNet0+ZOdUeo6z2fkQG4sJCyH9abuDZOy1CFFGaQGBM6R4hS6vkXApw9UAkjJWc+HbQa7EKfJh7v8vaJbRnqU29VllPkBxouLTcrNTYw90GZSj7Nrzvei8fFwdEuHB6g==-----END PKCS7-----">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+
+          </article>
+
+
+          <article class="artwork">
+            <h3>Swan</h3>
+    		  	<img src="img/art/swan.jpg"
+    		    	alt="Charcoal Swan. 8in x 11in. By Destiny Barrett">
+
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <table>
+                <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                  <option value="Regular">Regular $50.00 USD</option>
+                  <option value="Large">Large $60.00 USD</option>
+                  </select> </td></tr>
+                  </table>
+                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+                  </form>
+
+          </article>
+
+          <article class="artwork">
+            <h3>Avocado</h3>
+    			 <img src="img/art/avocado.jpg"
+    		  	alt="Avocados, Prismacolor collored pencils. Subject: food. By Destiny Barrett">
+
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <table>
+                  <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                    <option value="Regular">Regular $80.00 USD</option>
+                    <option value="Large">Large $100.00 USD</option>
+                  </select> </td></tr>
+                  </table>
+                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt=""  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+                  </form>
+
+         </article>
+
+          <article class="artwork">
+            <h3>Skull &amp; Flower</h3>
+      			<img src="img/art/skullflower.jpg"
+      			alt="Pencil. Still life. 24in x 18in. By Destiny Barrett.">
+
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <table>
+                  <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                    <option value="Regular">Regular $100.00 USD</option>
+                    <option value="Large">Large $120.00 USD</option>
+                  </select> </td></tr>
+                  </table>
+                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+
+            </article>
+
+        <article class="artwork">
+                <h3>Cat Shirt</h3>
+      		    	<img src="img/art/catshirt.jpg"
+      		      	alt="manga version kawii style drawing windows surface tablet. tee shirt of catcat. photoshoped mock up. by destiny Barrett.">
+                  <p> This is a Mock up. Shirts or prints avalable.
+                  </p>
+
+                      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                          <input type="hidden" name="cmd" value="_s-xclick">
+                          <table>
+                          <tr><td><input type="hidden" name="on0" value="Type">Type</td></tr><tr><td><select name="os0">
+                            <option value="Regular Print">Regular Print $80.00 USD</option>
+                            <option value="Shirt">Shirt $100.00 USD</option>
+                          </select> </td></tr>
+                          </table>
+                          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                          <img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+                          </form>
+
+
+          </article>
+
+          <article class="artwork">
+            <h3>Koi</h3>
+      		  <img src="img/art/koi9_2_17.jpg"
+      		    	alt="Subject: fish, Koi. Medium: black pen white paper. by Destiny Barrett.">
+             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <table>
+                <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                  <option value="Regular">Regular $80.00 USD</option>
+                  <option value="Large">Large $100.00 USD</option>
+                </select> </td></tr>
+                </table>
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+
+           </article>
+
+           <article class="artwork">
+            <h3>Metal Pipe</h3>
+        			<img src="img/art/pipe.jpg"
+        			alt="Oil Paint, color, 8in x 11in, By Destiny Barrett.">
+
+                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <table>
+                      <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                        <option value="Regular">Regular $65.00 USD</option>
+                        <option value="Large">Large $80.00 USD</option>
+                      </select> </td></tr>
+                      </table>
+                      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+            </article>
+
+        <article class="artwork">
+          <h3>Lil Pony Land</h3>
+          			<img src="img/art/alisa.jpeg"
+          	     	alt="Pencil, Drawing, 8in x 11in. By Destiny Barrett">
+
+                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                      <option value="Regular">Regular $65.00 USD</option>
+                      <option value="Large">Large $80.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+        </article>
+
+         <article class="artwork">
+           <h3>Scarf</h3>
+                <img src="img/art/scarf.jpg"
+                  alt="Oil painting. 8in x 11in. By Destiny Barrett">
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <table>
+                      <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                        <option value="Regular">Regular $80.00 USD</option>
+                        <option value="Large">Large $100.00 USD</option>
+                      </select> </td></tr>
+                      </table>
+                      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+          </article>
+
+      			<article class="artwork">
+              <h3>Frosty</h3>
+      			   <img src="img/art/frosty.jpg"
+      			     alt="Adobe Illustrator, drawing, png, vector, duotone, color, sepia tone, by Destiny Barrett">
+                 <p>Adobe Illustrator drawing by Destiny Barrett at CSN.</p>
+
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                          <option value="Regular">Regular $65.00 USD</option>
+                          <option value="Large">Large $80.00 USD</option>
+                        </select> </td></tr>
+                        </table>
+                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+
+            </article>
+
+           <article class="artwork">
+             <h3>BackHand</h3>
+      	    	<img src="img/art/hand.jpg"
+      			       alt="Pencil, sketch, drawing, by Destiny Barrett">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                      <option value="Regular">Regular $50.00 USD</option>
+                      <option value="Large">Large $65.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+            </article>
+
+            <article class="artwork">
+              <h3>SpaceShip</h3>
+          			<img src="img/art/Spaceship.png"
+          			alt="Spaceship drawn with windows surface tablet in bamboo notebook with stylus, color, png, graphic art">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                      <option value="Regular">Regular $50.00 USD</option>
+                      <option value="Large">Large $65.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+
+            </article>
+
+        		<article  class="artwork">
+               <h3>Mouse</h3>
+            			<img src="img/art/algernon.jpg"
+            			alt="Prismacolor colored pencils. White Mouse is inspired by Flowers for Algernon (novel, book). By Destiny Barrett.">
+                  <p id="mouse"> . . . </p>
+                  
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <table>
+                      <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                        <option value="Regular">Regular $65.00 USD</option>
+                        <option value="Large">Large $80.00 USD</option>
+                      </select> </td></tr>
+                      </table>
+                      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+                </article>
+
+                <article  class="artwork">
+                  <h3>Clown Toys</h3>
+        		       	<img src="img/art/toys.jpg"
+        			       alt="Charcoal. Monochromatic. 24in x 18in. By Destiny Barrett.">
+
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <table>
+                            <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                              <option value="Regular">Regular $100.00 USD</option>
+                              <option value="Large">Large $120.00 USD</option>
+                            </select> </td></tr>
+                            </table>
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+
+            </article>
+
+            <article  class="artwork">
+               <h3>Kettle</h3>
+      			     <img src="img/art/kettle.jpg"
+      			       alt="Prismacolor brand colored pencils. Blue toned paper. Still life. By Destiny Barrett.">
+                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <table>
+                      <tr><td><input type="hidden" name="on0" value="Size">Size</td></tr><tr><td><select name="os0">
+                        <option value="Regular">Regular $80.00 USD</option>
+                        <option value="Large">Large $100.00 USD</option>
+                      </select> </td></tr>
+                      </table>
+                      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+
+              </article>
+
+          <!--       <article>
+                 <h3>Naked Lady</h3>
+                   <img src="img/art/Naklady.jpg"
+                     alt="Naked Lady Seated Charcoal.">-->
+
+          </section>
+
+      	</div>
+
+
+      	 <div>
+
+      		<section>
+        		<h3>Social Media Links</h3>
+                <p>
+                  Stay connected and updated. 
+                </p>
+  			
+
+
+      		<ul class="flex">
+      			<li><a href="https://www.instagram.com/_destiny.summers_/" target="_blank">InstaGram</a>
+      				<br>Follow me to see the drawings that are works in progress.</li>
+
+      			<li> <a href="https://www.facebook.com/destiny.barrett.338" target="_blank">FaceBook</a>
+      				<br>Another excellent way to contact me.</li>
+
+      			<template><li><a href="" target="_blank"></a></li></template>
+
+      		</ul>
+    	  </section>
+      	</div>
+
+
+
+        <!-- CALL TO ACTION -->
+        <section>
+          <h3>Contribute</h3>
+            <p>
+              Would you like to
+              donate a random amount of you choosing?
+              <b>Thank You!</b>
+            </p>
+
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_donations" />
+                  <input type="hidden" name="business" value="U5QRGRFQT44BS" />
+                  <input type="hidden" name="item_name" value="ART on DXD" />
+                  <input type="hidden" name="currency_code" value="USD" />
+                  <input type="image" 
+                      src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"  name="submit" 
+                      title="PayPal - The safer, easier way to pay online!" 
+                      alt="Donate with PayPal button" >
+                 
+                  <img alt="Button to donate"
+                     src="https://www.paypal.com/en_US/i/scr/pixel.gif" >
+              </form>
+
+       
+
+        </section>
+
+
+<!--
       	    <section id="flex">
       		<h2>Flex Code</h2>
 
@@ -43,142 +452,87 @@
       			<br>This website is a one page experement.
      	 		</p>
      		 </section>
-      	
-  
+        -->
+<!--
 
+<div class="comment">
+<textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="write a comment......"></textarea>
+<input type="submit" value="Post" onclick="insert()" style="width:20px;" /></form>
+</div>
+<div id="display"></div>
 
-      	<div class="flex" id="art">
-      		<section>
-      	<h2>Art</h2>
-      	<h3>Fine & Crude</h3>
-      		<p>I created these drawings, paintings, the following etc.</p>
-
-			</section>
-
-			<img src="img/art/swan.jpg"
-			alt="Charcoal Swan. 8in x 11in. By Destiny Barrett">
-
-			<img src="img/art/avocado.jpg"
-			alt="Avocados, Prismacolor collored pencils. By Destiny Barrett">
-
-			<img src="img/art/catshirt.jpg"
-			alt="manga version tee shirt of catcat. photoshop. by destiny Barrett.">
-
-			<img src="img/art/koi9_2_17.jpg"
-			alt="Koi black pen white paper. by Destiny Barrett.">
-
-			<img src="img/art/pipe.jpg"
-			alt="Oil Paint. 8in x 11in. By Destiny Barrett.">
-
-			<img src="img/art/alisa.jpeg"
-			alt="Pencil Drawing. 8in x 11in. By Destiny Barrett">
-
-			<!--<section><h3>Frosty</h3>-->
-			<img src="img/art/frosty.jpg"
-			alt="Adobe Illustrator drawing by Destiny Barrett"><!--<p>Adobe Illustrator drawing by Destiny Barrett at CSN.</p></section>-->
-
-			<img src="img/art/hand.jpg"
-			alt="Pencil drawing. by Destiny Barrett">
-
-			<img src="img/art/Spaceship.png"
-			alt="Spaceship drawn with windows surface tablet in bamboo notebook with stylus">
-
-			<!--<div><h3>Algernon</h3>-->
-			<img src="img/art/algernon.jpg"
-			alt="Prismacolor colored pencils. inspired by flowers for algernon. By Destiny Barrett."><!--<p>Prismacolor colored pencils. Inspired by the novel <i>Flowers for Algernon</i>.</p></div>-->
-
-      	</div>
-
-
-
-      	 <div>
-
-
-
-      		<section>
-      		<h3>Social Media Links</h3>
-      			<p>
-      				<b>Technically</b>
-      				these are inside a div, inside an unordered list inside of list items, inside there, it is specified where the link is and What I have labeled it for you to see.
-      			</p>
-  			 </section>
-
-
-      		<ul class="flex">
-      			<li><a href="https://www.instagram.com/_destiny.summers_/" target="_blank">InstaGram</a>
-      				<br>Follow me to see the drawings that are works in progress.</li>
-
-      			<li> <a href="https://www.facebook.com/destiny.barrett.338" target="_blank">Facebook</a>
-      				<br>Another excellent way to contact me.</li>
-
-      			<template><li><a href="" target="_blank"></a></li></template>
-
-      			<li><a href="DesignXDestiny.com">My Website</a><br>See all of my projects here.</li>
-
-      		</ul>
-    	 
-      	</div>
-
-
-
-
-      	<div class="flex-wrap" id="lvout">
-
-      		<h2>Outdoors Las Vegas</h2>
-      		<p>
-      			This is a beautiful place to be.
-      			I took some photos. 
-      			It keeps me optimistic to have to keep seeking these, even for my simple personal collection.
-      		</p>
-
-      		<img src="img/lvout/orange.jpg"
-      		alt="Orange flowers">
-
-      		<img src="img/lvout/joshua.jpg"
-      		alt="joshua tree">
-
-      		<img src="img/lvout/rocks.jpg"
-      		alt="Rocks">
-
-      		<img src="img/lvout/track.jpg"
-      		alt="Track of Air Force Base">
-
-			<img src="img/lvout/dirtroad.jpg"
-			alt="Dirt Road NE of LV">
-
-      		<img src="img/lvout/yellow.jpg"
-      		alt="Yellow flowers">
-
-      		<img src="img/lvout/nighttree.jpg"
-      		alt="Worm's eye view of a tree">
-
-      		<img src="img/lvout/boulder.jpg"
-      		alt="climbing boulders">
-
-      		<img src="img/lvout/desertskyline.jpg"
-      		alt="Desert Sky Line">
-
-			<img src="img/lvout/bluehill.jpg"
-      		alt="Blue Shadowed Hill">
-
-      		<img src="img/lvout/level.jpg"
-      		alt="Landscape NE Las Vegas">
-
-			<img src="img/lvout/backlit.jpg"
-			alt="Backlit Desert Hill">
-
-			<img src="img/lvout/purplebush.jpg"
-			alt="Shrubbery of NE Las Vegas">
-
-      	</div>
-
-
+    -->
 
       	<footer>
       			<p>
       				<small>2020 &copy; Destiny Barrett</small>
+              <hr>
+              <a href="#Top">Back to Top</a>
+              <br>
+              <a href="https://www.DesignXDestiny.com/"><img src="pinklogo.png" alt="Home"></a>
       			</p>
+
       	</footer>
+</div>
+            <script>
+               function myFunction() {
+                document.getElementById("tiki").innerHTML=
+                "Drawn with black, compressed Charcoal. The original drawing size is 17in x 24in.";
+              }
+            </script>
+<!--
+            <script>
+               function myFunction() {
+                document.getElementById("caravaggio").innerHTML=
+                "This is an oil painting on canvas, not stretched, there is not a wooden frame which it is stapled. Just paint on fabric. In studio with Suzanne Acosta. I used tape to mask off the border. This is mostly monochromatic, as I began with a burnt senna ground. Then I proceeded to use both additive (add more paint) and subtractive (wipe pain off with a rag and turpentine) methods to recreate this small part of a Caravaggio painting where two figures' hands meet.";
+              }
+            </script>-->
+
+ <script>
+     function myFunction() {
+                document.getElementById("mouse").innerHTML=
+                "Drawn with Prismacolor brand colored pencils. The white mouse is inspired by the novel Flowers for Algernon. Subject source: drawn from a goggled picture.";
+              }
+     </script>
+
+
+
+
+  <script type="text/javascript">
+      var titles = [];
+      var titleInput = document.getElementById("title");
+      var messageBox = document.getElementById("display");
+      function Allow()
+      {
+      if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+      {
+      user.title.value="";
+      alert("Please Enter only alphabets");
+      }
+      window.location.reload()
+      }
+</script>
+
+  <script type="text/javascript">
+    // JavaScript code 
+function search_art() { 
+    let input = document.getElementById('searchbar').value 
+    input=input.toLowerCase(); 
+    let x = document.getElementsByClassName('artwork'); 
+      
+    for (i = 0; i < x.length; i++) {  
+        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+            x[i].style.display="none"; 
+        } 
+        else { 
+           x[i].style.display="block";                  
+         } 
+      } 
+   }
+  </script>
+
 
       </body>
   </html>
+
+
