@@ -21,22 +21,27 @@
 	*/
 
 	html {
-            		background-color: black;
-					background: linear-gradient(346deg, rgba(19,19,19,1) 0%, rgba(65,64,64,1) 48%, rgba(121,45,51,1) 89%, rgba(255,0,18,1) 100%);
-            		color: white;
-            		font-family: Century Gothic, sans-serif;
-            		padding: 0px;
-            		margin: 0px;
-            		transition: all 0.3s ease;
-                      min-width: 100%;
-                        min-width: 100vw;
-	            	}
+    		background-color: black;
+			background: linear-gradient(346deg, rgba(19,19,19,1) 0%, rgba(65,64,64,1) 48%, rgba(121,45,51,1) 89%, rgba(255,0,18,1) 100%);
+    		color: white;
+    		font-family: Century Gothic, sans-serif;
+    		padding: 0px;
+    		margin: 0px;
+    		transition: all 0.3s ease;
+              min-width: 100%;
+                min-width: 100vw;
+                        min-height: 100vw;
+        padding: 0px;
+        margin: 0px;
+        	}
 
-                    body{
-                     background: linear-gradient(340deg, rgba(19,19,19,1) 0%, rgba(65,64,64,1) 48%, rgba(121,45,51,1) 89%, rgba(255,0,18,1) 100%);
-                     margin: 0;
-                     padding: 0;
-                     min-width: 100%;
+    body{
+         min-width: 100%;
+        text-align: center;
+        position: relative;
+        min-height: 100vw;
+        padding: 0px;
+        margin: 0px;
                     }
 
             		img {
@@ -45,7 +50,7 @@
             			opacity: .88;
             			margin: 1%;
             			 transition: all 0.3s ease;
-
+                            pointer-events: none;
     	        		}
 
             		  img:hover {
@@ -106,16 +111,26 @@
                               min-width: 100%;
                             }
 
+
+
+                            form {
+                                margin: 20px auto;
+
+                            }
+
+
             input {
-                margin: 10%;
+                margin: 2%;
                 padding: 1%;
                 line-height: 2rem;
                 font-family: 'Amatic SC', cursive;
                 font-size: 2rem;
                 border-radius: 20px;
-                text-align: center;
+                     text-align: center;
+                    align-self: center;
               background-color: rgba(255, 255, 255, .5);
-            }
+
+                }
               input[type=text] { 
                   width: 30%; 
                   -webkit-transition: width 0.15s ease-in-out; 
@@ -124,10 +139,19 @@
              
                /* When the input field gets focus, 
                     change its width to 100% */
-           input[type=text]:focus { 
+              input[type=text]:focus { 
                  width: 70%; 
                    background-color: rgba(255, 255, 255, .9);
-               } 
+                 } 
+
+                option {
+                    font-family: Century Gothic, sans-serif;
+                    text-align: center;
+                    align-self: center;
+                    padding: 1%;
+
+                    }
+
 
 
 
@@ -262,7 +286,7 @@
             					border-color: pink;
             					text-align: center;
             					}
-            				ul li a :hover {
+            				ul li a:hover {
             				   transition: all 0.2s ease;
             					border-color: yellow;
             					text-decoration: none;
@@ -345,7 +369,7 @@
 
                         nav {
                             margin: 0px;
-                            margin-top: -7%;
+                            margin-t%;
                         }
                         ul {
                             margin: 0px;
@@ -355,6 +379,7 @@
 
                     section {
                         min-width: 98%;
+                        margin-bottom: 30%;
                     }
 
                     article {
@@ -367,8 +392,12 @@
                         display: inline-block;
                     }
 
+                    h1 {
+                        font-size: 15vw;
+                    }
+
                     h2{
-                        font-size: 5vw;
+                        font-size: 7vw;
                     }
 
                     h3 {
