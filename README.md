@@ -3,7 +3,7 @@
 ### Description
 This is _my website_ &amp; portfolio.
 
-{ToC}
+ // {ToC}
 
 
 ### Medium
@@ -11,20 +11,21 @@ This is _my website_ &amp; portfolio.
 Visit my website on your favorite browser.
 Here is the *hyper-link* below;
 
-[DXD](http://www.designxdestiny.com)
+[DXD](https://www.designxdestiny.com)
 
-The hosting company I have is called [IONOS](https://www.ionos.com), formerly known as 1&amp;1.
+The hosting company I have is called [IONOS](https://www.ionos.com), formerly known as 1 &amp; 1.
 ### Use
 
 __Explore Projects__ in:
 
-* Coding lang __MeauHaus__
+* Coding language &amp; Experements __MeauHaus__
+	* College Web Projects
 	* HTML5
 	* CSS3
 	* JavaScript
 	* *MarkDown*
 
-* drawings, mediums __Gallery__
+* __Gallery__ Mediums:
 	* Pencil 
 		* Graphite
 		* Prismacolor *Colored*
@@ -34,7 +35,8 @@ __Explore Projects__ in:
 	* **Prints** for sale of these
 
 * Book Reviews __BookLust__
-
+	* Amazon Affiliate Marketing
+	* Content: Books I have read and written reviews about
 
 ### Contribute
 Here are some ways to contribute to my website.
@@ -48,7 +50,7 @@ Purchase a product, schedule a meeting for a service, or click the donation butt
 
 
 ### Author
-Destiny.
+Destiny Barrett
 __CatCat__ is my main inspiration.
 
 
