@@ -3,24 +3,23 @@
 
     <head>
           <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
           <meta name="description" content="Design X Destiny Gallaries">
           <meta name="keywords" content="Artwrok">
           <meta name="author" content="Destiny Barrett">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-          <title>Galleries</title>
+
+          <title>Gallery</title>
            
-            <link rel="stylesheet" href="flexgal.css">
-            
-            <style>
-                @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
-            </style>
+            <link rel="stylesheet" media="screen and (min-width: 800px)" href="bigart.css">
+            <link rel="stylesheet" media="screen and (max-width:799px)" href="smallart.css">
 
             <script>
      $(document).ready(function()
       {
-    $('img').bind('contextmenu', function(e){
-            return false;
+        $('img').bind('contextmenu', function(e){
+          return false;
         }); 
     });
 </script>
@@ -33,37 +32,24 @@
           }
       })
 </script>
-
-
       </head>
 
+
       <body id="top">
-        <div>
           
+
       	<nav>
-      		<ul>
-      			<li><b><a href="https://www.DesignXDestiny.com">Home</a></b></li>
-      			<li><a href="#art">Art Gallery</a></li>
-      		</ul>
+      			<a href="https://www.DesignXDestiny.com">Home</a>
+      		<a href="#art">Art Gallery</a>
+
       	</nav>
+
 
       	<h1>Galleries</h1>
 
-
-        <section>
-          <h2>Prints for Purchase</h2>
-
-          <ul>
-            <li>These are priced from $50 to $120</li>
-            <li>Regular sized prints are 8" x 11" (a regular sheet of copy paper)</li>
-            <li>Large prints are 18" x 24"</li>
-          </ul>
-
-        </section>
-
               <!-- input tag -->
             <input id="searchbar" onkeyup="search_art()" type="text"
-              name="search" placeholder="Search Artwork..."> 
+              name="search" placeholder="Search Artwork"> 
 
 
 
@@ -386,8 +372,8 @@
                               <option value="Regular">Regular $100.00 USD</option>
                               <option value="Large">Large $120.00 USD</option>
                             </select> </td></tr>
-                            </table>
                             <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                            </table>
                             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                             </form>
@@ -421,6 +407,23 @@
 
       	</div>
 
+        <div>
+<section>
+          <h2>Prints for Purchase</h2>
+
+          <ul>
+            <li>These are priced from 
+              <br>$50 to $120</li>
+            <li>Regular sized prints are 8" x 11" 
+              <br>(a regular sheet of copy paper)</li>
+            <li>Large prints are <br>18" x 24"</li>
+          </ul>
+
+        </section>
+
+      </div>
+
+
 
       	 <div>
 
@@ -432,10 +435,9 @@
   			
 
       		<ul class="flex">
-      			<li><a href="https://www.instagram.com/_destiny.summers_/" target="_blank">InstaGram</a>
-      				<br>Follow me to see the drawings that are works in progress.</li>
-
-      			<li> <a href="https://www.facebook.com/destiny.barrett.338" target="_blank">FaceBook</a>
+      			<li><a href="https://www.instagram.com/designxdestiny/" target="_blank">InstaGram</a>
+      				<br>Follow me to see drawings, as well as works in progress.</li>
+      			<li> <a href="https://www.facebook.com/DesignXDestiny" target="_blank">FaceBook</a>
       				<br>Another excellent way to contact me.</li>
 
       			<template><li><a href="" target="_blank"></a></li></template>
@@ -443,7 +445,6 @@
       		</ul>
     	  </section>
       	</div>
-
 
 
         <!-- CALL TO ACTION -->
@@ -470,7 +471,6 @@
               </form>
 
        
-
         </section>
 
 <!--
@@ -493,7 +493,6 @@
       			</p>
 
       	</footer>
-</div>
 
 
 
