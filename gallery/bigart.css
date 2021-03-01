@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Gruppo|Londrina+Outline|Marcellus+SC|Megrim|Nixie+One|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+html {
+	background-color: white;
+	color: rgba(0, 0, 0, .8);
+    font-family: 'Montserrat', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	transition: all 0.3s ease;
+    min-width: 100%;
+    min-width: 100vw;
+    min-height: 100vw;
+    padding: 0px;
+    margin: 0px;
+	}
+
+body{
+    min-width: 100%;
+    text-align: center;
+    position: relative;
+    min-height: 100%;
+    padding: 0px;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+                }
+
+		img {
+			max-width: 33%;
+			max-height: 33%;
+			margin: 1%;
+             pointer-events: none;
+            
+    		}
+             article img {
+                 box-shadow: 10px 10px 20px;
+             }
+             form img {
+                box-shadow: none;
+             }
+
+
+		.flex {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			flex: 20;
+			align-content: space-around;
+    		}
+
+	    		.flex-wrap {
+	    			display: flex;
+    				flex-wrap: wrap;
+    				justify-content: center;
+    				align-items: center;
+    				flex: 15;
+    				align-content: space-around;
+	    			}
+
+
+            #home {
+              z-index: -2; 
+              background-color: rgba(0, 0, 0, .3);
+              padding: 0px;
+              margin: 0px;
+              min-width: 100%;
+            }
+
+
+
+
+
+    input {
+        margin-top: 15%;
+        margin-bottom: 15%;
+        padding: 1%;
+        line-height: 2rem;
+        font-family: 'Amatic SC', cursive;
+        font-size: 2rem;
+        border-radius: 20px;
+             text-align: center;
+            align-self: center;
+
+        }
+              input[type=text] { 
+                  width: 30%; 
+                  -webkit-transition: width 0.15s ease-in-out; 
+                  transition: width 0.15s ease-in-out; 
+               } 
+             
+               /* When the input field gets focus, 
+                    change its width to 100% */
+              input[type=text]:focus { 
+                 width: 70%; 
+                 } 
+
+                option {
+                    font-family: Century Gothic, sans-serif;
+                    text-align: center;
+                    align-self: center;
+                    padding: 1%;
+
+                    }
+
+
+
+
+    		section {
+    			padding: 1%;
+    			display: inline;
+    			max-width: 99%;
+    			}
+
+            			section img {
+            				min-width: 100%;
+            			}
+
+                article {
+                    max-width: 31%;
+                    margin: 1%;
+                        }
+
+            			
+
+            		footer {
+            			text-align: center;
+            			padding: 10%;
+                        font-size: 1rem;
+                        line-height: 2rem;
+            			color: silver;
+                        background-color: black;
+            			 }
+ 
+
+
+            /* TYPEOGRAPHY */
+            		h1 {
+            			text-align: center;
+            			font-weight: bolder;
+            			font-family: 'Poiret One', cursive;
+            			font-size: 10vw;
+            			z-index: -1;
+            			text-shadow: 8px 6px 20px black;
+            			color: white;
+            			padding-top: 8%; 
+            			}
+
+            		h2 {
+            			margin-top: 2%;        			
+            			text-align: center;
+						font-family: 'Playfair Display', serif;
+						font-size: 6vw;
+            			text-shadow: 8px 10px 20px white;
+            			color: black;
+            				}
+
+            			h3 {
+            				text-align: center;
+            				font-family: 'Amatic SC', sans-serif;
+            				color: rgba(0, 0, 0, .85);
+            				font-size: 5vw;
+							text-shadow: 8px 6px 25px pink;
+                            line-height: 2px;
+                            font-kerning: 3rem;
+                            margin-bottom: 5%;
+         		   			}
+
+
+            		p {
+            			max-width: 370px;
+            			text-align: center;
+            			align-content: center;
+            			align-self: center;
+            			padding-bottom: 1%;
+                        padding: 3%;
+            			margin: auto;
+            			line-height: 1.7rem; 
+            			}
+
+
+            		a {
+            			color: pink;
+            			text-decoration: none;
+            			    border-radius: 40px;
+            				border-width: 1px;
+            				border-color: pink; 
+            			   transition: all 0.2s ease;
+                           padding: 2%;
+            		}
+            			a:hover {
+            				color: yellow;
+                           border-color: yellow;
+            				}
+                        a:active {
+                            color: limegreen;
+                            border-color: limegreen;
+                        }
+                        a:visited {
+                            color: powderblue;
+                            border-color: powderblue;
+                        }
+
+            		ul {
+            			padding: 1%;
+            			display: flex;
+            			flex-wrap: wrap;
+            			justify-content: center;
+            			align-items: center;
+            			min-width: 100%;
+                        list-style-type: none;
+                        margin: 0px;
+                        margin-bottom: 5%;
+                        color: white;
+            			}
+
+            			ul li{
+           					border-radius: 40px;
+            				border-bottom-width: 3px;
+            				border: 1px pink solid;	
+            				text-decoration: none;
+            				flex: 4;
+            				margin-right: 3%;
+            				margin-left: 3%;
+            				text-align: center;
+            				padding: 2%;
+            				font-family: 'Cabin Sketch', cursive;
+            				font-size: 22px;
+                            background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .8));
+            				}
+
+
+
+            				ul li a {
+            					border-width: 1px;
+            					border-radius: 40px;
+            					border-bottom-width: 3px;
+            					border: 1px;
+            					border-color: pink;
+            					text-align: center;
+            					}
+            				ul li a:hover {
+            				   transition: all 0.2s ease;
+            					border-color: yellow;
+            					text-decoration: none;
+            					background-color: black;
+            					}
+
+
+        			nav {width: 150%;
+                           font-family: 'Amatic SC', cursive;
+                            font-size: 3vw;
+                            font-kerning: 3vw;
+                            margin: 0%;
+                            align-content: center;
+                            margin-left: -720px;
+        					position: fixed;
+        					background-color: rgba(0, 0, 0, .7);
+        					text-align: center;
+        					display: inline-block;
+        					margin-top: -7%;
+                            overflow: hidden;
+                            padding: 2%;
+                            float: top;
+        					}
+
+        				nav	a {
+        					word-spacing: 1rem;
+                         padding: 1%;
+                         margin: 2%;
+                          text-align: center;
+                          
+                          border: 1px;
+                          border: pink solid;
+
+                    }
+
+                        nav a:hover {
+                            color: yellow;
+                            background-color: rgba(0, 0, 0, .8);
+                        }
+
+                        nav a:active {
+                            color: white;
+                            background-color: rgba(0, 0, 0, .99);
+                        }
+
+	/*			nav a:hover{
+      		  	box-shadow:
+            	    1px 1px #53a7ea,
+            	    2px 2px #53a7ea,
+                	3px 3px #53a7ea;
+        		-webkit-transform: translateX(-3px);
+        		transform: translateX(-3px);
+					}
+
+*/
+
+
+    button {
+        border-radius: 50px;
+        border-width: 2px;
+        border-color: rgba(255, 255, 255, .4);
+        color: silver;
+        background-color: black;
+        text-align: center;
+        padding: 2%;
+        align-content: center;
+        margin-left: 35%;
+        font-family: 'Amatic', sans-serif;
+        font-size: 1rem;
+        display: inline;
+    }
