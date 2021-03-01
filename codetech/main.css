@@ -1,0 +1,331 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One|Righteous&display=swap');
+
+
+		/*
+		font-family: 'Amatic SC', serif;
+		font-family: 'Righteous', cursive;
+		font-family: 'Poiret One', sans-serif;
+		*/
+
+html {
+	font-family: 'Poiret One', sans-serif;
+    transition: all 0.3s ease;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+	color: silver;
+	background: linear-gradient(black, rgba(0, 0, 0, .9));
+	min-height: 100%;
+	}
+
+			*, *:after, *:before {
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+		}
+		 
+		* {
+		  margin: 0;
+		  padding: 0;
+		  -webkit-transition: all 1s ease;
+		  -moz-transition: all 1s ease;
+		  -o-transition: all 1s ease;
+		  -ms-transition: all 1s ease;
+		  transition: all 1s ease;
+		}
+
+body {
+	text-align: center;
+	position: relative;
+	min-height: 100vw;
+	padding: 0px;
+	margin: 0px;
+	}
+
+
+section {
+	padding: 2%;
+	}
+
+article {
+	margin: 1%;
+	padding: 2%;
+	border-radius: 40px;
+	border: solid 1px pink;
+	border-bottom-width: 3px;
+	background-color: rgba(255, 255, 255, .1);
+	min-height: 250px;
+	}
+header {
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+.parallax { 
+	z-index: -1;
+
+ 	background-image: url("20200220_airportcat.jpg");
+
+    /* Full height */
+    max-height: 100%; 
+        min-height: 400px;
+    min-width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding: 0;
+}
+
+.parallax2 { 
+	z-index: -1;
+
+ 	background-image: url("2019lvdwntwn.jpg");
+
+    /* Full height */
+    max-height: 100%; 
+        min-height: 400px;
+    min-width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding: 0;
+}
+.parallax3 { 
+	z-index: -1;
+
+ 	background-image: url("yellowFlower.jpg");
+
+    /* Full height */
+    min-height: 100%; 
+    min-height: 400px;
+    min-width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding: 0;
+}
+.envelope {
+	 	background-color: rgba(0, 0, 0, .4);
+	 	 /* Full height */
+    max-height: 100%; 
+    min-width: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+	padding: 8%;
+	margin-top: 15%;
+	background-color: black;
+	align-items: center;
+	display: block;
+	}
+	nav a {
+        	   	text-align: center;
+        	   	padding-right: 10%;
+        	   	margin: 2%;
+        	   	font-weight: bold;
+
+	}
+
+
+button {
+		font-family: 'Poiret One', sans-serif;
+		font-size: 2rem;
+		font-weight: bolder;
+		border-radius: 50px;
+		border: 0px;
+		padding: 3%;
+		margin: 3%;
+	    background: -webkit-linear-gradient(pink, black);
+		}
+
+
+		.fa {
+			padding: 3%;
+		}
+
+
+	hr {
+		border-radius: 50px;
+		border-width: 0px;
+		padding: 2%;
+		margin: 3%;
+		background-color: rgba(255, 190, 190, .5);
+	}
+
+img {
+	text-align: center;
+	max-width: 100%;
+	border-radius: 30px;
+	}
+
+	article img{
+		border-radius: 30px;
+		margin-bottom: 1%;
+		margin-top: 1%;
+	}
+
+        .flex-wrap {
+         			display: flex;
+            		flex-wrap: wrap;
+            		justify-content: center;
+            		align-items: center;
+            		flex: 3;
+      	    			}
+
+      	   .col{
+      	   			column-count: 2;
+      	   		}
+
+	p {
+		max-width: 400px;
+		margin: auto;
+		font-size: 1.4rem;
+		line-height: 2;
+		padding-bottom: 5%;
+		}
+
+
+	h1 {
+		font-size: 17vw;
+		font-family: 'Righteous', cursive;
+		  background: -webkit-linear-gradient(pink, black);
+ 		 -webkit-background-clip: text;
+ 		 -webkit-text-fill-color: transparent;
+		}
+
+		h2 {
+			font-size: 10vw;
+			margin-top: 10%;
+			}
+
+	 h2, h3, h4, h5, h6 {
+			font-family: 'Righteous', serif;
+		 	 background: -webkit-linear-gradient(#eee, #333);
+ 			 -webkit-background-clip: text;
+ 			 -webkit-text-fill-color: transparent;
+ 			 line-height: 1;
+ 			 margin: 0 auto;
+ 			padding-top: 8%;
+
+				}
+			h3 {
+				font-size: 8vw;
+			}
+			h4 {
+				font-size: 4vw;
+				max-width: 390px;
+				padding-top: 4%;
+				}
+
+			h5 {
+				font-size: 3rem;
+				}
+
+
+			a:link {
+				color: limegreen;
+				text-decoration: none;
+				font-size: 2rem;
+				
+				}
+				a:active {
+					color: powderblue;
+					}
+				a:visited {
+					color: pink;
+					}
+
+		iframe {
+			border-radius: 20px;
+			border-width: 0px;
+			min-width: 90%;
+			min-height: 270px;
+		}
+
+
+
+
+
+
+
+@media only screen and (max-width: 920px) {
+
+
+
+		body{
+			line-height: 1.7;
+			}
+
+
+			article {
+				margin: 5%;
+				margin-bottom: 12%;
+				min-width: 70%;
+				max-width: 100%;
+				display: block;
+				min-height: 150px;
+				}
+
+
+
+		h1 {
+			font-size: 17vw;
+			padding-top: 10%;
+			line-height: .7;
+			}
+			h2{
+			font-size: 16vw;				
+			}
+
+		h3 {
+			font-size: 14vw;
+			}
+
+		h4 {
+			font-size: 3rem;
+			}
+ 	footer {
+ 		font-size: 1rem;
+ 		color: silver;
+ 		}
+ 		footer a:link{
+ 			display: block;
+ 			font-size: 1rem;
+ 			padding: 3%;
+ 			font-weight: bold;
+ 		}
+
+ 	.col {
+ 		column-count: 1;
+ 		}
+
+ 	.flex-wrap {
+ 		display: block;
+ 	}
+
+}
+
+
+
+
+
