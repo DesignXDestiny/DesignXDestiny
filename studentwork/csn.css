@@ -1,0 +1,364 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Graduate|Gruppo|Londrina+Outline|Love+Ya+Like+A+Sister|Marcellus+SC|Megrim|Nixie+One|Poiret+One|Pompiere|UnifrakturMaguntia');
+
+
+	/*
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Major Mono Display', monospace;
+	font-family: 'Special Elite', cursive;
+	font-family: 'Gochi Hand', cursive;
+
+
+
+	font-family: 'Amatic SC', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Gruppo', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Nixie One', cursive;
+font-family: 'Graduate', cursive;
+font-family: 'Pompiere', cursive;
+font-family: 'Londrina Outline', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'UnifrakturMaguntia', cursive;
+	*/
+
+
+html{
+	font-size: 100%;
+	font-family: 'Marcellus SC', serif;
+	margin: auto;
+	background-image: linear-gradient(navy, dodgerblue);
+background-repeat: no-repeat;
+background-size: 100%;
+		 --text-color-normal: #0a244d;
+  		--text-color-light: #8cabd9;
+}
+
+
+		html[data-theme='dark'] {
+				  --text-color-normal: hsl(210, 10%, 62%);
+				  --text-color-light: hsl(210, 15%, 35%);
+				  --text-color-richer: hsl(210, 50%, 72%);
+				  --text-color-highlight: hsl(25, 70%, 45%);
+				}
+
+
+
+
+
+p {
+
+	font-family: 'Gruppo', cursive;
+	line-height: 1.4;
+	max-width: 500px;
+	padding: 3%;
+	margin: auto;
+	text-align: center;
+	font-size: 17px;
+	color: white;
+}
+
+ h2 {
+	text-align: center;
+	margin: auto;
+	color: white;
+	font-size: 3vw;
+}
+
+	h1 {
+			text-align: center;
+	margin: auto;
+		font-size: 5vw;
+		color: yellow;
+	}
+
+	h3 {
+		font-size: 2.5vw;
+	}
+
+a {
+	text-decoration: none;
+	color: pink;
+}
+
+
+
+	section {
+		width: 40%;
+		margin: auto;
+		margin: 2%;
+		padding: 1%;
+
+	}
+
+iframe {
+	min-width: 60%;
+	min-height: 50%;
+	min-height: 300px;
+	margin: auto;
+	align-self: center;
+	scrolling: auto;
+}
+
+
+
+
+footer {
+	color: white;
+	background-color: grey;
+	text-align: center;
+	clear: left;
+    position: fixed;
+    bottom: 0;
+    padding: 2%;
+    display: block;
+    min-width: 100%;
+	}
+
+
+		footer a {
+			color: white;
+		}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+	img {
+		min-width: 20%;
+		max-width: 30%;
+	}
+
+
+
+
+
+
+  /**********/
+ /* Slider */
+/**********/
+
+.slider {
+    background-color: #fff;
+    box-shadow: inset 0 0 2px hsla(0,0%,0%,.2),
+                0 3px 1px hsla(0,0%,100%,.75),
+                0 -1px 1px 2px hsla(0,0%,0%,.1);
+    height: 18.75em;
+    left: 50%;
+    margin: -9.875em -13em;
+    padding: .5em;
+    position: absolute;
+    top: 50%;
+    width: 25em;
+}
+
+/* Frame */
+
+.slider:before {
+    background-color: #22130c;
+    bottom: -2.5em;
+    box-shadow: inset 0 1px 1px 1px hsla(0,0%,100%,.2),
+                inset 0 -2px 1px hsla(0,0%,0%,.4),
+                0 5px 50px hsla(0,0%,0%,.25),
+                0 20px 20px -15px hsla(0,0%,0%,.2),
+                0 30px 20px -15px hsla(0,0%,0%,.15),
+                0 40px 20px -15px hsla(0,0%,0%,.1);
+    content: '';
+    left: -2.5em;
+    position: absolute;
+    right: -2.5em;
+    top: -2.5em;
+    z-index: -1;
+}
+
+/* Mat */
+
+.slider:after {
+    background-color: #fff5e5;
+    bottom: -1.5em;
+    box-shadow: 0 2px 1px hsla(0,0%,100%,.2),
+                0 -1px 1px 1px hsla(0,0%,0%,.4),
+                inset 0 2px 3px 1px hsla(0,0%,0%,.2),
+                inset 0 4px 3px 1px hsla(0,0%,0%,.2),
+                inset 0 6px 3px 1px hsla(0,0%,0%,.1);
+    content: '';
+    left: -1.5em;
+    position: absolute;
+    right: -1.5em;
+    top: -1.5em;
+    z-index: -1;
+}
+
+/* Slides */
+
+.slider li {
+    box-shadow: 0 -1px 0 2px hsla(0,0%,0%,.03);
+    list-style:none;
+    position: absolute;
+}
+.slider input {
+    display: none;
+}
+
+/* Navigation */
+
+.slider label {
+    background-color: #111;
+    background-image: linear-gradient(transparent, hsla(0,0%,0%,.25));
+    border: .2em solid transparent;
+    bottom: .5em;
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    height: .5em;
+    left: 24em;
+    opacity: 0;
+    position: absolute;
+    transition: .25s;
+    width: .5em;
+    visibility: hidden;
+    z-index: 10;
+}
+.slider label:after {
+    border-radius: 100%;
+    bottom: -.2em;
+    box-shadow: inset 0 0 0 .2em #111,
+                inset 0 2px 2px #000,
+                0 1px 1px hsla(0,0%,100%,.25);
+    content: '';
+    left: -.2em;
+    position: absolute;
+    right: -.2em;
+    top: -.2em;
+}
+.slider:hover label {
+    opacity: 1;
+    visibility: visible;
+}
+.slider input:checked + label {
+    background-color: #fff;
+}
+.slider:hover li:nth-child(1) label {
+    left: .5em;
+}
+.slider:hover li:nth-child(2) label {
+    left: 2em;
+}
+.slider:hover li:nth-child(3) label {
+    left: 3.5em;
+}
+.slider:hover li:nth-child(4) label {
+    left: 5em;
+}
+
+/* Images */
+
+.slider img {
+    height: 18.75em;
+    opacity: 0;
+    transition: .25s;
+    width: 25em;
+    vertical-align: top;
+    visibility: hidden;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+​
+
+
+
+
+
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+				  img {
+				    opacity: .75;
+				    transition: opacity .5s ease-in-out;
+				  }
+				  img:hover {
+				    opacity: 1;
+				  }
+				}
+
+
+
+
+
+				/* DARK MODE ------------------- ----------------DARKMODE---- */
+
+@media (prefers-color-scheme: dark) {
+
+
+
+		html {
+			background-color: black;
+			color: silver;
+		}
+
+			h1, h2, h3, h4, h5, h6 {
+				color: white;
+			}
+
+	  img {
+	    opacity: .75;
+	    transition: opacity .5s ease-in-out;
+	  }
+	  img:hover {
+	    opacity: 1;
+	  }
+
+}
+
+
+
+	/* medium screens */
+@media only screen and (min-width: 10px) and (max-width: 800px) {
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 200%;
+}
+
+h1 {
+	font-size: 250%;
+}
+
+	/*  TYPEOGRAPHY    */
+
+
+			p {
+				font-size: 20px;
+			}
+
+
+
+
+
+	/*  STRUCTURE  */
+
+				section, div, article {
+
+				}
+
+
+				img {
+					min-width: 100%;
+				}
+}
