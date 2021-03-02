@@ -1,0 +1,1131 @@
+
+/* @import url('') */
+@import url('https://fonts.googleapis.com/css?family=Crushed|IM+Fell+English|Life+Savers|Nixie+One|Scope+One');
+
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Germania+One|Julius+Sans+One|Mandali|Montserrat+Subrayada|Tulpen+One|Zilla+Slab+Highlight');
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+
+	/*
+		font-family: 'Comfortaa', cursive;
+		font-family: 'IM Fell English', serif;
+		font-family: 'Nixie One', cursive;
+		font-family: 'Crushed';
+		font-family: 'Life Savers', cursive;
+		font-family: 'Scope One';
+
+	*/
+
+	/*
+		font-family: 'Black Han Sans', sans-serif;
+		font-family: 'Germania One', cursive;
+		font-family: 'Julius Sans One', sans-serif;
+		font-family: 'Mandali', sans-serif;
+		font-family: 'Montserrat Subrayada', sans-serif;
+		font-family: 'Tulpen One', cursive;
+		font-family: 'Zilla Slab Highlight', cursive;
+	*/
+
+
+	a {
+	text-decoration: none;
+}
+
+iframe {
+	margin: 0px;
+	min-height: 240px;
+	min-width: 120px;
+	scrolling: no;
+}
+
+.amzn img {
+	border: none;
+}
+
+h1 {
+			padding-top: 5%;
+			font-size: 11vw;
+			color: dodgerblue;
+			text-align: center;
+			font-family: 'IM Fell English', serif;
+			line-height: .4;
+			padding-bottom: 0px;
+			background-color: rgba(255, 255, 255, .8);
+			}
+
+			h2{
+				font-family: 'Nixie One', cursive;
+				color: dodgerblue;
+				text-align: center;
+				font-size: 3vw;
+				line-height: .85;
+				padding-top: 0px;
+				background-color: rgba(255, 255, 255, .8);
+			}
+			h3{
+				
+				font-size: 4vw;
+				font-family: 'Life Savers', cursive;
+
+				padding-left: 5%;
+				line-height: .7;
+				color: gray;
+				
+			}
+			h4{
+				padding-top: 1%;
+				padding-bottom: 0px;
+				margin-bottom: 2px;
+				line-height: .7;
+				font-size: 2em;
+				font-family: 'Zilla Slab Highlight', cursive;
+				text-align: center;
+				 letter-spacing: .40rem;
+				}
+			h5{
+				padding-top: 1%;
+				padding-bottom: 1px;
+				margin-bottom: 2px;
+				line-height: 1.1;
+				font-size: 2rem;
+				color: grey;
+				font-family: 'Tulpen One', cursive;
+			}
+			h6{
+				font-family: 'Nixie One', cursive;
+				margin-top: 0px: 
+				padding-top: 0px;
+				padding-bottom: 1px;
+				color: darkgray;
+			}
+
+
+
+
+
+p{
+ 	font-family: 'Scope One';
+ 	font-size: 1.2rem;
+ 	line-height: 1.7rem;
+}
+
+span {
+	font-family: 'Nixie One', cursive;
+	line-height: .7;
+	margin-left: 5%;
+	font-size: 1.3rem;
+	color: black;
+}
+
+
+
+
+a {
+	color: dodgerblue;
+	font-weight: bolder;
+}
+
+	a:hover {
+		color: red;
+	}
+
+	a:active {
+
+	}
+
+
+
+nav {
+	margin-top: 0px; 
+	font-family: 'Nixie One', cursive;
+	position: fixed;
+	display: inline-block;
+	min-width: 100%;
+	float: right;
+	margin: auto;
+	text-align: center;  text-shadow: 8px 15px 18px #000000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+
+	nav a{
+		font-size: 3vw;
+			color: dodgerblue;
+		font-weight: bolder;
+		font-family: 'Nixie One', cursive;
+		line-height: .5;
+		padding-right: 2%;
+		padding-left: 2%;
+		padding: 1%;
+		border: 1px solid;
+		border-color: dodgerblue;
+		display: inline;
+		background-color: white; 
+	}
+
+
+	nav a:hover {
+		color: white;
+		background-color: dodgerblue;
+	}
+
+	nav a:active {
+		background-color: slateblue;
+
+	}
+
+
+
+
+
+body {
+	font-size: 100%;
+	font-family: 'Scope One';
+	/*background-image: url("blimg/lib1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	*/
+}
+
+
+body, html {
+    height: 100%;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+
+
+
+
+
+.sheerenvelope {
+	 background-color: rgba(255, 0, 0, .5);
+}
+
+
+.ftauth {
+
+	display: block;
+	color: white;
+	float: right;
+	column-count: 1;
+		letter-spacing: 1rem;
+}
+
+
+
+q {
+	line-height: 6rem;
+	font-family: 'Comfortaa', cursive;
+	font-size: 5vw;
+	color: white;
+	
+
+	text-align: center;
+	margin: auto;
+		float: right;
+	display: inline-block;
+	min-width: 100%;
+	text-align: center;
+		column-count: 1;
+		padding: 4rem;
+		padding-left: 15%;
+		letter-spacing: 1.7rem;
+}
+
+.mask {
+	background-color: rgba(0, 0, 0, .7);
+
+		    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax { 
+
+
+    /* The image used */
+    background-color: rgba(0, 0, 0, .5);
+   background-image: url("blimg/lib1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 { 
+    /* The image used */
+   background-image: url("blimg/lib2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax3 { 
+    /* The image used */
+   background-image: url("blimg/np.jpg");
+  /* background-image: url("blimg/nppk.jpg");*/
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 { 
+    /* The image used */
+	background-image: url("blimg/pnpk.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+			.non {
+				margin: auto;
+				padding: 5%;
+				column-count: 1;
+				background-image: linear-gradient(rgba(255,0,0,0), lightgray, gray);
+
+
+			}
+
+			.phil {
+				height: 40%;
+			    width: 30%;
+			    float: left;
+			    margin-left: 3%;
+			}
+
+			.ref {
+				height: 60%;
+			    width: 30%;
+			    float: left;
+			    margin-left: 3%;
+			}
+
+			.bio{
+				height: 40%;
+			    width: 30%;
+			    float: left;
+			    margin-left: 3%;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+	padding: 10%;
+	padding-top: 1%;
+	margin-bottom: 5%;
+	background-color: rgba(255, 255, 255, .5);
+	}
+
+div {
+	
+	margin: auto;
+	padding: 5%;
+	background-image: linear-gradient(rgba(255,0,0,0), lightgray);
+	}
+
+.content {
+	margin: auto;
+	padding: 5%;
+	column-count: 3;
+}
+
+section{
+	width: auto;
+	margin: auto;
+	padding-bottom: 3%;
+}
+
+article{
+	min-height: 60%;
+	width: auto;
+	margin: auto;
+	padding: 3%;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+}
+aside{
+	width: auto;
+	margin: auto;
+	padding: 3%;
+	float: right;
+}
+
+
+
+img {
+
+}
+
+.bookcover {
+	padding-right: 1.5%;
+	max-width: 50%;
+	float: left;
+}
+.sin {
+	font-size: .8rem;
+
+}
+
+.p {
+	color: red;
+}
+
+
+
+
+
+
+
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (min-device-width: 1000px) (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+
+	/* medium screens */
+@media only screen and (min-width: 621px) and (max-width: 1000px) {
+
+
+h1 {
+	padding-top: 5%;
+	font-size: 10vw;
+	color: dodgerblue;
+	text-align: center;
+	font-family: 'IM Fell English', serif;
+	line-height: .4;
+	padding-bottom: 0px;
+	background-color: rgba(255, 255, 255, .8);
+
+}
+	
+			h2{
+				font-family: 'Nixie One', cursive;
+				color: dodgerblue;
+				text-align: center;
+				font-size: 3vw;
+				line-height: .85;
+				padding-top: 0px;
+					background-color: rgba(255, 255, 255, .8);
+			}
+			h3{
+				
+				font-size: 4vw;
+				font-family: 'Comfortaa', cursive;
+
+				padding-left: 5%;
+				line-height: .7;
+				color: gray;
+				
+			}
+			h4{
+				padding-top: 1%;
+				padding-bottom: 0px;
+				margin-bottom: 2px;
+				line-height: .7;
+				
+				font-family: 'Zilla Slab Highlight', cursive;
+				text-align: center;
+				 letter-spacing: .40rem;
+				}
+			h5{
+					padding-top: 1%;
+				padding-bottom: 1px;
+				margin-bottom: 2px;
+
+				font-size: 1.5rem;
+				font-family: 'Life Savers', cursive;
+			}
+			h6{
+				font-family: 'Nixie One', cursive;
+			}
+
+
+
+
+
+p{
+ 	font-family: 'Scope One';
+ 	font-size: 1.1rem;
+ 	line-height: 1.5rem;
+}
+
+span {
+	font-family: 'Nixie One', cursive;
+	line-height: .7;
+	margin-left: 5%;
+	font-size: 1.3rem;
+	color: black;
+}
+
+
+
+
+
+a {
+	color: dodgerblue;
+	font-weight: bolder;
+}
+
+	a:hover {
+		color: red;
+	}
+
+	a:active {
+
+	}
+
+
+
+
+nav {
+	margin-top: 0px; 
+	font-family: 'Nixie One', cursive;
+	position: fixed;
+	display: inline-block;
+	min-width: 100%;
+	float: right;
+	margin: auto;
+	text-align: center;
+}
+
+	nav a{
+		font-size: 2.8vw;
+			color: dodgerblue;
+		font-weight: bolder;
+		font-family: 'Nixie One', cursive;
+		line-height: .5;
+		padding-right: 2%;
+		padding-left: 2%;
+		padding: 1%;
+		border: 1px solid;
+		border-color: dodgerblue;
+		display: inline;
+		background-color: white; 
+	}
+
+
+	nav a:hover {
+		color: white;
+		background-color: dodgerblue;
+		padding: 4%;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+
+	nav a:active {
+		font-size: 3vw;
+		background-color: gray;
+		padding: 5%;
+		border-color: white;
+		border: 2px solid
+	}
+
+
+
+
+
+
+body {
+	font-size: 100%;
+	font-family: 'Scope One';
+	/*background-image: url("blimg/lib1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	*/
+}
+
+
+body, html {
+    height: 100%;
+}
+
+
+.ftauth {
+	display: block;
+	color: white;
+	float: right;
+	column-count: 1;
+
+}
+
+q {
+	line-height: 10rem;
+	font-family: 'Comfortaa', cursive;
+	font-size: 7vw;
+	color: white;
+	
+	text-align: center;
+	margin: auto;
+		float: right;
+	display: inline-block;
+	min-width: 100%;
+	text-align: center;
+		column-count: 1;
+		padding: 4rem;
+		padding-left: 5%;
+		letter-spacing: 1.5rem;
+}
+
+
+.mask {
+	background-color: rgba(0, 0, 0, .7);
+
+		    height: 100%; 
+		    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.parallax { 
+    /* The image used */
+   background-image: url("blimg/lib1.jpg");
+   z-index: -1;
+   background-color: rgba(0, 0, 0, .7);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 { 
+    /* The image used */
+   background-image: url("blimg/lib2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax3 { 
+    /* The image used */
+   background-image: url("blimg/np.jpg");
+  /* background-image: url("blimg/nppk.jpg");*/
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 { 
+    /* The image used */
+	background-image: url("blimg/pnpk.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+			.non {
+				margin: auto;
+				padding: 5%;
+				column-count: 1;
+				background-image: linear-gradient(rgba(255,0,0,0), lightgray, gray);
+			}
+
+			.phil {
+				height: 40%;
+			    width: 30%;
+			    float: left;
+			    margin-left: 3%;
+			}
+
+			.ref {
+				height: 60%;
+			    width: 30%;
+			    float: left;
+			    margin-left: 3%;
+			}
+
+			.bio{
+				height: 40%;
+			    width: 30%;
+			    float: left;
+			    margin-left: 3%;
+			}
+
+
+
+header {
+	padding: 10%;
+	padding-top: 1%;
+	margin-bottom: 5%;
+	background-color: rgba(255, 255, 255, .5);
+	}
+
+
+.content {
+	column-count: 2;
+	}
+
+div {	
+	margin: auto;
+	padding: 4%;
+	background-image: linear-gradient(rgba(255,0,0,0), lightgray);
+	}
+  
+section{
+	width: auto;
+	margin: auto;
+	padding-bottom: 3%;
+	}
+article{
+	min-height: 60%;
+	width: auto;
+	margin: auto;
+	padding: 3%;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+	}
+  
+aside{
+	width: auto;
+	margin: auto;
+	padding: 3%;
+	float: right;
+	}
+
+img {
+
+	}
+
+.bookcover {
+	padding-right: 1.5%;
+	max-width: 50%;
+	float: left;
+	}
+.sin {
+	font-size: .8rem;
+	line-height: 2px;
+	}
+
+.p {
+	color: red;
+	}
+
+}
+
+
+
+
+
+
+
+
+	/* small screens */
+@media only screen and (max-device-width: 620px) {
+
+
+h1 {
+		padding-top: 5%;
+		font-size: 10vw;
+		color: dodgerblue;
+		text-align: center;
+		font-family: 'IM Fell English', serif;
+		line-height: .4;
+		padding-bottom: 0px;
+		background-color: rgba(255, 255, 255, .8);
+
+	}
+				h2{
+					font-family: 'Nixie One', cursive;
+					color: dodgerblue;
+					text-align: center;
+					font-size: 3vw;
+					line-height: .85;
+					padding-top: 0px;
+						background-color: rgba(255, 255, 255, .8);
+				}
+				h3{
+					
+					font-size: 4vw;
+					font-family: 'Black Han Sans', sans-serif;
+
+					padding-left: 5%;
+					line-height: .7;
+					color: gray;
+					
+				}
+				h4{
+					padding-top: 1%;
+					padding-bottom: 0px;
+					margin-bottom: 2px;
+					line-height: .7;
+					font-size: 3em;
+					font-family: 'Zilla Slab Highlight', cursive;
+					text-align: center;
+					 letter-spacing: .40rem;
+					 display: block;
+					}
+  
+				h5{
+						padding-top: 1%;
+					padding-bottom: 1px;
+					margin-bottom: 2px;
+					line-height: 1;
+					font-size: 1.5rem;
+					font-family: 'Life Savers', cursive;
+				}
+  
+				h6{
+					font-family: 'Nixie One', cursive;
+				}
+
+
+
+
+
+p{
+ 	font-family: 'Scope One';
+ 	font-size: .8rem;
+}
+
+span {
+	font-family: 'Nixie One', cursive;
+	line-height: .7;
+	margin-left: 5%;
+	font-size: 1.3rem;
+	color: black;
+}
+
+
+a {
+	color: dodgerblue;
+	font-weight: bolder;
+}
+
+	a:hover {
+		color: red;
+	}
+
+	a:active {
+
+}
+
+nav {
+	margin-top: 0px; 
+	font-family: 'Nixie One', cursive;
+	position: fixed;
+	display: inline-block;
+	min-width: 100%;
+	float: right;
+}
+
+	nav a{
+			color: dodgerblue;
+		font-weight: bolder;
+		font-family: 'Nixie One', cursive;
+		line-height: .5;
+		padding-right: 2%;
+		padding-left: 2%;
+		padding: 1%;
+		border: 1px solid;
+		border-color: dodgerblue;
+		display: inline;
+		background-color: white; 
+	}
+
+
+	nav a:hover {
+		color: white;
+		background-color: dodgerblue;
+	}
+
+body {
+	font-size: 100%;
+	font-family: 'Scope One';
+	/*background-image: url("blimg/lib1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	*/
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.ftauth {
+	background-color: rgba(0, 0, 0, .5);
+	display: block;
+	color: white;
+	float: right;
+	column-count: 1;
+
+}
+
+q {
+	line-height: 5rem;
+	font-family: 'Comfortaa', cursive;
+	font-size: 9vw;
+	color: white;
+	background-color: rgba(0, 0, 0, .7);
+	text-align: center;
+	margin: auto;
+		float: right;
+	display: inline-block;
+	min-width: 100%;
+	text-align: center;
+		column-count: 1;
+		padding: 4rem;
+}
+
+
+
+.mask {
+	background-color: rgba(0, 0, 0, .7);
+	    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.parallax { 
+    /* The image used */
+   background-image: url("blimg/lib1.jpg");
+
+    /* Full height */
+
+
+}
+
+.parallax2 { 
+    /* The image used */
+   background-image: url("blimg/lib2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax3 { 
+    /* The image used */
+   background-image: url("blimg/np.jpg");
+  /* background-image: url("blimg/nppk.jpg");*/
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 { 
+    /* The image used */
+	background-image: url("blimg/pnpk.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+		.non {
+			margin: auto;
+			padding: 5%;
+			column-count: 1;
+			background-image: linear-gradient(rgba(255,0,0,0), lightgray, gray);
+
+
+		}
+
+				.phil {
+					height: 60%;
+				    width: 90%;
+				    float: left;
+				    margin-left: 1%;
+				    display: block;
+				}
+
+				.ref {
+					height: 60%;
+				    width: 90%;
+				    float: none;
+				    margin-left: 1%;
+				}
+
+				.bio{
+					height: 60%;
+				    width: 90%;
+				    float: none;
+				    margin-left: 1%;
+				}
+
+
+header {
+	padding: 10%;
+	padding-top: 1%;
+	margin-bottom: 5%;
+	background-color: rgba(255, 255, 255, .5);
+	display: block;
+}
+
+
+.content {
+	column-count: 1;
+	display: block;
+}
+
+
+div {
+	display: block;
+	margin: auto;
+	padding: 2%;
+	
+	background-image: linear-gradient(rgba(255,0,0,0), lightgray, gray);
+
+}
+section{
+	width: auto;
+	margin: auto;
+	padding-bottom: 2%;
+	display: block;
+}
+article{
+	min-height: 60%;
+	width: auto;
+	margin: auto;
+	padding: 1%;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+}
+aside{
+	width: auto;
+	margin: auto;
+	padding: 3%;
+	float: right;
+}
+
+
+
+img {
+
+}
+
+.bookcover {
+	margin: auto;
+	max-width: 100%;
+	float: left;
+}
+.sin {
+	font-size: .5rem;
+	line-height: .3rem;
+}
+
+.p {
+	color: red;
+}
+
+	}
