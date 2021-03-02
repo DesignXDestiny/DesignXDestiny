@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
+
+
+
+.container {
+	max-width: 800px;
+	padding: 20px;
+	margin-top: 10%;
+	/* [disabled]margin-right: 20%; */
+	margin-left: 20%;
+	margin-bottom: 20%;
+	background-color: rgba(255,239,202,.40);
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatright {
+	float: right;
+}
+
+.clearFloats {
+	clear: both;
+}
+
+.col2 {
+	column-count: 2;
+	column-rule: dotted;
+	column-rule-color: #19401C;
+	column-rule-width: thin;
+}
+
+a:link {
+color: #FFEFCA;
+text-decoration: none;
+}
+a:visited {
+color: #CAFF72;
+}
+a:hover {
+color: darkgoldenrod;
+}
+a:active {
+color: #7F3F1B;
+}
+
+img {
+	max-width: 30%;
+}
+
+body {
+	background-image: url("beansbrownbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-attachment: fixed;
+    background-position: center;
+	background-color: #7F3F1B;	
+	color: #19401C;
+	font-size: 1.1rem;
+	font-family: 'Prata';
+}
+
+	p {
+		line-height: 1.5rem;
+	}
+
+
+
+
+header {
+	padding: 20px;
+	background-color: #19401C;
+}
+
+h1 {
+	font-family: 'Marck Script';
+	font-size: 5rem;
+	color: #CAFF72;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2rem;
+	font-family: 'Marck Script';
+	margin-left: 30px;
+	margin-right: 10px;
+	color: #CAFF72;
+	text-align: center;
+}
+
+h3 {
+	font-size: 3rem;
+	font-family: 'Marck Script';
+	color: #19401C;
+}
+
+nav {
+	font-size: 1.5rem;
+	line-height: 1.5em;
+	margin-left: 3%;
+	position: fixed;
+	font-family: 'Prata';
+}
+
+	nav a {
+		display: block;
+	}
+
+
+
+blockquote {
+	
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	padding: 20%;
+	font-style: italic;
+	color: darkcyan;
+}
+
+span {
+	font-family: 'Marck Script';
+}
+
+small {
+	font-size: .8rem;
+	font-family: 'Prata';
+}
+
+section {
+	padding: 10%;
+	background-color: rgba(255,239,202,.40);
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+.col2 {
+	column-count: 1;
+	border-style: dotted;
+	border-color: #19401C;
+	border: 2px;
+}
+
+	nav a {
+		display: inline-block;
+		margin-top: 0px;
+	}
+
+}
