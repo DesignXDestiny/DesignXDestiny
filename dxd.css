@@ -328,7 +328,7 @@ nav {
 			*/
 	.homego {
 
- 	background-image: url("pinklogo.png");
+  	  background-image: url("images/pinklogo.png");
 
     background-attachment: fixed;
     background-position: center;
@@ -460,7 +460,7 @@ a {
 
 .parallax { 
 	z-index: -2;
- 	background-image: url("Gallaries/img/lvout/desertsun.jpg");
+ 	background-image: url("images/desertsun.jpg");
 
     /* Full height */
     max-height: 100%; 
@@ -735,3 +735,5 @@ a {
 					min-width: 90%;
 					}
 	}
+
+
