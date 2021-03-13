@@ -61,8 +61,8 @@ body {
 	margin-right: 10px;
 	margin-left: 10px;
 	align-content: center;
-	background-image: url("https://www.jpl.nasa.gov/images/universe/astronomy/20140108/machine20150108-16.jpg");
-	background-color: liniear-gradient (lightskyblue, navy);
+	background-image: url("https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA24459.jpg");
+	background-color: black;
 }
 
 aside {
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 15px;
 	padding-left: 15px;
 	margin-top: 10px;
-	margin-right: 10px;
+	margin-right: 10px:
 	margin-bottom: 10px;
 	margin-left: 10px;
 	text-align: center;
