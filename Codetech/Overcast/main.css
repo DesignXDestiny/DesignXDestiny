@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Arima+Madurai|Pacifico|Rammetto+One');
 @import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
 
-
-
 html { font-size: 120%; } 
 
 html, body, ul, li {
+
 margin: 0;
+background-color: rgba(0, 0, 0, .4);
 padding: 0;
 }
 
@@ -59,7 +59,7 @@ padding: 0;
 	}
 
 	body {
-		background-image: url("img/cloudValley_sm.jpg");
+		background-image: url("img/cloudValley_bg.jpg");
 		background-repeat: no-repeat;
 		background-size: auto;
 		background-attachment: fixed;
@@ -139,6 +139,209 @@ padding: 0;
 
 
 
+/* Media Queries */
+
+
+/* tablets */
+@media screen and (min-width: 651px) and (max-width: 850px) {
+	
+	
+	
+.col2 {
+	column-count: 2;
+	column-rule: dotted;
+	column-rule-color: burlywood;
+	column-rule-width: thin;
+}
+	
+	section {
+	padding: 2%;
+	background-color: rgba(255,255,255,0.43);
+}
+
+body {
+		font-size: 1rem;
+		line-height: 1.3em;
+                background-image: url("img/cloudValley_sm.jpg");
+	}	
+	
+	img {
+		max-width: 40%;
+	}
+	
+h1 {
+	font-family: Rammetto One;
+	font-size: 10vw;
+	color: burlywood;
+	margin-right: 3%;
+	margin-left: 5%;
+	
+}
+
+h2 {
+	font-size: 7vw;
+	font-family: 'Pacifico', cursive;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+	
+h3 {
+	font-size: 5vw;
+	font-family: 'Rammetto One', cursive;
+}
+	
+blockquote {
+	font-size: 1.1rem;
+	line-height: 1.3rem;
+	padding: 15%;
+	}
+	
+}
+
+
+.nav {
+	display: block;
+	line-height: 1.3em;
+	margin-left: 1.5%;
+	position: fixed;
+	font-family: 'Pacifico', cursive;
+	text-decoration: none;
+   }
+
+
+}
+
+
+
+
+@media screen and (max-width: 650px) { 
+
+html {
+	font-size: 100%; }
+
+
+header {
+	padding-top: 2rem;
+}
+	
+.container {
+	max-width: 100%;
+	padding: 7%;
+	margin-top: 5%;
+	margin: auto;
+	margin-bottom: 8%;
+	background-color: rgba(255,255,255,0.43);
+}
+	
+	
+.col2 {
+	column-count: 1;
+	}
+	
+	section {
+	padding: 5%;
+	background-color: rgba(255,255,255,0.43);
+}
+	
+	body {
+                background-image: url("img/cloudValley_sm.jpg");
+		font-size: .9rem;
+		line-height: 1.2em;
+	}	
+
+
+	img { 
+		display: block; 
+		max-width: 100%;
+	}	
+	
+	footer { 
+		display: none; 
+	}	
+	
+	
+	
+.nav {
+	font-size: 1rem;
+  	width: 100%;
+	margin-left: auto;
+	position: fixed;
+	font-family: 'Pacifico', cursive;
+	display: inline-block;
+	margin-top: 0%;
+	text-align: center;
+	padding: .5rem;
+}
+
+.nav a {
+	text-align: center;
+  	padding-right: 1.2rem;
+	padding-left: 1.2rem;
+  	text-decoration: none;
+}
+
+ul li {
+	display: inline-block;
+	margin-top: 0%;
+
+}
+
+h1 {
+	font-family: Rammetto One;
+	font-size: 10vw;
+	color: burlywood;
+	margin-right: 2%;
+	margin-left: 5%;
+}
+
+h2 {
+	font-size: 7vw;
+	font-family: 'Pacifico', cursive;
+	margin-left: 8%;
+	margin-right: 5%;
+}
+	
+h3 {
+	font-size: 4vw;
+	font-family: 'Rammetto One', cursive;
+}
+	
+blockquote {
+	
+	font-size: 1.7rem;
+	line-height: 1rem;
+	padding: 10%;
+	}
+		
+}
+
+
+
+
+@media screen and (max-width: 570px) { 
+
+        body {
+                background-image: url("img/cloudValley_sm.jpg");
+}
+
+
+.nav a {
+
+	text-align: center;
+  		padding-right: .6rem;
+  		padding-left: .6rem;
+  		font-size: 1.4rem;
+  		display: inline;
+  		text-decoration: none;
+}
+
+	
+.col2 {
+	column-count: 1;
+	}
+
+
+}
 
 
 
@@ -216,221 +419,5 @@ Define this in your CSS
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* Media Queries */
-
-
-/* tablets */
-@media screen and (min-width: 651px) and (max-width: 850px) {
-	
-	
-	
-.col2 {
-	column-count: 2;
-	column-rule: dotted;
-	column-rule-color: burlywood;
-	column-rule-width: thin;
-}
-	
-	section {
-	padding: 2%;
-	background-color: rgba(255,255,255,0.43);
-}
-
-body {
-		font-size: 1rem;
-		line-height: 1.3em;
-	}	
-	
-	img {
-		max-width: 40%;
-	}
-	
-h1 {
-	font-family: Rammetto One;
-	font-size: 10vw;
-	color: burlywood;
-	margin-right: 3%;
-	margin-left: 5%;
-	
-}
-
-h2 {
-	font-size: 7vw;
-	font-family: 'Pacifico', cursive;
-	margin-left: 10%;
-	margin-right: 5%;
-}
-	
-h3 {
-	font-size: 5vw;
-	font-family: 'Rammetto One', cursive;
-}
-	
-blockquote {
-	
-	font-size: 1.1rem;
-	line-height: 1.3rem;
-	padding: 15%;
-	}
-	
-}
-
-
-.nav {
-	display: block;
-	position: center;
-	line-height: 1.5em;
-	margin-left: 1.5%;
-	position: fixed;
-	font-family: 'Pacifico', cursive;
-		text-decoration: none;
-}
-
-
-}
-
-
-
-
-
-/* phones */
-@media screen and (max-width: 650px) { 
-
-html {
-	font-size: 100%; }
-
-
-header {
-	padding-top: 2rem;
-}
-	
-.container {
-	max-width: 90%;
-	padding: 5%;
-	margin-top: 5%;
-	/* [disabled]margin-right: 20%; */
-	margin: auto;
-	margin-bottom: 5%;
-	background-color: rgba(255,255,255,0.43);
-}
-	
-	
-.col2 {
-	column-count: 1;
-	}
-	
-	section {
-	padding: 5%;
-	background-color: rgba(255,255,255,0.43);
-}
-	
-	body {
-		font-size: .9rem;
-		line-height: 1.2em;
-	}	
-
-
-	img { 
-		display: block; 
-		max-width: 100%;
-	}	
-	
-	footer { 
-		display: none; 
-	}	
-	
-	
-	
-.nav {
-	font-size: 1rem;
-  	width: 100%;
-	margin-left: auto;
-	position: fixed;
-	font-family: 'Pacifico', cursive;
-	display: inline-block;
-	margin-top: 0%;
-
-	text-align: center;
-	padding: .5rem;
-}
-
-.nav a {
-
-	text-align: center;
-  		padding-right: 1.2rem;
-  		padding-left: 1.2rem;
-  			text-decoration: none;
-}
-
-ul li {
-	display: inline-block;
-	margin-top: 0%;
-
-}
-
-h1 {
-	font-family: Rammetto One;
-	font-size: 10vw;
-	color: burlywood;
-	margin-right: 2%;
-	margin-left: 5%;
-}
-
-h2 {
-	font-size: 7vw;
-	font-family: 'Pacifico', cursive;
-	margin-left: 8%;
-	margin-right: 5%;
-}
-	
-h3 {
-	font-size: 4vw;
-	font-family: 'Rammetto One', cursive;
-}
-	
-blockquote {
-	
-	font-size: 2rem;
-	line-height: 1rem;
-	padding: 10%;
-	}
-	
-	
-	
-	
-}
-
-
-@media screen and (max-width: 570px) { 
-
-
-.nav a {
-
-	text-align: center;
-  		padding-right: .6rem;
-  		padding-left: .6rem;
-  		font-size: 1.4rem;
-  		display: inline;
-  		text-decoration: none;
-}
-
-	
-.col2 {
-	column-count: 1;
-	}
-
-
-}
 
 
