@@ -1,0 +1,433 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Arima+Madurai|Pacifico|Rammetto+One');
+@import url("http://meyerweb.com/eric/tools/css/reset/reset.css");
+
+
+
+html { font-size: 125%; } 
+
+html, body, ul, li {
+margin: 0;
+padding: 0;
+}
+
+	.container {
+		max-width: 90%;
+		padding: 10%;
+		margin-top: 10%;
+		margin-left: 20%;
+		margin-bottom: 20%;
+		background-color: rgba(255,255,255,0.43);
+		z-index: -1;
+	}
+
+			.floatLeft {
+				float: left;
+			}
+
+			.floatright {
+				float: right;
+			}
+
+			.clearFloats {
+				clear: both;
+			}
+
+	.col2 {
+		column-count: 3;
+		column-rule: dotted;
+		column-rule-color: burlywood;
+		column-rule-width: thin;
+	}
+
+			a:link {
+				color: cyan;
+				}
+				a:visited {
+					color: darkcyan;
+					}
+				a:hover {
+					background-color: darkgoldenrod;
+					}
+				a:active {
+					color: goldenrod;
+					}
+
+	img {
+		max-width: 30%;
+	}
+
+	body {
+		background-image: url("overcast.jpg");
+		background-repeat: no-repeat;
+		background-size: auto;
+		background-attachment: fixed;
+	    background-position: center;	
+		
+		
+		font-size: 1.3rem;
+		line-height: 1.1em;
+		font-family: Arima Madurai;
+	}
+
+	h1 {
+		font-family: Rammetto One;
+		font-size: 10vw;
+		color: rgb(222,184,135);
+		margin-right: 5%;
+		margin-left: 5%;
+		line-height: 1em;
+	}
+
+	h2 {
+		font-size: 8vw;
+		font-family: 'Pacifico', cursive;
+		margin-left: 10%;
+		margin-right: 5%;
+	}
+
+	h3 {
+		font-size: 5vw;
+		line-height: 1em;
+		font-family: 'Rammetto One', cursive;
+	}
+
+
+		
+
+		
+
+
+
+	.nav {	
+		font-size: 1.7rem;
+		line-height: 2em;
+		margin-left: 3%;
+		position: fixed;
+		font-family: 'Pacifico', cursive;
+
+		}
+
+		.nav a {
+			text-decoration: none;
+			}
+
+	blockquote {
+		
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+		padding: 20%;
+		font-style: italic;
+		color: darkcyan;
+		background-color: rgba(222,184,135,0.51);
+	}
+
+	span {
+		font-family: 'Pacifico', cursive;
+	}
+
+	small {
+		font-size: .8rem;
+	}
+
+	section {
+		padding: 10%;
+		background-color: rgba(255,255,255,0.43);
+	}
+
+
+
+
+
+
+
+
+	/* 
+Define this in your CSS 
+.ease-inAnimation = Replace it by the name you want to give your animation
+.easeinAnimObj = Assign this class to the elements to which you want to apply the animation
+*/
+
+.easeinAnimObj {
+	position: relative;
+	/* Chrome, Safari*/
+	-webkit-animation-name: ease-inAnimation;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 3s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+	/* Mozilla */	
+	-moz-animation-name: ease-inAnimation;
+	-moz-animation-duration: 10s;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-delay: 3s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-play-state: running;	
+	/* Standard syntax */
+	animation-name: ease-inAnimation;
+	animation-duration: 10s;
+	animation-timing-function: ease-in;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: running;
+}
+
+/* 
+Define the keyframe and changes
+*/
+
+		/* Chrome, Safari */
+		@-webkit-keyframes ease-inAnimation {
+			0% {
+				left: 0;
+				top: 0;
+			}
+			100% {
+				left: 200px;
+				top: 0;
+			}
+		}
+
+		/* Firefox */
+		@-moz-keyframes ease-inAnimation {
+			0% {
+				left: 0;
+				top: 0;
+			}
+			100% {
+				left: 200px;
+				top: 0;
+			}
+		}
+
+		/* Standard syntax */
+		@keyframes ease-inAnimation {
+			0% {
+				left: 0;
+				top: 0;
+			}
+			100% {
+				left: 200px;
+				top: 0;
+			}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+
+/* tablets */
+@media screen and (min-width: 651px) and (max-width: 850px) {
+	
+	
+	
+.col2 {
+	column-count: 2;
+	column-rule: dotted;
+	column-rule-color: burlywood;
+	column-rule-width: thin;
+}
+	
+	section {
+	padding: 2%;
+	background-color: rgba(255,255,255,0.43);
+}
+
+body {
+		font-size: 1rem;
+		line-height: 1.3em;
+	}	
+	
+	img {
+		max-width: 40%;
+	}
+	
+h1 {
+	font-family: Rammetto One;
+	font-size: 10vw;
+	color: burlywood;
+	margin-right: 3%;
+	margin-left: 5%;
+	
+}
+
+h2 {
+	font-size: 7vw;
+	font-family: 'Pacifico', cursive;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+	
+h3 {
+	font-size: 5vw;
+	font-family: 'Rammetto One', cursive;
+}
+	
+blockquote {
+	
+	font-size: 1.1rem;
+	line-height: 1.3rem;
+	padding: 15%;
+	}
+	
+}
+
+
+.nav {
+	display: block;
+	position: center;
+	line-height: 1.5em;
+	margin-left: 1.5%;
+	position: fixed;
+	font-family: 'Pacifico', cursive;
+		text-decoration: none;
+}
+
+
+}
+
+
+
+
+
+/* phones */
+@media screen and (max-width: 650px) { 
+
+header {
+	padding-top: 2rem;
+}
+	
+.container {
+	max-width: 90%;
+	padding: 5%;
+	margin-top: 5%;
+	/* [disabled]margin-right: 20%; */
+	margin: auto;
+	margin-bottom: 5%;
+	background-color: rgba(255,255,255,0.43);
+}
+	
+	
+.col2 {
+	column-count: 1;
+	}
+	
+	section {
+	padding: 5%;
+	background-color: rgba(255,255,255,0.43);
+}
+	
+	body {
+		font-size: .9rem;
+		line-height: 1.2em;
+	}	
+
+
+	img { 
+		display: block; 
+		max-width: 100%;
+	}	
+	
+	footer { 
+		display: none; 
+	}	
+	
+	
+	
+.nav {
+	font-size: 1rem;
+  	width: 100%;
+	margin-left: auto;
+	position: fixed;
+	font-family: 'Pacifico', cursive;
+	display: inline-block;
+	margin-top: 0%;
+
+	text-align: center;
+	padding: .5rem;
+}
+
+.nav a {
+
+	text-align: center;
+  		padding-right: 1.2rem;
+  		padding-left: 1.2rem;
+  			text-decoration: none;
+}
+
+ul li {
+	display: inline-block;
+	margin-top: 0%;
+
+}
+
+h1 {
+	font-family: Rammetto One;
+	font-size: 10vw;
+	color: burlywood;
+	margin-right: 2%;
+	margin-left: 5%;
+}
+
+h2 {
+	font-size: 7vw;
+	font-family: 'Pacifico', cursive;
+	margin-left: 8%;
+	margin-right: 5%;
+}
+	
+h3 {
+	font-size: 4vw;
+	font-family: 'Rammetto One', cursive;
+}
+	
+blockquote {
+	
+	font-size: 2rem;
+	line-height: 1rem;
+	padding: 10%;
+	}
+	
+	
+	
+	
+}
+
+
+@media screen and (max-width: 570px) { 
+
+
+.nav a {
+
+	text-align: center;
+  		padding-right: .6rem;
+  		padding-left: .6rem;
+  		font-size: 1.4rem;
+  		display: inline;
+  		text-decoration: none;
+}
+
+	
+.col2 {
+	column-count: 1;
+	}
+
+
+}
+
