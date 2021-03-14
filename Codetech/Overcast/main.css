@@ -5,7 +5,7 @@
 
 
 
-html { font-size: 125%; } 
+html { font-size: 120%; } 
 
 html, body, ul, li {
 margin: 0;
@@ -59,11 +59,11 @@ padding: 0;
 	}
 
 	body {
-		background-image: url("overcast.jpg");
+		background-image: url("img/cloudValley_sm.jpg");
 		background-repeat: no-repeat;
 		background-size: auto;
 		background-attachment: fixed;
-	    background-position: center;	
+	        background-position: center;	
 		
 		
 		font-size: 1.3rem;
@@ -177,9 +177,7 @@ Define this in your CSS
 	animation-play-state: running;
 }
 
-/* 
-Define the keyframe and changes
-*/
+   /* Define the keyframe and changes  */
 
 		/* Chrome, Safari */
 		@-webkit-keyframes ease-inAnimation {
@@ -309,6 +307,10 @@ blockquote {
 /* phones */
 @media screen and (max-width: 650px) { 
 
+html {
+	font-size: 100%; }
+
+
 header {
 	padding-top: 2rem;
 }
@@ -430,4 +432,5 @@ blockquote {
 
 
 }
+
 
