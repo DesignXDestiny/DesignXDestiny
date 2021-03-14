@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Barriecito|Black+Ops+One|Butcherman|Cabin+Sketch|Fredoka+One|Gloria+Hallelujah|Gochi+Hand|Kalam|Love+Ya+Like+A+Sister|Monoton|Permanent+Marker|Rock+Salt|Viga|Wallpoet&display=swap');
+
+
+        /*
+            font-family: 'Permanent Marker', cursive;
+            font-family: 'Barriecito', cursive;
+            font-family: 'Kalam', cursive;
+            font-family: 'Gloria Hallelujah', cursive;
+            font-family: 'Viga', sans-serif;
+            font-family: 'Fredoka One', cursive;
+            font-family: 'Monoton', cursive;
+            font-family: 'Gochi Hand', cursive;
+            font-family: 'Rock Salt', cursive;
+            font-family: 'Cabin Sketch', cursive;
+            font-family: 'Love Ya Like A Sister', cursive;
+            font-family: 'Annie Use Your Telescope', cursive;
+            font-family: 'Wallpoet', cursive;
+            font-family: 'Butcherman', cursive;
+            font-family: 'Amatic SC', cursive;
+            font-family: 'Black Ops One', cursive;
+        */
+        
+
+body {
+        min-width: 100%;
+        max-width: 100%;
+}
+
+html {
+    font-size: 100%;
+    margin: auto;
+    background-image: linear-gradient(to bottom right, silver, limegreen);
+    }
+
+
+        nav li{
+            font-family: 'Black Ops One', cursive;
+             border-radius: 30px;
+             border: 3px solid #73AD21;
+             padding: 1rem; 
+            position: fixed;
+            display: block;
+        }
+        
+        
+        nav a {
+            text-decoration: none;
+           color: brown;
+        }
+
+        nav a img {
+            max-width: 30px;
+            max-height: auto;
+            border-radius: 50px;
+        }
+        
+        
+
+
+/* TYPEOGRAPHY */
+      p {
+        font-family: 'Gloria Hallelujah', cursive;
+        line-height: 1.4;
+        max-width: 500px;
+        margin: auto;
+        z-index: 1;
+        }
+
+    
+        h1{
+          margin: auto;
+          margin-top: 4px;
+          font-family: 'Wallpoet', cursive;
+          font-size: 8vw;
+          direction: rtl;
+          position: fixed;
+          z-index: -1;
+        }
+        h2{
+         font-size: 7vw;
+         padding: 1%;
+         font-family: 'Rock Salt', cursive;
+         margin: auto;
+         font-size: 200%;
+         text-align: center;
+                 }
+        h3{
+            font-size: 5vw;
+            margin: auto;
+            font-family: 'Love Ya Like A Sister', cursive;
+            margin: 1%;
+        }
+        h4{
+           font-family: 'Amatic SC', cursive;
+           font-size: 5vw;
+           line-height: 4px;
+        }
+        h5 {
+            font-family: 'Permanent Marker', cursive;
+            font-size: 4vw;
+        }
+        
+        
+        
+        
+/* SECTIONS */
+    
+      header, footer {
+    
+        	padding-top: 15%;
+        }
+        
+        div {
+            box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+            background-color: rgba(225, 225, 225, .4);
+            margin: auto;
+            padding: 4%;
+         }
+         
+         section {
+             padding: 5%;
+         }
