@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Monofett|Revalia');
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: rgba(255,255,255,0.70); /* light green */
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+
+.dualcolumn {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.floatLeft {
+	float: left;
+	border: 3px dotted navy;
+	margin: 10px;
+}
+
+header, footer, nav, article{
+	display: block;
+	background-color: rgba(123,184,124,0.68); /* greygreen */
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin: 0 auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	max-width: 800px;
+	border-width: thick;
+	border-style: double;
+	clear: left;
+}
+
+body {
+	font-family: 'Revalia', cursive;
+	color: #9000B2; /*dark violet */
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	align-content: center;
+	background-image: url("https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA24459.jpg");
+	background-color: black;
+}
+
+aside {
+	border-left-width: 10px;
+	border-left-style: double;
+	clear: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 2px;
+	font-size: 400%;
+	font-family: 'Monofett', cursive;
+	color: navy;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	margin-top: 10px;
+	margin-right: 10px:
+	margin-bottom: 10px;
+	margin-left: 10px;
+	text-align: center;
+	clear: left;
+}
+
+href, q {
+	font-family: 'Bigelow Rules', cursive;
+	font-size: 25px;
+	color: #9000B2; /*dark violet */
+	padding-top: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	margin-top: 12px;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	margin-left: 12px;
+	clear: left;
+	
+}
+
+.coloum3{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-moz-column-count: 3; /* Firefox */
+	clear: left;
+}
+
+p {
+	align-items: center;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	clear: right;
+}
+
+
