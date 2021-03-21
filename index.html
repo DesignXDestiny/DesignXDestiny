@@ -3,222 +3,437 @@
 
     <head>
           <meta charset="UTF-8">
-          <meta name="description" content="Design X Destiny Homepage">
+          <meta name="description" content="Design X Destiny Code and Tech blog">
           <meta name="author" content="Destiny Barrett">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Design X Destiny</title>
+        <title>MeauHaus</title>
 
-            <link rel="stylesheet" href="dxd.css">
+            <link rel="stylesheet" href="main.css">
             <style>
                 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
             </style>
 
-
-  </head>
-  <body>
-
-	  <div id="home" class="flex-wrap">
-
-    <nav id="navigation">
-
-      <a href="Galleries/art.html">Gallery</a>
-      <a href="codetech/index.html">MeauHaus</a>
-      <a href="booklust/index.html">BookLust</a>
-      <a href="contact.html">Connect</a>
-      <!--<a href="#sm">Bottom</a>-->
-      
-    </nav>
+    </head>
 
 
-      <header class="parallax">
+    <body id="top">
+      <div class="gradient">
 
-      		  	<div class="homgo"> 
-  		<a href="#home">
-  			<!-- <img src="images/pinklogo.png" alt="Home"> -->
-  		</a>
-  	</div>
+      <nav>
+          
+      </nav>
 
-        <h1>Design X Destiny </h1>
-        	<h3>Welcome!</h3>
-            <p>
-              <span>Explore my Projects</span> 
-              <br>
-              FrontEnd Development, Graphic Design, 
-              <wbr>&amp; Traditional Art.
-             </p>
+      <header>
+        <h1>MeauHaus</h1>
+       <h2>Code &amp; Tech</h2>
 
-      </header>
+         <p>
+          Here are some projects. 
+         </p>
+
+         <br>
+         <hr><br>
+
+    </header>
 
 
-<br><br><br>
+
+
+    <div class="parallax"><div class="envelope">
+      <h3>Meauhaus</h3>
+          <p><a href="https://en.wikipedia.org/wiki/Bauhaus">According to Wikipedia:</a><br>
+            "The <em>Staatliches Bauhaus</em> commonly known as the Bauhaus, was a German art school <br>
+            operational from 1919 to 1933 <br>
+            that combined crafts and the fine arts."
+          </p>
+      </div></div>
+    
+     <section >
+     <h2>WebPages</h2>
+         <p>
+            These Web pages were created for a professional purpose (outside of school, not merely for personal development).
+          </p>
+          <div class="flex-wrap">
+
+           <article>
+              <a href="hsmm/index.html" target="_blank">
+                <h4>Non Profit</h4>
+
+                  <p>
+                    This is a website created for the Non Profit organization known as:
+                   <br> <em> Holy Smoke Misfit Missionaries.</em>
+                  </p>
+                  </a>
+            </article>
+
+          <article>
+             <a href="../Medical_Directory/about.html" target="_blank">
+              <h4>Las Vegas Medical Directory</h4>
+
+              <p>
+                Created for the Las Vegas Pain Institute.
+                I worked here for +1 year. 
+                Here is my project that eliminated many repetitive tasks when creating patient referrals, improving work flow, and reducing miscommunications between medical offices. 
+              </p>
+              </a>
+
+        </article>
+      </div>
+    </section>
+
+    <hr>
+
+    <div class="parallax3">
+      <p><!--
+        <br>-Fredrich Niche, <em>The Gay Science</em><br>-->
+      </p>
+    </div>
+
+    <section>
+      <h3>Student Work</h3>
+
+         <p>
+            Here are some web pages that I created for a course at the College of Southern Nevada.
+          </p>
+<div class="flex-wrap">
+
+          <article>
+        <a href="p1_cafe/index.html" target="_blank"> 
+          <h4>Cafe Tostado</h4>
+         <p>This is a web page for an imaginary restaurant.
+          </p>
+       </a>
+       </article>
+
+       <article>   
+         <a href="eng102/index.html" target="_blank">
+          <h4>Adobe Creative Cloud</h4>
+          <p>I used this for nearly all of my Graphic Communications classes. The contents of this web page are my thoughts on this software.
+          </p></a>
+        </article>
+
+        <article>
+        <a href="overcast/index.html" target="_blank"> 
+          <h4>Overcast</h4>
+          <p>
+            This is intended to be a blog layout. 
+            Overcast is my theme and color scheme. 
+          </p> </a>
+        </article> 
+
+                <article>
+        <a href="space/index.html" target="_blank"> 
+          <h4>Space</h4>
+          <p><b><em>Outer</em>Space</b>
+           <br>This page was built in 2017, as a <em>Graphic Communications 175: Intro to Web Design</em> assignment, at the College of Southern Nevada.  
+	     <b>CSS</b> Floats and clear were used, not flexbox.  There are actually no media queries in this project, which I usually use for responsive web design. 
+          </p> </a>
+        </article> 
+          </div>
+    </section>
+
+
+<hr>
+
+    <div class="parallax2"><br><p>Downtown<br>Las Vegas<br>Nevada</p><br></div>
+
+<section>
+
+  <h3>JavaScript Buttons</h3>
+
+  <p>
+    Following tutorials from W3Schools.com
+  </p>
+
+<br>
 
   <div class="flex-wrap">
+  <article>
+    <h4>When?</h4>
+    <p>
+      Creating a button with a function.
+    </p>
 
-          <section id="gal" class="gal">
-          	 <a href="Galleries/art.html" target="blank"> <h2>Gallery</h2>
-              </a>
-              <p><b>Fine &amp; Crude Artwork</b>
-                I create a variety of mediums and subjects. Monochromatic, to colour theory and cadmiums, wet, dry, on or off paper, still life, real life, and authentic imagination.  You can see my final work, as well as the sketches and thought processes that brought me there.
-              </p>
+    <button type="button"
+      onclick="document.getElementById
+      ('demo1').innerHTML= Date()">
 
-              <img src="images/GRC104-NatureFontFinal.jpg" 
-                     alt="Pencil drawing, Watercolor, Vector Font, MultiMedia School Project">
+      Click to Display Date &amp; Time
+    </button>
 
-             <footer>
-             	<a href="Galleries/art.html" target="blank">
-             		<h3>Collection of my Artwork!</h3>
-             	</a>
-             </footer>
-
-          </section>
+    <p id="demo1"></p>
+  </article>
 
 
+    <article>
+      <h4>Text Size</h4>
+      <p id="demo2">
+        Lets change the font's size in this paragraph. 
+        Thanks for playing!
+      </p>
 
-        <section class="tech">
-          <a href="codetech/index.html" target="_blank">
-          	<h2>
-                MeauHaus</h2></a>
-    
-              <p>
-                If you are interested in my frontend development experiments, tech insights, and coding capabilities, and / or designs, then click on.
-                On this page there is a collection of one page sites that I created, you are welcome to see my work.
-              </p>
+  <button type="button"
+    onclick="document.getElementById
+    ('demo2').style.fontSize='3rem' ">
+    Bigger</button>
 
-           		   <footer>
-              	       <a href="codetech/index.html" target="_blank">
-              	       	<h3>Code &amp; Technology</h3>
-              	       </a>
-              	   </footer>
-           </section>
+    <button type="button"
+    onclick="document.getElementById
+    ('demo2').style.fontSize='1rem' ">
+    Smaller</button>
+</article>
+
+  <article>
+   <div id="hide">
+    <h4>Peek-a-Boo</h4>
+    <p>
+      <b>Dummy Text</b>
+      for use on HTML elements.
+    </p>
+  </div>
+
+    <button type="button"
+      onclick="document.getElementById
+        ('hide').style.display='none'">
+        Hide</button>
+
+          <button type="button"
+        onclick="document.getElementById
+        ('hide').style.display='block'">
+        Show</button>
+  </article>
+
+  <article>
+    <h4>Content Change</h4>
+    <p id="content">
+      Original Paragraph Content will be swapped out for different content. 
+    </p>
+    <button type="button"
+      onclick="myFunction()">
+    Change</button>
+  </article>
+
+  <article>
+    <h4>Image Swap</h4>
+      <img src="../images/dxdonpurpleflwr.jpg"
+        alt="www.DesignXDestiny.com on purple flowers"
+        id="myImage">
+
+        <button 
+          onclick="document.getElementById
+          ('myImage').src='paris.jpg'">
+          Gold
+        </button>
+
+        <button 
+          onclick="document.getElementById
+          ('myImage').src='../images/dxdonpurpleflwr.jpg'">
+          Purple
+        </button>
+    <p></p>
+  </article>
 
 
+  <article>
+    <h4>A Message</h4>
+      <button onclick="typeWriter()">Click me</button>
 
-            <section id="book" class="bklst">
-         	   <a href="booklust/index.html" target="_blank">
-         	     <h2>BookLust</h2>
-       		   </a>
-              
-              <p>
-                Visit my book review site.
-                <br>
-                <br> All of these reviews are written for / about books that I genuinely read and processed.
-                 This includes summaries and analysis.
-              </p>
+      <p id="typewriter"></p>
+    </article>
 
-               <!-- <iframe src="http://designxdestiny.com/booklust/index.html"
-                  title="Book Reviews, buy books via Amazon"
-                  allow="fullscreen">
-                   <p>Your browser does not support iframes.
-                <br>Click the link above to view the content instead.</p>
-                </iframe>-->
+    <article>
+      <h4>Animated Icons</h4>
+        <div id="div1" class="fa"></div>
 
-	              <p>
-	                I enjoy <b>many genres of book, </b>fiction, or non-fiction. 
-	                I admire peoples' ideas, like to share my own, and truly appreciate the way people can organize their larger ideas and share them.  Sharing similar to the way we use the Internet.
-	              </p>
+        <script>
+          function hourglass() {
+            var a;
+            a = document.getElementById("div1");
+            a.innerHTML = "&#xf251;";
+            setTimeout(function () {
+                a.innerHTML = "&#xf252;";
+              }, 1000);
+            setTimeout(function () {
+                a.innerHTML = "&#xf253;";
+              }, 2000);
+          }
+          hourglass();
+          setInterval(hourglass, 3000);
+        </script>
 
-              	<footer>
-				    <a href="booklust/index.html" target="_blank"><h3>For the love of literature.</h3></a>
-				</footer>
-            </section>
+<div id="div2" class="fa"></div>
+
+<script>
+    function hand() {
+      var a;
+      a = document.getElementById("div2");
+      a.innerHTML = "&#xf25a;";
+      setTimeout(function () {
+          a.innerHTML = "&#xf256;";
+        }, 500);
+      setTimeout(function () {
+          a.innerHTML = "&#xf259;";
+        }, 1000);
+      setTimeout(function () {
+          a.innerHTML = "&#xf256;";
+        }, 1500);
+    }
+    hand();
+    setInterval(hand, 2000);
+</script>
+
+  <div id="div3" class="fa"></div>
+
+  <script>
+        function smile() {
+          var a;
+          a = document.getElementById("div3");
+          a.innerHTML = "&#xf118;";
+          setTimeout(function () {
+              a.innerHTML = "&#xf11a;";
+            }, 1000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf119;";
+            }, 2000);
+          setTimeout(function () {
+              a.innerHTML = "&#xf11a;";
+            }, 3000);
+        }
+        smile();
+        setInterval(smile, 4000);
+    </script>
 
 
-      </div>
+    <div id="div4" class="fa"></div>
+
+      <script>
+            function openfolder() {
+              var a;
+              a = document.getElementById("div4");
+              a.innerHTML = "&#xf114;";
+              setTimeout(function () {
+                  a.innerHTML = "&#xf115;";
+                }, 1000);
+            }
+            openfolder();
+            setInterval(openfolder, 2000);
+      </script>
 
 
-	  <br><br>
-          <footer>
-    
-    		<!-- move to meauhaus
-            <p class="w3c">
-	            <a href="http://jigsaw.w3.org/css-validator/check/referer">
-	          <img style="
-	             border: 0px;
-	             max-width: 88px;
-	             height: 31px;"
-				 src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-	             alt="Valid CSS!">
-			    </a>
-			</p>-->
+    <div id="div5" class="fa"></div>
 
-			<section>
-			<h4>Contribute</h4>
-
-			<p>
-				<b>Thank you for looking at my website!</b>
-				<br>
-				Are you interested in supporting my dreams, 
-				and being a part of this development?
-			</p>
-
-			
-			 <br>
-			 <article>
-			 	 <h6>Meow!</h6>
-				 <div class="donate">
-
-					<form action="https://www.paypal.com/cgi-bin/webscr" 
-						method="post" target="_blank" >
-						<input type="hidden" name="cmd" value="_donations" />
-						<input type="hidden" name="business" value="U5QRGRFQT44BS" />
-						<input type="hidden" name="currency_code" value="USD" />
-						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" 
-						    name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate to DesignXDestiny with PayPal button" />
-
-					  <img alt="Donate to DesignXDestiny with PayPal button" 
-					  	src="https://www.paypal.com/en_US/i/scr/pixel.gif">
-					</form>
-				</div>
-			</article>
-			<section>
-            <p>      
-
-            	<a href="#home"><img src="images/pinklogo.png" alt="Home"></a>
-            </p>
-          </footer>
- 		<span id="chromeFix"> </span>
-   </div>
- 
     <script>
-	  /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-	      var prevScrollpos = window.pageYOffset;
-	      window.onscroll = function() {
-	        var currentScrollPos = window.pageYOffset;
-	        if (prevScrollpos > currentScrollPos) {
-	          document.getElementById("nav").style.top = "0";
-	        } else {
-	          document.getElementById("nav").style.top = "-15%";
-	        }
-	        prevScrollpos = currentScrollPos;
-	  	    }
-	  	</script>
+          function ratestar() {
+            var a;
+            a = document.getElementById("div5");
+            a.innerHTML = "&#xf006;";
+            setTimeout(function () {
+                a.innerHTML = "&#xf123;";
+              }, 1000);
+            setTimeout(function () {
+                a.innerHTML = "&#xf005;";
+              }, 2000);
+          }
+          ratestar();
+          setInterval(ratestar, 3000);
+    </script>
 
-	  	<script>  /*    Search Bar  */
+    <div id="div6" class="fa"></div>
 
-		      function myFunction() {
-		        var input, filter, table, tr, td, i, txtValue;
-		        input = document.getElementById("myInput");
-		        filter = input.value.toUpperCase();
-		        table = document.getElementById("myTable");
-		        tr = table.getElementsByTagName("tr");
-		        for (i = 0; i < tr.length; i++) {
-		          td = tr[i].getElementsByTagName("td")[0];
-		          if (td) {
-		            txtValue = td.textContent || td.innerText;
-		            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-		              tr[i].style.display = "";
-		            } 
-		            /*   $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)  */
+    <script>
+        function brakechain() {
+          var a;
+          a = document.getElementById("div6");
+          a.innerHTML = "&#xf0c1;";
+          setTimeout(function () {
+              a.innerHTML = "&#xf127;";
+            }, 1000);
+        }
+        brakechain();
+        setInterval(brakechain, 2000);
+    </script>
 
-		            else {
-		              tr[i].style.display = "none";
-		              }
-		            }       
-		          }
-		      }
-			</script>
-	                    <!-- Global site tag (gtag.js) - Google Analytics -->
+       <div id="charging" class="fa"></div>
+
+    <script>
+        function chargebattery() {
+          var a;
+          a = document.getElementById("charging");
+          a.innerHTML = "&#xf244;";
+          setTimeout(function () {
+            a.innerHTML = "&#xf243;";
+          }, 1000);
+          setTimeout(function () {
+            a.innerHTML = "&#xf242;";
+          }, 2000);
+          setTimeout(function () {
+            a.innerHTML = "&#xf241;";
+          }, 3000);
+          setTimeout(function () {
+            a.innerHTML = "&#xf240;";
+          }, 4000);
+        }
+        chargebattery();
+        setInterval(chargebattery, 5000);
+ </script>
+
+    </article>
+
+  </div>
+
+</section>
+
+<!--
+<div>
+  <article>
+    <picture>
+      <source media="(min-width: 650px)" srcset="20200224_100938.jpg">
+      <source media="(min-width: 465px)" srcset="Overcast/cloudy.png">
+      <img src="catfeb2520.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+</article>
+</div>-->
+
+</div>
+
+
+
+
+  <footer>
+    <span>
+     <small> Destiny Barrett &copy; 2020</small>
+     <br><br>
+     <a href="#top">Back to top</a>
+         </span>
+            <hr> 
+          <nav>
+            <a href="https://www.DesignXDestiny.com/"><img src="../images/pinklogo.png" alt="Home"></a> <br>         
+            <a href="https://www.DesignXDestiny.com/Galleries/art.html">Gallery</a>
+            <a href="booklust/index.html">Book Review</a>
+          </nav>
+
+          <div class="donate">
+            <img src="../images/qrCode.png"
+              alt="Donate any amount of money to Design X Destiny"
+              target="_blank">
+            </div>
+
+            <hr>
+            <nav>
+            	<a href="hsmm/index.html" target="_blank">HSMM</a>
+            	<a href="../Medical_Directory/about.html" target="_blank">Medical Directory</a>
+            	<a href="p1_cafe/index.html" target="_blank">Cafe Tostado</a>
+            	<a href="eng102/index.html" target="_blank">Adobe</a>
+                <a href="overcast/index.html" target="_blank">Overcast</a>
+                <a href="space/index.html" target="_blank">Space</a>
+            </nav>
+
+  </footer>
+	    
+	    
+
+       <!-- Global site tag (gtag.js) - Google Analytics -->
               <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134369615-1"></script>
             <script>
                window.dataLayer = window.dataLayer || [];
@@ -235,41 +450,34 @@
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114925928-1">
       </script> 
       
-                <meta name="keywords" content="Las Vegas, Design, frontend web, web development, Graphic, Web, Art, Artist, downtown las vegas, drawing, painting, traditional art, portfolio, catcat">
-                
-                <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+                <meta name="keywords" 
+                  content="Las Vegas, Design, Graphic, Web, technology, html5, css3, JavaSCript, Blog, webpages, front end developer, web designer, graphic designer, portfolio, catcat">
 
-            <script>
 
-		              /* NAVIGATION Handles the page being scrolled by ensuring the navigation is always in
-		 * view.
-		 */
-		function handleScroll(){
+          <script>
+            function myFunction() {
+              document.getElementById("content").innerHTML= 
+              "Yeay! No going back."
+            }
+          </script>
 
-		  // check that this is a relatively modern browser
-		  if (window.XMLHttpRequest){
+          <script>
+                var i = 0;
+                var txt = 'Thank you for checking out my webpage!';
+                var speed = 50;
 
-		    // determine the distance scrolled down the page
-		    var offset = window.pageYOffset
-		               ? window.pageYOffset
-		               : document.documentElement.scrollTop;
+                function typeWriter() {
+                  if (i < txt.length) {
+                    document.getElementById("typewriter").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                  }
+                }
+          </script>
 
-		    // set the appropriate class on the navigation
-		    document.getElementById('navigation').className =
-		        (offset > 104 ? 'fixed' : '');
-
-		  }
-
-		}
-
-		// add the scroll event listener
-		if (window.addEventListener){
-		  window.addEventListener('scroll', handleScroll, false);
-		}else{
-		  window.attachEvent('onscroll', handleScroll);
-		}
-		</script>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  </body>
+
 </html>
 
 
