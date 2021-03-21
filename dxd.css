@@ -266,15 +266,15 @@ nav {
 	nav a {
 		margin: 1% auto;
 		padding: 1%;
-		 background-color: rgba(0, 0, 0, .6);
+		background-color: rgba(0, 0, 0, .6);
 		display: inline-block;
 		border-radius: 40px;
 		text-align: center;
 	    transition: all 0.3s ease;
 	    max-height: 3em;
-	  position: -webkit-sticky; - Safari -
-  position: sticky;
-  top: 0;
+	    position: -webkit-sticky; - Safari -
+        position: sticky;
+        top: 0;
 		}
 
 		nav a:link{
