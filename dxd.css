@@ -160,7 +160,6 @@ body {
 
 						}
 
-			
 					.tech a h3, .tech a h2 {
 						color: limegreen;
 						border: limegreen;
@@ -219,7 +218,6 @@ iframe {
 
 
 header {
-	margin-top: 1%;
 	margin-bottom: 8%;
 }
 
@@ -245,13 +243,10 @@ footer {
 
 
 
-/* NAVIGATION 
+/*  NAVIGATION */
 
 
-  position: -webkit-sticky; - Safari -
-  position: sticky;
-  top: 0;
-*/
+
 nav {
 	font-family: 'Megrim', cursive;
 	font-size: 2rem;
@@ -261,6 +256,7 @@ nav {
 	    transition: all 0.4s ease;
     min-width: 100%;
     margin-top: 0px;
+
 	}
 
 	nav hr {
@@ -270,13 +266,15 @@ nav {
 	nav a {
 		margin: 1% auto;
 		padding: 1%;
-		 background-color: rgba(0, 0, 0, .6);
+		background-color: rgba(0, 0, 0, .6);
 		display: inline-block;
 		border-radius: 40px;
 		text-align: center;
-	    transition: all 0.4s ease;
+	    transition: all 0.3s ease;
 	    max-height: 3em;
-	
+	    position: -webkit-sticky; - Safari -
+        position: sticky;
+        top: 0;
 		}
 
 		nav a:link{
@@ -303,12 +301,12 @@ nav {
 
 		#navigation{
 		  position:absolute;
-		  bottom: 5%;
+		  bottom: 2%;
 			}
 
 		#navigation.fixed{
 		  position:fixed;
-		  bottom: 85%;
+		  bottom: 90%;
 			}
 /*
 
