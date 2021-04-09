@@ -47,6 +47,14 @@
 			}
 
 
+			.flex-wrap p {
+				float: right;
+				margin-top: 20%;
+				margin-bottom: 20%;
+				max-width: 48%;
+			}
+
+
 
 
 
@@ -572,6 +580,13 @@ a {
 				font-family: 'Megrim', cursive;
 				font-size: 2vw;
 			}
+	
+	.flex-wrap p {
+				float: none;
+				margin-top: 10%;
+				margin-bottom: 10%;
+				max-width: 70%;
+			}
 
 }
 
@@ -687,6 +702,13 @@ a {
 				font-size: 1em;
 				line-height: 1.8em;
 				}
+	
+	.flex-wrap p {
+				float: none;
+				margin-top: 10%;
+				margin-bottom: 10%;
+				max-width: 70%;
+			}
 
 
 
