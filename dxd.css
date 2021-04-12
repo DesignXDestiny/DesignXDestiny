@@ -118,10 +118,10 @@ body {
 
 	section {
 		width: auto;
-		margin: 4%;
+		margin: 3%;
 		padding: 2%;
-		padding-bottom: 4%;
-		margin-bottom: 15%;
+		padding-bottom: 3%;
+		margin-bottom: 12%;
 		border-radius: 30px;
 		border-width: 1px 1px 3px 1px;
 		align-content: center;
@@ -137,6 +137,12 @@ body {
 
 		section img{
 			border-radius: 30px;
+			display: block;
+			border-width: 1px 1px 3px 1px;
+			align-content: center;
+			text-align: center;
+			align-items: center;
+			margin: 7% auto;
 		}
 
 		section footer {
@@ -206,8 +212,8 @@ body {
 
 
 		ul {
-			 padding: 3%;
-			 margin: 3%;
+			 padding: 2%;
+			 margin: 2%;
  			 list-style: none; 
  			 /* Remove default bullets */
 				}
@@ -223,7 +229,6 @@ body {
 					}
 
 		li{
-			padding: 1%;
 			text-align: left;
 			}
 
@@ -237,6 +242,7 @@ iframe {
 	min-height: 400px;
 	margin: auto;
 	margin-top: 25%;
+	padding-top: 10%;
 	align-self: center;
 	border-radius: 30px;
 	border: 1px rgba(0, 0, 0, .2) solid;
@@ -292,18 +298,18 @@ footer {
 
 
 form {
-
 	padding: 10%;
 	align-self: center;
 	align-content: center;
 	margin: auto;
-}
+	}
 
 
 
 /*  NAVIGATION */
 
-nav {
+ nav {
+ 	z-index: 1;
 	font-family: 'Megrim', cursive;
 	font-size: 1.5rem;
 	margin: auto;
@@ -311,7 +317,8 @@ nav {
 	text-align: center;
 	transition: all 0.4s ease;
     min-width: 98%;
-    margin-top: 0px;
+    margin-top: -5px;
+    padding-top: 0px;
          margin-right: 5%;
          margin-left: 4%;
 	}
@@ -322,7 +329,7 @@ nav {
 
 	nav a {
 		margin: auto;
-		padding: 2%;
+		padding: 1%;
 		background-color: rgba(0, 0, 0, .6);
 		display: inline-block;
 		border-radius: 40px;
@@ -332,6 +339,7 @@ nav {
 	    position: -webkit-sticky; - Safari -
         position: sticky;
         top: 0;
+        z-index: 2;
 		}
 
 		nav a:link{
@@ -363,35 +371,16 @@ nav {
 		  position:fixed;
 		  bottom: 90%;
 			}
-/*
-
+ /*
 		img {
-				padding: 1%;
-				margin: 10%;
 				background-color: rgba(0, 0, 0, .0);
-	
 				text-align: center;
 				align-content: center;
 				z-index: -1;
 				display: inline-flex;
 				position: fixed;
-
-			}
-
+			 }
 			*/
-	.homego {
-  	background-image: url("images/pinklogo.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-	z-index: -1;
-    padding: 1%;
-	margin: 10%;
-	max-width: 50%;
-	max-height: 50%;
-	float: none;
-		}
-
 
 
 				/*.blog nav {
@@ -408,17 +397,17 @@ nav {
 /* TYPEOGRAPHY */		
 
 p {
-	line-height: 1.5em;
+	line-height: 1.9em;
 	max-width: 700px;
 	min-width: 350px;
-	padding-right: 2%;
-	padding-left: 2%;
-	padding-bottom: 5%;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: 4%;
 	padding-top: 0px;
 	margin: auto;
 	margin-top: 0px;
 	text-align: center;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	}
 
 	.content p {
@@ -433,9 +422,9 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 	margin: auto;
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-bottom: 0px;
-	padding: 3%;
+	padding: 1%;
 	text-shadow: 6px 7px 15px black;
 	}
 
@@ -457,13 +446,13 @@ h1, h2, h3, h4, h5, h6 {
 
 		h3 { 
 			font-family: 'Londrina Outline', cursive;
-			font-size: 3rem;
+			font-size: 2.7rem;
 		 	}
 
 		h4 {
 			font-family: 'Playfair Display', serif;
-			font-size: 2rem;
-			margin-top: 5%;
+			font-size: 1.5rem;
+			margin-top: 2%;
 			}
 
 		h5 {
@@ -611,7 +600,8 @@ h1, h2, h3, h4, h5, h6 {
 
   /* Typeography */
 		p {
-			line-height: 1.3rem;
+			line-height: 2rem;
+			font-size: 1rem;
 		}
 	.content p {
 			column-count: 1;
@@ -643,8 +633,8 @@ h1, h2, h3, h4, h5, h6 {
 			}
   .flex-wrap p {
 				float: none;
-				margin-top: 6%;
-				margin-bottom: 8%;
+				margin-top: 1%;
+				margin-bottom: 6%;
 				max-width: 70%;
 			}
 
@@ -673,18 +663,18 @@ h1, h2, h3, h4, h5, h6 {
  .content p{
 	column-count: 1;
 	display: block;
-	}
+	 }
 
 
 		.nof, footer {
 			float: none;
 			clear: both;
-		}
+		 }
 
 
  /* NAVIGATION */
 	nav {
-		font-size: 1.6rem;
+		font-size: 1rem;
 		min-width: 100%;
 		max-width: 100%;
 		position: fixed;
@@ -698,7 +688,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 	nav a {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 		margin-bottom: 1%;
 		padding: 1%;
 		background-color: rgba(0, 0, 0, .6);
