@@ -1,0 +1,188 @@
+$primaryBtn: rgb(85, 150, 205)
+$prettygradient: (linear-gradient(#e66465, #7cacec, #005A9C, #8032ff))
+$darkGradient: linear-gradient(rgba(0, 0, 0, .92), rgba(0, 0, 0, .01))
+$layout-breakpoint-small: 960px
+
+html, body
+ font-family: 'garamond', serif
+ color: silver
+ background-image: $darkGradient
+ background-attachment: fixed
+ justify-content: center
+ align-items: center
+ min-height: 100%
+ min-width: 100%
+ font-size: 1rem
+
+span
+ background-image: $prettygradient
+ background-attatchment: fixed
+ -webkit-background-clip: text
+ -webkit-text-fill-color: transparent
+
+p 
+	font-weight: 200
+	max-width: 30rem
+	margin: auto
+	justify-content: center
+	align-content: center
+	color: silver
+	padding-bottom: 8%
+	margin-bottom: 3%
+	padding-top: 1%
+	margin-top: 1%
+	font-family: 'helvetica'
+	font-size: 0.9rem
+	line-height: 1.4rem
+
+
+
+a 
+	border-radius: 25px
+	padding: 2
+	text-decoration: none
+	cursor: pointer
+
+nav
+	padding: 2%
+	font-size: 1.3rem
+	display: block
+	background-image: $darkGradient
+	background-attachment: fixed
+	position: sticky
+	top: 0
+	z-index: 2
+
+	a
+		display: inline-block
+		text-align: center
+		align-self: center
+		padding: 1%
+		background: $prettygradient
+		-webkit-background-clip: text
+		-webkit-text-fill-color: transparent
+		background-attachment: fixed
+		text-decoration: none
+		cursor: pointer
+		margin-top: 0
+		padding-top: 0
+
+	
+
+h1 
+	font-size: 2.6em
+	background: $prettygradient
+	background-clip: text
+	-moz-background-clip: text
+	-webkit-background-clip: text
+	-webkit-text-fill-color: transparent
+	background-attachment: fixed
+	padding-top: 5%
+	margin-top: 10%
+
+h2
+	font-size: 2.1em
+h3
+	font-size: 1.8em
+
+h3 
+	font-size: 1.4em
+h4 
+	font-size: 1.2em
+h5 
+	font-size: 1.1em
+
+h2, h3, h4, h5, h6
+	text-align: center
+	padding-top: 2%
+	font-family: 'Futura'
+	font-kerning: 3em
+	background: $prettygradient
+	background-clip: text
+	-moz-background-clip: text
+	-webkit-background-clip: text
+	-webkit-text-fill-color: transparent
+	background-attachment: fixed
+	font-weight: 900, bolder
+	font-kerning: 200
+	margin-bottom: 1
+	padding-bottom: 0
+	z-index: 1
+
+
+header
+	display: block
+	justify-content: center
+	padding: 5
+	align-content: center
+	text-align: center
+	min-height: 75%
+	padding-bottom: 30%
+	padding-top: 12%
+
+section
+	margin-top: 5%
+	padding: 3%
+	padding-top: 6%
+	background-image: $darkGradient
+	padding-bottom: 20%
+	min-height: 1200px
+
+	iframe, img
+		max-width: 300px / 960px * 100%
+		max-height: auto
+		border: none
+		background: none
+		align-self: center
+		text-align: center
+		justify-content: center
+		align-content: center
+		display: inline-block
+		margin: auto
+		padding-left: 5rem
+
+article
+	margin: auto
+	padding-left: 30%
+
+	ul
+		line-height: 1.5rem
+		text-decoration: none
+
+footer
+	float: bottom
+	padding: 10%
+	margin-top: 20%
+	align-content: center
+	text-align: center
+
+	nav
+		position: relative
+		bottom: 5%
+      
+button
+	align-content: center
+	text-align: center
+	align-self: center
+	justify-content: center
+	margin: auto
+	marrgin-bottom: 5%
+	margin-top: 3%
+	padding: 1%
+	font-size: 1em
+	font-family: 'futura'
+	color: $primaryBtn
+	background-color: black
+	border-radius: 25px
+	cursor: pointer
+
+hr
+	font-color: $prettygradient
+
+* 
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+
+	
+      
