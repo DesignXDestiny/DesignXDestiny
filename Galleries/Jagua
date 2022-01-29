@@ -1,3 +1,83 @@
-<html >
+<!DOCTYPE html>
+<html lang="en">
 
+    <head>
+          <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <meta name="description" content="Design X Destiny Gallaries">
+          <meta name="keywords" content="Artwork, Jagua, Temporary Tattoo, Tattoo, body art">
+          <meta name="author" content="Destiny Barrett">
+
+
+          <title>Gallery</title>
+           
+            <link rel="stylesheet" media="screen and (min-width: 800px)" href="bigart.css">
+            <link rel="stylesheet" media="screen and (max-width:799px)" href="smallart.css">
+
+            <script>
+     $(document).ready(function()
+      {
+        $('img').bind('contextmenu', function(e){
+          return false;
+        }); 
+    });
+</script>
+
+<script>
+  let allImages = document.querySelector("img");
+      allImages.forEach((value)=>{
+          value.oncontextmenu = ()=>{
+              return false;
+          }
+      })
+</script>
+      </head>
+
+
+      <body id="top">
+          
+
+      	<nav>
+      			<a href="https://www.DesignXDestiny.com">Home</a>
+      		<a href="#art">Art Gallery</a>
+
+      	</nav>
+
+
+      	<h1>Galleries</h1>
+
+              <!-- input tag -->
+            <input id="searchbar" onkeyup="search_art()" type="text"
+              name="search" placeholder="Search Artwork ">
+ 
+
+
+      	<div id="art">
+          <section class="flex">
+
+
+            <article class="artwork">
+              <h3>Title</h3>
+
+            	<img src="img/art/tiki.jpg"
+            		alt="desc">
+
+                   <!--  <p id="tiki"> . . . </p>
+                   <button type="button"
+                    onclick="myFunction()">
+                    Description</button>-->
+
+  
+            </article>
+
+       
+             <article><h2>Jagua</h2>
+             <h3>Temporary Tattoos</h3>
+      <p>Jagua is a fruit (yes, similar to henna)bound by lavender oil. 
+      This is what I use to draw temporary tattos on my clients.
+      </p>
+      
+      </section></div>
+      </body>
 </html>
