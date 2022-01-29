@@ -58,16 +58,18 @@
 
 
             <article class="artwork">
-              <h3>Title</h3>
+              <h3>Chess Wed</h3>
 
-            	<img src="img/art/tiki.jpg"
-            		alt="desc">
+            	<img src="img/jagua/chesswed1.jpg"
+            		alt="married couple with king and queen chess pieces">
 
-                   <!--  <p id="tiki"> . . . </p>
+                   <!--  <p id="chesswed"> . . . </p>
                    <button type="button"
                     onclick="myFunction()">
                     Description</button>-->
-
+                    
+                <img src="img/jagua/chesswed2.jpg"
+            		alt="married couple with king and queen chess pieces">
   
             </article>
 
