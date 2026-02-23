@@ -39,7 +39,8 @@
 	z-index: -2;
 	  	background: linear-gradient(#e66465, #9198e5, dodgerblue);
 }
-/*White Box Problem temporrary fix.*/
+/*White Box Problem temporrary fix.
+	background: linear-gradient(#e66465, #9198e5, dodgerblue);*/
 				
 html{
 	font-size: 100%;
@@ -251,6 +252,10 @@ iframe {
 
 header {
 	margin-bottom: 8%;
+}
+header img {
+	max-width: 100%;
+	z-index: 0;
 }
 
 
