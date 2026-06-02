@@ -1,0 +1,141 @@
+
+@font-face {
+	font-family: 'magazine_letter';
+	src: url('magazine_letter/MagazineLetterByBrntlbrnl-Regular.ttf') format('truetype');
+font-style: normal;
+}
+
+@font-face {
+	font-family: 'modisframe';
+	src: url('Fonts/Modisframe.ttf') format('truetype');
+font-style: normal;
+}
+@font-face {
+	font-family: 'bright_young_things';
+	src: url('bright_young_things/Bright Young Things.ttf') format('truetype');
+font-style: normal;
+}
+
+@font-face {
+	font-family: 'gothic_punk';
+	src: url('gothic_punk/Gothic Punk.ttf') format('truetype');
+font-style: normal;
+}
+
+@font-face {
+	font-family: 'OldLondon.ttf';
+    src: url('Fonts/OldLondon.ttf') 
+ format('truetype');
+ font-style: normal;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	line-height: 2rem;
+	color: rgb(161, 206, 231);
+	background-color: rgb(12, 21, 119);
+	background: linear-gradient(#e66465, #9198e5, dodgerblue);
+ 	min-width: 100%;
+	font-family: 'Futura';
+    min-height: 100vh;
+    min-width: 100vw;
+    max-width: 100vw;
+    transition: all 0.2s ease 1s;
+	}
+html, p, img, section {
+    transition: all 0.3s ease 2s;
+	}
+
+
+p, li {
+	font-family: 'Futura', 'century gothic', sans-serif;
+  	 max-width: 500px;
+	}
+
+h1, small { 
+font-family: 'gothic_punk', cursive;
+    margin: auto;
+	}
+small {
+		text-align: right;
+		align-items: right;
+    }
+
+h1 {
+    font-size: 4rem;
+    margin-top: 10%;
+	}
+h2
+	{
+    font-family: 'magazine_letter', cursive;
+    margin: auto;
+    font-size: 3rem;
+	}
+
+ h3 {
+    font-size: 2.5rem;
+    font-family: 'bright_young_things';
+	}
+
+ h4 {
+	font-family: 'bright_young_things', cursive;
+	}
+h5, h6 {
+	font-family: 'modisframe';
+	font-size: 2rem;
+	}
+h6 {
+	color: silver;
+	}
+
+section {
+	margin: 10%;
+	}
+
+	div {
+		min-height: 100%;
+	    min-width: 100vw;
+		display: block;
+		min-width: 100%;
+		border-radius: 30px;
+		margin-bottom: 15%;
+		margin: auto;
+		background-color: rgba(0, 0, 0, 0);
+		}
+a{
+    text-decoration: none;
+	color: white;
+	}
+
+a:active { 
+color: yellow; }
+a:visited {
+color: orange; 
+	}
+
+footer {
+	margin-top: 20%;
+	}
+
+
+nav {
+background-color: rgba(0, 0, 0, .1);
+padding-top: 2%;
+margin-top: -170px;
+position: fixed;
+text-align: center;
+align-self: center;
+min-width: 100%;
+z-index: 2;
+}
+
+nav a {
+    padding: 5%;
+    }
+
+img {
+max-width: 35vw;
+border-radius: 35%;
+}
+
