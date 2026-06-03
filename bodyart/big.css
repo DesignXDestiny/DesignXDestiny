@@ -32,7 +32,7 @@ font-style: normal;
 body {
 	margin: 0px;
 	padding: 0px;
-	line-height: 2rem;
+	line-height: 1.7rem;
 	color: rgb(161, 206, 231);
 	background-color: rgb(12, 21, 119);
 	background: linear-gradient(#e66465, #9198e5, dodgerblue);
@@ -64,7 +64,7 @@ small {
 
 h1 {
     font-size: 4rem;
-    margin-top: 10%;
+    margin-top: 14%;
 	}
 h2
 	{
@@ -80,10 +80,12 @@ h2
 
  h4 {
 	font-family: 'bright_young_things', cursive;
+	     font-size: 2.1rem;
+
 	}
 h5, h6 {
 	font-family: 'modisframe';
-	font-size: 2rem;
+	font-size: 1.7rem;
 	}
 h6 {
 	color: silver;
@@ -100,7 +102,6 @@ section {
 		min-width: 100%;
 		border-radius: 30px;
 		margin-bottom: 15%;
-		margin: auto;
 		background-color: rgba(0, 0, 0, 0);
 		}
 a{
