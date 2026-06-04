@@ -105,6 +105,15 @@ body {
 		}
 
 
+	.parallax-section {
+  background-image: url('images/desertsun.jpg');
+  height: 100vh; /* Takes up full screen height */
+  background-attachment: fixed; /* Pins the image to the viewport */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 	div {
 		min-height: 100%;
