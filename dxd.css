@@ -106,7 +106,7 @@ body {
 
 
 	.parallax-section {
-  background-image: url('images/desertsun.jpg');
+  background-image: url('images/desertsun.JPG');
   height: 100vh; /* Takes up full screen height */
   background-attachment: fixed; /* Pins the image to the viewport */
   background-position: center;
