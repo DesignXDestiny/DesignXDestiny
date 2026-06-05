@@ -258,6 +258,19 @@ iframe {
 	border: 1px rgba(0, 0, 0, .2) solid;
    }
 
+.thumbnail
+	{
+	min-width: 32%;
+	max-width: 50%;
+	min-height: 50%;
+	min-height: 400px;
+	margin: auto;
+	margin-top: 25%;
+	padding-top: 10%;
+	align-self: center;
+	border-radius: 30px;
+	border: 1px rgba(0, 0, 0, .2) solid;
+   }
 
 header {
 	margin-bottom: 8%;
