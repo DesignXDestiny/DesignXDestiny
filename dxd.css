@@ -106,15 +106,15 @@ body {
 
 
 	.parallax-section {
-  background-image: url('images/desertsun.JPG');
-  height: 100vh; /* Takes up full screen height */
-  min-width: 100vw;
-  max-width: 100vw;
-  background-attachment: fixed; /* Pins the image to the viewport */
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+ 	 background-image: url('images/desertsun.JPG');
+ 	 height: 100vh; /* Takes up full screen height */
+ 	 min-width: 100vw;
+ 	 max-width: 100vw;
+ 	 background-attachment: fixed; /* Pins the image to the viewport */
+ 	 background-position: center;
+ 	 background-size: cover;
+  	background-repeat: no-repeat;
+		}
 
 
 	div {
@@ -270,7 +270,6 @@ iframe {
 	border: 1px rgba(0, 0, 0, .2) solid;
 	min-width: 32%;
 	max-width: 50%;
-	min-height: 50%;
    }
 
 header {
