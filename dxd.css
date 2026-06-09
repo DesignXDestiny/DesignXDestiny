@@ -142,7 +142,7 @@ body {
 		display: inline-block;
 		background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .1));
 		}
-	section p
+		 p
 		{
 			text-align: left;
 			}
@@ -287,7 +287,7 @@ header {
 header img {
 	max-width: 100%;
 	z-index: 0;
-}
+	}
 
 
 footer {
@@ -434,7 +434,7 @@ form {
 
 p {
 	line-height: 1.9em;
-	max-width: 700px;
+	max-width: 700px, 80%;
 	min-width: 350px;
 	padding-right: 1%;
 	padding-left: 1%;
@@ -442,7 +442,7 @@ p {
 	padding-top: 0px;
 	margin: auto;
 	margin-top: 0px;
-	text-align: center;
+	text-align: left;
 	font-size: 1.3rem;
 	}
 
@@ -452,7 +452,6 @@ p {
 		margin: auto;
 		column-gap: 5%;
 		}
-
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -533,9 +532,7 @@ h1, h2, h3, h4, h5, h6 {
 		border-radius: 30px;
 		margin: auto;
 		margin-top: 5%;
-
 		}
-
 
 		iframe {
 		min-width: 50%;
@@ -543,7 +540,6 @@ h1, h2, h3, h4, h5, h6 {
 		margin: auto;
 		padding: 0px;
 		}
-
 
 
  .parallax { 
@@ -582,9 +578,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
-
 /* DARK MODE 
 @media (prefers-color-scheme: dark) {
 				  img {
@@ -597,8 +590,6 @@ h1, h2, h3, h4, h5, h6 {
 				}
 
 */
-
-
 
 /* DARK MODE ------------------- ----------------DARKMODE---- */
 
@@ -630,6 +621,7 @@ h1, h2, h3, h4, h5, h6 {
 
 		nav{
 			display: inline-flex;
+			
 		}
 
 
@@ -756,7 +748,7 @@ h1, h2, h3, h4, h5, h6 {
 
 		#navigation{
 		  position: absolute;
-		  margin-bottom: 15%;
+		  margin-bottom: 5%;
 		}
 
 		#navigation.fixed{
