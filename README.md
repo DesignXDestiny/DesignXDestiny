@@ -1,8 +1,8 @@
-#Destiny Drew This Art
+# Destiny Drew This Art
 by Destiny Barrett
 This remains as a portfolio of my work.
 Hosted through git hub.
-bought the domain elsewhere. (porkbun)
+bought the domain thru (porkbun)
 
 <hr>
 *old intro*
