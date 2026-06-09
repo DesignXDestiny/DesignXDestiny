@@ -161,6 +161,7 @@ body {
 			margin: 5% auto;
 			max-width: 100%;
 			max-height: 100%;
+			vertical-align: bottom;
 		    }
 
 		section footer {
@@ -277,6 +278,7 @@ iframe {
 	max-width: 50%;
 	min-height: 50%;
 	min-height: 400px;
+	vertical-align: bottom;
    }
 
 header {
