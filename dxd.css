@@ -261,7 +261,7 @@ iframe {
 	border: 1px rgba(0, 0, 0, .2) solid;
    }
 
-.thumbnail iframe, img
+.thumbnail img
 	{
 	margin: auto;
 	margin-top: 25%;
@@ -271,6 +271,8 @@ iframe {
 	border: 1px rgba(0, 0, 0, .2) solid;
 	min-width: 32%;
 	max-width: 50%;
+	min-height: 50%;
+	min-height: 400px;
    }
 
 header {
