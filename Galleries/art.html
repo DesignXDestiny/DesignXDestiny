@@ -575,7 +575,27 @@ function search_art() {
       } 
    }
   </script>
+ <script>
+	 //API PRINTFUL CHECKOUT & DROPSHIP
+	 async function fetchMyArt() {
+  try {
+    // This calls your serverless Vercel function, keeping your API key invisible
+    const response = await fetch('/api/get-products');
+    const catalog = await response.json();
+    
+    console.log("Here is my Printful catalog:", catalog); 
+    
+    // TODO: Write your layout generation code here to map over 'catalog' 
+    // and inject images/titles into your HTML grids!
+    
+  } catch (error) {
+    console.error("Error loading products:", error);
+  }
+}
 
+// Call the function to run as soon as the page loads
+fetchMyArt();
+ </script>
 
       </body>
   </html>
