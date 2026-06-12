@@ -1,10 +1,10 @@
-// api/get-products.js
 export default async function handler(req, res) {
   // This pulls the key safely from Vercel's Environment Variables
   const apiKey = process.env.PRINTFUL_API_KEY; 
 
   try {
-    const response = await fetch('https://api.printful.com/v2/stores/18317284/products', {
+    // CORRECT ENDPOINT: Using /v2/stores/18317284/sync/products
+    const response = await fetch('https://api.printful.com/v2/stores/18317284/sync/products', {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
@@ -13,7 +13,9 @@ export default async function handler(req, res) {
     });
 
     const data = await response.json();
-    return res.status(200).json(data);
+    
+    // Pass the clean result straight to your gallery page
+    return res.status(200).json(data.result || []);
   } catch (error) {
     return res.status(500).json({ error: "Failed to fetch from Printful" });
   }
