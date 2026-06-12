@@ -3,12 +3,14 @@ export default async function handler(req, res) {
   const apiKey = process.env.PRINTFUL_API_KEY; 
 
   try {
-    // UPDATED ENDPOINT: Changed /sync/products to /products
-    const response = await fetch('https://api.printful.com/v2/stores/18317284/products', {
+    // 1. CHANGED: Hit the global v2 store-products endpoint
+    const response = await fetch('https://api.printful.com/v2/store-products', {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        // 2. ADDED: Pass your Store ID inside this specific header instead of the URL
+        'X-PF-Store-Id': '18317284'
       }
     });
 
