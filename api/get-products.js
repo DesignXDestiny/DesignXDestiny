@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   const apiKey = process.env.PRINTFUL_API_KEY; 
 
   try {
-    const response = await fetch('https://api.printful.com/v2/products', {
+    const response = await fetch('https://api.printful.com/v2/stores/18317284/products', {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
