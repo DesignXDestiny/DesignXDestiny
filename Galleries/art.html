@@ -25,14 +25,6 @@
     });
 </script>
 
-<script> //Dont Right Click on this pg
-  let allImages = document.querySelector("img");
-      allImages.forEach((value)=>{
-          value.oncontextmenu = ()=>{
-              return false;
-          }
-      })
-</script>
 
         <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8X9RFPEK1"></script>
@@ -140,7 +132,7 @@
              <article><h2>Art</h2> 
               <h3>Fine &amp; Crude</h3>
                 <p>
-                  I created these drawings, paintings, the following etc. 
+                  I created these drawings, paintings, etc. 
                   <br><a href="mailto:DesignXDestiny@gmail.com"
                   target="_blank"> Contact me </a>
                   to order a print, commission a portrait, or original artwork for your home, business, or an irreplaceable gift.
@@ -680,6 +672,22 @@ fetchMyArt();
 // Run it!
 fetchMyArt();
 		  </script>
+
+		  <script> //Dont Right Click on this pg PLZ
+  // Wait until the entire webpage finishes loading
+  window.addEventListener('DOMContentLoaded', () => {
+    // Select ALL images on the page
+    let allImages = document.querySelectorAll("img");
+    
+    // Apply the right-click ban to every image found
+    allImages.forEach((value) => {
+      value.oncontextmenu = (e) => {
+        e.preventDefault(); // This is the modern, foolproof way to block the right-click menu
+        return false;
+      }
+    });
+  });
+</script>
 
       </body>
 </html>
