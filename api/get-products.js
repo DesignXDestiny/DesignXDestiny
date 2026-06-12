@@ -3,8 +3,8 @@ export default async function handler(req, res) {
   const apiKey = process.env.PRINTFUL_API_KEY; 
 
   try {
-    // CORRECT ENDPOINT: Using /v2/stores/18317284/sync/products
-    const response = await fetch('https://api.printful.com/v2/stores/18317284/sync/products', {
+    // UPDATED ENDPOINT: Changed /sync/products to /products
+    const response = await fetch('https://api.printful.com/v2/stores/18317284/products', {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
@@ -14,7 +14,7 @@ export default async function handler(req, res) {
 
     const data = await response.json();
     
-    // Pass the clean result straight to your gallery page
+    // Pass the clean array straight to your gallery page
     return res.status(200).json(data.result || []);
   } catch (error) {
     return res.status(500).json({ error: "Failed to fetch from Printful" });
