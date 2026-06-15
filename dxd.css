@@ -159,7 +159,7 @@ body {
 			text-align: center;
 			align-items: center;
 			margin: 5% auto;
-			max-width: 100%;
+			max-width: 90%;
 			max-height: 100%;
 			vertical-align: bottom;
 		    }
@@ -274,7 +274,7 @@ iframe {
 	align-self: center;
 	border-radius: 30px;
 	border: 1px rgba(0, 0, 0, .2) solid;
-	min-width: 32%;
+	min-width: 30%;
 	max-width: 50%;
 	min-height: 50%;
 	min-height: 400px;
@@ -372,7 +372,7 @@ form {
 		text-align: center;
 	    transition: all 0.3s ease;
 	    max-height: 3em;
-	    position: -webkit-sticky; - Safari -
+	    position: -webkit-sticky;
         position: sticky;
         top: 0;
         z-index: 2;
@@ -433,7 +433,7 @@ form {
 /* TYPEOGRAPHY */		
 
 p {
-	line-height: 1.9em;
+	line-height: 1.7em;
 	max-width: 700px, 80%;
 	min-width: 350px;
 	padding-right: 1%;
@@ -621,7 +621,6 @@ h1, h2, h3, h4, h5, h6 {
 
 		nav{
 			display: inline-flex;
-			
 		}
 
 
