@@ -2,14 +2,15 @@ export default async function handler(req, res) {
   const apiKey = process.env.PRINTFUL_API_KEY; 
 
   try {
-    // 1. Switched from /sync/products to the correct v1 manual catalog endpoint
-    // 2. Moved the Store ID from the headers into the URL parameter (?store_id=)
-    const url = 'https://api.printful.com/products?store_id=18317284';
+    // FIX: Changed from '/sync' to '/sync/products'
+    const url = 'https://api.printful.com/sync/products';
 
     const response = await fetch(url, {
       method: 'GET',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
+        // Keep the store ID in the headers as Printful expects for V1 token authorization
+        'X-PF-Store-Id': '18317284', 
         'Content-Type': 'application/json'
       }
     });
