@@ -13,6 +13,8 @@
            
             <link rel="stylesheet" media="screen and (min-width: 800px)" href="bigart.css">
             <link rel="stylesheet" media="screen and (max-width:799px)" href="smallart.css">
+
+    
 			
 		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
            
@@ -468,7 +470,7 @@
 			<section>	
 				<h3>New Items</h3>
 			  <div id="products-grid"></div>
-
+                <p>Here is the new storefront, with new art and creations to make your own.<wbr><a href="https://destinydrewthis.printful.me/">Destiny's Art Store</a></p>
 			</section>
       	 <div>
 
@@ -626,52 +628,7 @@ function search_art() {
 fetchMyArt();
  </script>
 
-		  <script>
-			  async function fetchMyArt() {
-  const gridContainer = document.getElementById('products-grid');
-  
-  try {
-    // 1. Fetch data from your Vercel backend
-    const response = await fetch('/api/get-products');
-    const data = await response.json();
-    
-    // 2. Clear out any "Loading..." text or placeholder
-    gridContainer.innerHTML = '';
-
-    // 3. Printful V2 API stores items inside data.data or data.result 
-    // Let's grab the products array safely
-    const products = data.data || data.result || [];
-
-    if (products.length === 0) {
-      gridContainer.innerHTML = '<p>No artwork found in your store yet!</p>';
-      return;
-    }
-
-    // 4. Loop through every product in your Printful catalog
-    products.forEach(product => {
-      // Create a wrapper card for each artwork
-      const productCard = document.createElement('div');
-      productCard.classList.add('product-card');
-
-      // Build the HTML inside the card (Image and Title)
-      productCard.innerHTML = `
-        <img src="${product.thumbnail_url || 'placeholder-image.jpg'}" alt="${product.name}" class="product-image">
-        <h3 class="product-title">${product.name}</h3>
-      `;
-
-      // 5. Throw the finished card into your blank container
-      gridContainer.appendChild(productCard);
-    });
-    
-  } catch (error) {
-    console.error("Error loading products:", error);
-    gridContainer.innerHTML = '<p>Oops! Something went wrong loading the gallery.</p>';
-  }
-}
-
-// Run it!
-fetchMyArt();
-		  </script>
+		
 
 		  <script> //Dont Right Click on this pg PLZ
   // Wait until the entire webpage finishes loading
