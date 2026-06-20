@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+          <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+          <meta name="description" content="Destiny Drew This Gallaries">
+          <meta name="keywords" content="Artwrok">
+          <meta name="author" content="Destiny Barrett">
+
+          <title>Gallery</title>
+           
+            <link rel="stylesheet" media="screen and (min-width: 800px)" href="bigart.css">
+            <link rel="stylesheet" media="screen and (max-width:799px)" href="smallart.css">
+
+    
+        <link rel="icon" type="image/x-icon" href="images/april26logocrped.png">
+			
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+           
+		<script>
+     $(document).ready(function()
+      {
+        $('img').bind('contextmenu', function(e){
+          return false;
+        }); 
+    });
+</script>
+
+
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B8X9RFPEK1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B8X9RFPEK1');
+</script>
+			 <style>
+				 /* The container holding all your artwork */
+#products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual art cards */
+.product-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+}
+
+/* Make sure the artwork images don't explode out of the box */
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  object-fit: cover;
+}
+
+.product-title {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  margin-top: 15px;
+  color: #333;
+}
+			 </style>
+      </head>
+
+
+      <body id="top">
+          
+      	<nav>
+      		<a href="https://www.destinydrewthis.art">Home</a>
+      		<a href="#art">Art Gallery</a>
+            <a href="https://destinydrewthis.printful.me/">Store</a>
+      	</nav>
+
+<header>
+      	<h1>Art Gallery</h1>
+
+       
+              <h2>Fine &amp; Crude</h2>
+                <p>
+                  I created these drawings, paintings, etc. 
+                  <br><a href="mailto:DesignXDestiny@gmail.com"
+                  target="_blank"> Contact me </a>
+                  to order a print, commission a portrait, or original artwork for your home, business, or an irreplaceable gift.
+                </p>
+          
+</header>
+          <!-- Search Bar input tag -->
+           	  <input id="searchbar" onkeyup="search_art()" type="text"
+             	 name="search" placeholder="Search Artwork ">
+
+		  
+      	<div id="art">
+
+
+          <section class="flex">
+              
+            <article> <h2>College Era</h2>
+                <p>I attended the <i>College of Southern Nevada</i>, 2013-2018.<br>
+Here I had formal art training to push my childhood passion into professionalism.  Most of the courses that I took were taught by Professor <i>Suzanne Acosta</i>.
+    Another was withProfessor <i>Anne Hoff</i>.  
+    </p>
+</article> 
+              
+            <article class="artwork">
+              <h3>Tiki &amp; Toys</h3>
+
+            	<img src="img/art/tiki.jpg"
+            		alt="Charcoal, batman, superhero, 24in x 18in. By Destiny Barrett.">
+
+                   <!--  <p id="tiki"> . . . </p>
+                   <button type="button"
+                    onclick="myFunction()">
+                    Description</button>-->
+
+                <p>This large (18 x 24") charcoal drawing was done from a still life set up in the art studio, in Suzanne's class at the Cheyenne (aka North Las Vegas) campus.  
+                Someone had stolen Suzan's titki from the set up and I had to finish that part from memory.</p>
+
+            </article>
+
+       
+           
+
+            <article class="artwork">
+              <h3>Caravaggio</h3>
+    			   <img src="img/art/carravagio.jpg"
+    		      	alt="Oil paint, (unstreched) canvas paper, orange, sena, red, glazed, hands, By Destiny Barrett."><!--
+                <p id="caravaggio"> . . . </p>
+                <button type="button"
+                  onclick="myFunction()">
+                  Description</button>-->
+                <p>This is oil paint on an un-streched canvas. I really loved the way the sienna ground was working using the subtraction method, removing  paint with turpentine and cotton fabric.</p>
+         </article>
+              
+          <article class="artwork">
+            <h3>Swan</h3>
+    		  	<img src="img/art/swan.webp"
+    		    	alt="Charcoal, black, grey ground, white paper, Swan, reflection, water, outside, bird, animals, 8in x 11in, By Destiny Barrett">
+
+          </article>
+
+          <article class="artwork">
+            <h3>Avocado</h3>
+    			 <img src="img/art/avocado.jpg"
+    		  	alt="Avocados, Prismacolor colored pencils, green, red, brown Subject: food, fruit, ig, instagram post, By Destiny Barrett">
+
+  <p>Medium: Prismacolor colored pencils on paper.<br>
+    I drew this in my Aunt's home, <wbr>in Las Vegas, NV. <wbr>20teens.</p>
+              <footer><a href="https://destinydrewthis.printful.me/product/framed-avocado-poster">Buy a copy from my store.</a></footer>
+
+         </article>
+
+          <article class="artwork">
+            <h3>Foley of Mortality of Man</h3>
+      			<img src="img/art/skullflower.webp"
+      			alt="Pencil, grey, white, wine glass, hatching, csn, Still life. 24in x 18in. By Destiny Barrett.">
+<p>This was done in the art studio at CSN under Professor Suzanne Acosta's set up and during her course. Graphite 18 x 24" </p>
+
+            </article>
+
+        <article class="artwork">
+                <h3>Cat Shirt</h3>
+      		    	<img src="img/art/catshirt.jpg"
+      		      	alt="manga version kawii style drawing windows surface tablet. tee shirt of catcat. orange, grey, photoshoped mock up. by destiny Barrett.">
+                  <p> This is a Mock up that I made using a digital drawing of my darling cat, put together using Photoshop as a GRC assignment at CSN.  Shirts or prints available in the store.
+                  </p>
+
+          </article>
+
+          <article class="artwork">
+            <h3>Koi</h3>
+      		  <img src="img/art/koi9_2_17.jpg"
+      		    	alt="Subject: fish, Koi, Medium: black pen, white paper. by Destiny Barrett.">
+            <p>Pen and marker drawing that I made as an asset for a Photoshop reddit battle.</p>
+           </article>
+
+        <!--   <article class="artwork">
+            <h3>Metal Pipe</h3>
+        			<img src="img/art/pipe.jpg"
+        			alt="Oil Paint, color, orange, purple, 8in x 11in, streched canvas, By Destiny Barrett.">
+            </article>-->
+
+        <article class="artwork">
+          <h3>Lil Pony Land</h3>
+          			<img src="img/art/alisa.jpeg"
+          	     	alt="Pencil, white, grey, plant, cactus, wine, lamp, towel, Drawing, 8in x 11in, paper. By Destiny Barrett">
+
+                  </article>
+
+         <article class="artwork">
+           <h3>Scarf</h3>
+                <img src="img/art/scarf.jpg"
+                  alt="Oil painting, streched canvas, color, pink, purple, orange, stripes, 8in x 11in. By Destiny Barrett">
+                  <p>Oil Painting in Professor Suzane Acosta's class at CSN. 8 x 11"</p>
+          </article>
+
+      			<article class="artwork">
+              <h3>Frosty</h3>
+      			   <img src="img/art/frosty.jpg"
+      			     alt="Adobe Illustrator, drawing, png, cat, brown, vector, graphic, duotone, color, sepia tone, by Destiny Barrett">
+                 <p>Adobe Illustrator drawing by Destiny Barrett at CSN.</p>
+
+            </article>
+
+           <article class="artwork">
+             <h3>BackHand</h3>
+      	    	<img src="img/art/hand.webp"
+      			       alt="Pencil, sketch, life, drawing, by Destiny Barrett">
+                 <p>Graphite drawing done at home as an assignment.</p>
+
+            </article>
+
+            <article class="artwork">
+              <h3>SpaceShip</h3>
+          			<img src="img/art/Spaceship.png"
+          			alt="Spaceship drawn with windows surface tablet in bamboo notebook with stylus, color, blue, green, pink, png, planet, solar, graphic art">
+        <p>Graphic art, one of my first tablet drawings. It is a fun experiment.</p>
+            </article>
+
+        		<article  class="artwork">
+               <h3>Mouse</h3>
+            			<img src="img/art/algernon.jpg"
+            			alt="Prismacolor colored pencils, pink, White Mouse is inspired by Flowers for Algernon (novel, book). paper, By Destiny Barrett.">
+                  <p id="mouse"> Inspired by the novel, Flowers for Algernon.  GRC course at CSN assignment was to design a new book cover. This colored pencil dtawing was a part of mine. </p>
+                  
+
+                </article>
+
+                <article  class="artwork">
+                  <h3>Clown Toys</h3>
+        		       	<img src="img/art/toys.jpg"
+        			       alt="Charcoal, jesture, scary, Monochromatic. 24in x 18in, paper, By Destiny Barrett.">
+
+                        <p>In Art in at the College of Southern Nevada there was an assignment to draw "toys". In these still lifes they had dramatic lighting.</p>
+
+            </article>
+
+            <article  class="artwork">
+               <h3>Kettle</h3>
+      			     <img src="img/art/kettle.jpg"
+      			       alt="Prismacolor brand colored pencils. Blue toned paper, red, copper, metal, orange, cloth, Still life, pig, lemon, fruit, bowl, By Destiny Barrett.">
+                   <p>Drawing II taught by Anne Hoff at CSN set up this still life and assigned us to draw with colored pencil on toned paper. I did ejoy the metal of the kettle.</p>
+              </article>
+
+          <!--      <article>
+                 <h3>Naked Lady</h3>
+                   <img src="img/art/Naklady.jpg"
+                     alt="Naked Lady Seated Charcoal.">-->
+          </section>
+
+      	</div>
+
+        <div>
+<section>
+          <h2>Prints for Purchase</h2>
+
+      <p>See the store. Thank you.</p>
+
+        </section>
+
+      </div>
+
+			<section>	
+				<h3>New Items</h3>
+			  <div id="products-grid"></div>  
+                 <p>Here is the new storefront, <wbr>with new artwork.
+                     </p>
+                     <h4>
+                     <a href="https://destinydrewthis.printful.me/">
+                         Destiny's Art Store.</a>
+                    </h4>
+                    <p>I'd love to see what you got. <wbr> 
+                        You can post a photo of what you got on display, and tag me on socials.</p>
+         
+			</section>
+      	 <div>
+
+      		<section>
+        		<h3>Social Media Links</h3>
+                <p>
+                  Stay connected and updated.<wbr>
+                    The art on this site for sale are prints.
+                    If you would like an original, contact me, make an offer and I will let you know if I still have it avalible for sale.
+                </p>
+  			
+
+      		<ul class="flex">
+      			<li><a href="https://www.instagram.com/designxdestiny/" target="_blank">InstaGram</a>
+      				<br>Follow me to see drawings, as well as works in progress.</li>
+      			<li> <a href="https://www.facebook.com/DesignXDestiny" target="_blank">FaceBook</a>
+      				<br>Another excellent way to contact me.</li>
+
+      			<template><li><a href="" target="_blank"></a></li></template>
+
+      		</ul>
+    	  </section>
+      	</div>
+
+
+        <!-- CALL TO ACTION -->
+        <section>
+          <h3>Contribute</h3>
+            <p>
+              Would you like to
+              donate a random amount of your choosing?
+              <b>Thank You!</b>
+            </p>
+
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_donations">
+                  <input type="hidden" name="business" value="U5QRGRFQT44BS">
+                  <input type="hidden" name="item_name" value="ART on DXD">
+                  <input type="hidden" name="currency_code" value="USD">
+                  <input type="image" 
+                      src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"  name="submit" 
+                      title="PayPal - The safer, easier way to pay online!" 
+                      alt="Donate with PayPal button" >
+                 
+                  <img alt="Button to donate"
+                     src="https://www.paypal.com/en_US/i/scr/pixel.gif" >
+              </form>
+
+       
+        </section>
+
+<!--
+
+<div class="comment">
+<textarea id="title" type="text "rows="2" cols="4" onkeyup="Allow()" placeholder="write a comment......"></textarea>
+<input type="submit" value="Post" onclick="insert()" style="width:20px;" /></form>
+</div>
+<div id="display"></div>
+
+    -->
+
+      	<footer>
+      		<small>2026 &copy; Destiny Barrett</small>
+              <hr>
+              	<p><a href="#Top">Back to Top</a>
+              <br>Thank you!
+      			</p>
+            
+    <nav id="navigation">
+	  <a href="https://www.Destinydrewthis.art/"><img src="../images/2026ddta-logo.png" alt="Home"></a>
+      <a href="Galleries/art.html">Gallery</a>
+      <a href="booklust/index.html">BookLust</a>
+	  <a href="bodyart/index.html">BodyArt</a>	
+      <a href="codetech/index.html">MeauHaus</a> 
+	  <a href="contact.html">Contact</a>      
+    </nav>
+            
+      	</footer>
+
+
+
+    <!-- JAVASCRIPT -->  
+   
+            <script>
+               function myFunction() {
+                document.getElementById("tiki").innerHTML=
+                "Drawn with black, compressed Charcoal. The original drawing size is 17in x 24in.";
+              }
+            </script>
+<!--
+            <script>
+               function myFunction() {
+                document.getElementById("caravaggio").innerHTML=
+                "This is an oil painting on canvas, not stretched, there is not a wooden frame which it is stapled. Just paint on fabric. In studio with Suzanne Acosta. I used tape to mask off the border. This is mostly monochromatic, as I began with a burnt senna ground. Then I proceeded to use both additive (add more paint) and subtractive (wipe pain off with a rag and turpentine) methods to recreate this small part of a Caravaggio painting where two figures' hands meet.";
+              }
+            </script>-->
+
+ <script>
+     function myFunction() {
+                document.getElementById("mouse").innerHTML=
+                "Drawn with Prismacolor brand colored pencils. The white mouse is inspired by the novel <i>Flowers for Algernon</i> . Subject source: drawn from a goggled picture.";
+              }
+     </script>
+
+
+  <script type="text/javascript">
+      var titles = [];
+      var titleInput = document.getElementById("title");
+      var messageBox = document.getElementById("display");
+      function Allow()
+      {
+      if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+      {
+      user.title.value="";
+      alert("Please Enter only alphabets");
+      }
+      window.location.reload()
+      }
+   </script>
+
+  <script type="text/javascript">
+    // JavaScript code 
+function search_art() { 
+    let input = document.getElementById('searchbar').value 
+    input=input.toLowerCase(); 
+    let x = document.getElementsByClassName('artwork'); 
+      
+    for (i = 0; i < x.length; i++) {  
+        if (!x[i].innerHTML.toLowerCase().includes(input)) { 
+            x[i].style.display="none"; 
+        } 
+        else { 
+           x[i].style.display="block";                  
+         } 
+      } 
+   }
+   </script>
+ <script>
+	 //API PRINTFUL CHECKOUT & DROPSHIP
+	 async function fetchMyArt() {
+  try {
+    // This calls your serverless Vercel function, keeping your API key invisible
+    const response = await fetch('/api/get-products');
+    const catalog = await response.json();
+    
+    console.log("Here is my Printful catalog:", catalog); 
+    
+    // TODO: Write your layout generation code here to map over 'catalog' 
+    // and inject images/titles into your HTML grids!
+    
+  } catch (error) {
+    console.error("Error loading products:", error);
+  }
+}
+
+// Call the function to run as soon as the page loads
+fetchMyArt();
+ </script>
+
+		
+
+		  <script> //Dont Right Click on this pg PLZ
+  // Wait until the entire webpage finishes loading
+  window.addEventListener('DOMContentLoaded', () => {
+    // Select ALL images on the page
+    let allImages = document.querySelectorAll("img");
+    
+    // Apply the right-click ban to every image found
+    allImages.forEach((value) => {
+      value.oncontextmenu = (e) => {
+        e.preventDefault(); // This is the modern, foolproof way to block the right-click menu
+        return false;
+      }
+    });
+  });
+</script>
+
+      </body>
+</html>
