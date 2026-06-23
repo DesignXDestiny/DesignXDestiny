@@ -466,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
          h1 {
             text-align: center;
              font-weight: bolder;
-           font-family: 'Poiret One', cursive;
+            font-family: 'Poiret One', cursive;
              text-shadow: 8px 6px 20px black;
              color: white;
             font-size: 12vw;
@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
 		h2 {
 			margin-top: 3%;
 			font-size: 9rem;
-		    font-family: 'Playfair Display', serif;
+			font-family: 'Playfair', serif;
 			}
 
 		h3 { 
@@ -486,8 +486,8 @@ h1, h2, h3, h4, h5, h6 {
 		 	}
 
 		h4 {
-			font-family: 'Playfair Display', serif;
-			font-size: 1.5rem;
+			font-family: 'Playfair', serif;
+            font-size: 1.5rem;
 			margin-top: 2%;
 			}
 
@@ -630,10 +630,12 @@ h1, h2, h3, h4, h5, h6 {
 		p {
 			line-height: 2rem;
 			font-size: 1rem;
+            padding: 8%;
 		}
 	.content p {
 			column-count: 1;
 			display: block;
+
 			}
 	.nof {
 			float: none;
@@ -643,12 +645,12 @@ h1, h2, h3, h4, h5, h6 {
 
 		h2 {
 			margin-top: 8%;
-			font-size: 8vw;
+			font-size:12vw;
 			font-family: 'Playfair', serif;
 		}
 
 		h3 { 
-		font-family: 'Londrina Outline', cursive;
+
 			font-size: 8vw;
 		 }
 		h4 {
@@ -656,7 +658,6 @@ h1, h2, h3, h4, h5, h6 {
 				}
 
 		h5 {
-				font-family: 'Megrim', cursive;
 				font-size: 3vw;
 			}
   .flex-wrap p {
@@ -774,7 +775,7 @@ h1, h2, h3, h4, h5, h6 {
 			}
 
 		h2 {
-			font-size: 5vw;
+			font-size: 10vw;
 			padding: 2%;
 			margin-top: 3%;
 			}
