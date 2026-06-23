@@ -355,8 +355,8 @@ form {
     min-width: 98%;
     margin-top: -5px;
     padding-top: 0px;
-         margin-right: 5%;
-         margin-left: 4%;
+     margin-right: 5%;
+     margin-left: 4%;
 	}
 
 	nav hr {
@@ -429,7 +429,6 @@ form {
 
 
 
-
 /* TYPEOGRAPHY */		
 
 p {
@@ -463,19 +462,20 @@ h1, h2, h3, h4, h5, h6 {
 	text-shadow: 6px 7px 15px black;
 	}
 
-	h1 {
-		font-size: 10vw;
-		padding-top: 5%;
-		margin-bottom: 40%;
-		z-index: -1;
-		padding-top: 300px;
-		padding-right: 0px;
-		padding-left: 0px;
-		}
+         h1 {
+            text-align: center;
+             font-weight: bolder;
+           font-family: 'Poiret One', cursive;
+             text-shadow: 8px 6px 20px black;
+             color: white;
+            font-size: 15vw;
+            padding-top: 30%;
+             z-index: -1;
+          }
 
 		h2 {
 			margin-top: 3%;
-			font-size: 4rem;
+			font-size: 9rem;
 			font-family: 'Fredericka the Great', serif;
 			}
 
@@ -491,7 +491,7 @@ h1, h2, h3, h4, h5, h6 {
 			}
 
 		h5 {
-			font-family: 'Megrim', cursive;
+			font-family: 'Love Ya Like A Sister', cursive;
 			font-size: 2rem;
 			}
 
