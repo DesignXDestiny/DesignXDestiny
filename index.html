@@ -12,6 +12,95 @@
             <link rel="stylesheet" href="dxd.css">
             <style>
                 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Major+Mono+Display|Raleway|Special+Elite');
+
+                /* CAROUSEL */
+                * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
             </style>
 
         <link rel="icon" type="image/x-icon" href="images/april26logocrped.png">
@@ -65,21 +154,51 @@
 			  <div class="content">
 		   <h4>Fine &amp; Crude <br>Subject &amp; Rendering </h4>
 
-                <p><span>Art is subjective. <br>
-				   Art has been there for me.</span>
+                <p><span>Art is subjective.
+				  </span>
 				</p>
 
-            <iframe src="Galleries/art.html"
-                  title="Artwork"
-                  allow="fullscreen">
-              </iframe>   
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Galleries/img/art/avocado.jpg" style="width:100%">
+    <div class="text">Colored Pencil</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="Galleries/img/art/skullflower.webp" style="width:100%">
+    <div class="text">Graphite</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="Galleries/img/art/kettle.jpg" style="width:100%">
+    <div class="text">COlored Pencil</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> 
 
               <p> Including monochromatic, to colour theory and cadmiums, wet, dry, on or off paper, still life, real life, and authentic imagination.  You can see my final work, 
 				  as well as the sketches and thought processes that brought me there.
 
                <img src="images/GRC104-NatureFontFinal.jpg" 
                      alt="Pencil drawing, Watercolor, Vector Font, MultiMedia School Project" style="max-width: 300px; height: auto;">
-			    </p> </div>
+			    <span> Art has been there for me.</span></p> </div>
              <footer>
              	<a href="Galleries/art.html" target="blank"><h3>Art Gallery</h3> 
                 </a>
@@ -104,10 +223,8 @@
                   <br>
                 </p>
 
-               <iframe src="booklust/index.html"
-                  title="Book Reviews, buy books via Amazon"
-                  allow="fullscreen">
-                </iframe>
+   <div class="imggal"></div>  
+
 			</div>
               	<footer>
 				    <a href="booklust/index.html" target="_blank"><h3>For the love of literature.</h3></a>
@@ -143,16 +260,13 @@ What I love most is creating custom designs for each person.
             <div class="content">
               <h3>FrontEnd Development</h3>
                             <p>
-              Front-end development is like an evolved form of poetry or English. 
-              This is a way to develop your ideas like an essay, and that’s mostly written in English. 
-				It is like poetry because less is more in the same way. 
+              Front-end development is a way to develop your ideas 
+				 like poetry. Less can be more. 
 				Developing web pages, or anything this way, is when I’m creating something to share with someone. 
-				This is an opportunity to create with the audience in mind. </p>        
+				Check out some different pages and case studies I have made for others as well. </p>        
 
-              <iframe src="Codetech/index.html"
-                  title="My progress in Web Development."
-                  allow="fullscreen">
-                </iframe>
+           <div class="imggal"></div>  
+
 
               <p>
                 For tech insights, coding capabilities, and/or designs.  
@@ -291,5 +405,36 @@ What I love most is creating custom designs for each person.
 		  window.attachEvent('onscroll', handleScroll);
 		}
 		</script>
+
+        <script>
+            let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+        </script>
  </body>
 </html>
