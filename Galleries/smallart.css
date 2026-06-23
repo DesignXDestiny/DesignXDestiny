@@ -54,40 +54,96 @@ p { text-align: left;
 						align-content: space-between;
             			}
 
-                 nav {
-                    position: sticky;
+ a {
+	text-decoration: none;
+	color: pink;
+	}
 
-                    font-family: 'Amatic SC', cursive;
-                  font-size: 7vw;
-                    font-kerning: 2vw;
-                    margin: 0%;
-                      overflow: hidden;
-                    padding: 2%;
-                    float: top;
-                    background-color: rgba(0, 0, 0, .7);
-                              }
-                    nav a {
-                         padding: 1%;
-                         margin: 2%;
-                          text-align: center;
-                          float: left;
-                          border-radius: 30px;
-                          border: 1px;
-                          border: pink solid;
-                          text-decoration: none;
-                          color: pink;
-                            display: inline-block;
-                    }
+	a:hover {
+		color: yellow;
+		}
 
-                        nav a:hover {
-                            color: yellow;
-                            background-color: rgba(0, 0, 0, .8);
-                        }
 
-                        nav a:active {
-                            color: white;
-                            background-color: rgba(0, 0, 0, .99);
-                        }
+	 span, small {
+	    font-family: 'Amatic SC', cursive;
+		}
+
+	span {
+		font-size: 2rem;
+	    max-height: 3em;
+	    display: inline-flex;
+		}
+
+
+
+
+
+/*  NAVIGATION */
+
+ nav {
+ 	z-index: 1;
+	font-family: 'Megrim', cursive;
+	font-size: 1.5rem;
+	margin: auto;
+	position: fixed;
+	text-align: center;
+	transition: all 0.4s ease;
+    min-width: 98%;
+    margin-top: -5px;
+    padding-top: 0px;
+     margin-right: 5%;
+     margin-left: 4%;
+	}
+
+	nav hr {
+		display: none;
+		}
+
+	nav a {
+		margin: auto;
+		padding: 1%;
+		background-color: rgba(0, 0, 0, .6);
+		display: inline-block;
+		border-radius: 40px;
+		text-align: center;
+	    transition: all 0.3s ease;
+	    max-height: 3em;
+	    position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+		}
+
+		nav a:link{
+		display: inline;
+		}
+		nav a:hover{
+			color: yellow;
+			background-color: rgba(0, 0, 0, .8);
+			font-size: 2.2rem;
+			padding: 2%;
+			border-radius: 60px;
+			text-align: center;
+			}
+
+		nav a:active{
+			color: pink;
+			}
+
+		nav a:visited{
+			color: dodgerblue;
+			}
+
+		#navigation{
+		  position:absolute;
+		  bottom: 2%;
+			}
+
+		#navigation.fixed{
+		  position:fixed;
+		  bottom: 90%;
+			}
+
 
 
                 /* Pricing Guide */
@@ -129,7 +185,7 @@ p { text-align: left;
         /* TYPEOGRAPHY */
 
                     h1 {
-                               text-align: center;
+                        text-align: center;
                         font-weight: bolder;
                         font-family: 'Poiret One', cursive;
                              text-shadow: 8px 6px 20px black;
