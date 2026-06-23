@@ -151,7 +151,7 @@ Here I had formal art training to push my childhood passion into professionalism
               
           <article class="artwork">
             <h3>Swan</h3>
-    		  	<img src="img/art/swan.jpg"
+    		  	<img src="img/art/swan.webp"
     		    	alt="Charcoal, black, grey ground, white paper, Swan, reflection, water, outside, bird, animals, 8in x 11in, By Destiny Barrett">
 
           </article>
@@ -169,9 +169,15 @@ Here I had formal art training to push my childhood passion into professionalism
 
           <article class="artwork">
             <h3>Foley of Mortality of Man</h3>
+<<<<<<< HEAD
+      			<img src="img/art/skullflower.webp"
+      			alt="Pencil, grey, white, wine glass, hatching, csn, Still life. 24in x 18in. By Destiny Barrett.">
+<p>This was done in the art studio at CSN under Professor Suzanne Acosta's set up and during her course. Graphite 18 x 24" </p>
+=======
       			<img src="img/art/skullflower.jpg"
       			alt="Pencil, grey, white, wine glass, hatching, csn, Still life. 24in x 18in. By Destiny Barrett.">
 <p>This was done in the art studio at CSN under Professor Suzanne Acosta's set up and during her course. Graphite 81 x 24" </p>
+>>>>>>> 07aa4260de6b5761e91bdb6ed05cdc6e5589d329
 
             </article>
 
@@ -208,22 +214,30 @@ Here I had formal art training to push my childhood passion into professionalism
            <h3>Scarf</h3>
                 <img src="img/art/scarf.jpg"
                   alt="Oil painting, streched canvas, color, pink, purple, orange, stripes, 8in x 11in. By Destiny Barrett">
-                  <p>Oil painting of a scarf that seemed to be made of factory ends, which had many colors and folds.</p>
+<<<<<<< HEAD
+                  <p>Oil Painting in Professor Suzane Acosta's class at CSN. 8 x 11"</p>
+=======
+                  
+>>>>>>> 07aa4260de6b5761e91bdb6ed05cdc6e5589d329
           </article>
 
       			<article class="artwork">
               <h3>Frosty</h3>
       			   <img src="img/art/frosty.jpg"
       			     alt="Adobe Illustrator, drawing, png, cat, brown, vector, graphic, duotone, color, sepia tone, by Destiny Barrett">
-                 <p>Digital drawing of an aquainted cat.  By Destiny Barrett, at CSN, using Adobe Illustrator.</p>
+                 <p>Adobe Illustrator drawing by Destiny Barrett at CSN.</p>
 
             </article>
 
            <article class="artwork">
              <h3>BackHand</h3>
-      	    	<img src="img/art/hand.jpg"
-      			       alt="Pencil, sketch, life, drawing, by Destiny Barrett"><p>This is the back of my own left hand.</p>
+      	    	<img src="img/art/hand.webp"
+      			       alt="Pencil, sketch, life, drawing, by Destiny Barrett">
+<<<<<<< HEAD
+                 <p>Graphite drawing done at home as an assignment.</p>
+=======
                  
+>>>>>>> 07aa4260de6b5761e91bdb6ed05cdc6e5589d329
 
             </article>
 
@@ -231,8 +245,11 @@ Here I had formal art training to push my childhood passion into professionalism
               <h3>SpaceShip</h3>
           			<img src="img/art/Spaceship.png"
           			alt="Spaceship drawn with windows surface tablet in bamboo notebook with stylus, color, blue, green, pink, png, planet, solar, graphic art">
-                <p>Digital art, drawn on a tablet.</p>
+<<<<<<< HEAD
+        <p>Graphic art, one of my first tablet drawings. It is a fun experiment.</p>
+=======
 
+>>>>>>> 07aa4260de6b5761e91bdb6ed05cdc6e5589d329
             </article>
 
         		<article  class="artwork">
