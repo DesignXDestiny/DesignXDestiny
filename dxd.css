@@ -118,6 +118,7 @@ body {
 		}
 
 
+
 	div {
 		min-height: 100%;
 	    min-width: 100vw;
@@ -411,6 +412,38 @@ form {
 		#navigation.fixed{
 		  position:fixed;
 		  bottom: 90%;
+			}
+
+.hero-actions  {
+    padding: 10%;
+    font-size: 1.5rem;
+    	font-family: 'Megrim', cursive;
+    			border-radius: 60px;
+    			padding: 6%;
+
+    }
+		.hero-actions a:link{
+		display: inline;
+      	border-radius: 60px;
+        background-color: rgba(0, 0, 0, .5); 
+                			padding: 3%;
+
+		}
+		.hero-actions a:hover{
+			color: yellow;
+			background-color: rgba(0, 0, 0, .5);
+			font-size: 1.7rem;
+			padding: 2%;
+			border-radius: 60px;
+			text-align: center;
+			}
+
+		.hero-actions a:active{
+			color: pink;
+			}
+
+		.hero-actions a:visited{
+			color: dodgerblue;
 			}
  /*
 		img {
@@ -863,6 +896,17 @@ h1, h2, h3, h4, h5, h6 {
 					margin: auto;
 					min-width: 90%;
 					}
+            /* Clean, snappy button transition example */
+        .btn-primary {
+            background-color: var(--your-accent-color);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+    
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+    
 	}
 
 
