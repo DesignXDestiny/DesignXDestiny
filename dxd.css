@@ -160,7 +160,7 @@ body {
 			text-align: center;
 			align-items: center;
 			margin: 5% auto;
-			max-width: 90%;
+			max-width: 50%;
 			max-height: 100%;
 			vertical-align: bottom;
 		    }
@@ -222,13 +222,17 @@ body {
 
 
 		article {
-			margin-bottom: 20%;
+			margin-bottom: 10%;
 			margin: 4%;
+            min-width: 85%;
 			}
 			article footer {
 				border-radius: 25px;
 				}
-
+article img {
+             max-width: 40%;
+             margin: 4%;
+               }
 
 		ul {
 			 padding: 2%;
@@ -253,19 +257,19 @@ body {
 
 
 
-
-iframe {
-	min-width: 32%;
-	max-width: 50%;
-	min-height: 50%;
-	min-height: 400px;
-	margin: auto;
-	margin-top: 25%;
-	padding-top: 10%;
-	align-self: center;
-	border-radius: 30px;
-	border: 1px rgba(0, 0, 0, .2) solid;
-   }
+            
+            iframe {
+            	min-width: 32%;
+            	max-width: 50%;
+            	min-height: 50%;
+            	min-height: 400px;
+            	margin: auto;
+            	margin-top: 25%;
+            	padding-top: 10%;
+            	align-self: center;
+            	border-radius: 30px;
+            	border: 1px rgba(0, 0, 0, .2) solid;
+               }
 
 .thumbnail img
 	{
@@ -433,7 +437,7 @@ form {
 /* TYPEOGRAPHY */		
 
 p {
-	line-height: 1.7em;
+	line-height: 1.6em;
 	max-width: 700px, 80%;
 	min-width: 350px;
 	padding-right: 1%;
@@ -443,14 +447,14 @@ p {
 	margin: auto;
 	margin-top: 0px;
 	text-align: left;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	}
 
 	.content p {
 		column-count: 2;
 		max-width: 1800px;
 		margin: auto;
-		column-gap: 5%;
+		column-gap: 8%;
 		}
 
 
@@ -469,8 +473,8 @@ h1, h2, h3, h4, h5, h6 {
             font-family: 'Poiret One', cursive;
              text-shadow: 8px 6px 20px black;
              color: white;
-            font-size: 12vw;
-            padding-top: 30%;
+            font-size: 13vw;
+            padding-top: 35%;
              z-index: -1;
           }
 
