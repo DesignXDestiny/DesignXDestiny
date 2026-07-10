@@ -454,7 +454,25 @@ h1 {
 	padding-bottom: 0px;
 	background-color: rgba(255, 255, 255, .8);
 
-}
+    
+    /*animation: cursor 1s infinite step-end, typing 15s infinite steps(16);
+  white-space: nowrap;
+  overflow: hidden;
+          }
+
+@keyframes cursor{
+  0%, 100%{border-color: transparent;}
+  50%{border-color: #000;}
+        }
+
+@keyframes typing{
+  0%{ width: 0ch} /*Text is hidden
+  30%{ width: 18ch;} /*The enitre header will be typed out
+  80%{ width: 18ch;} /*Text stays visible
+  90%{ width: 0ch;} /*Text is deleted
+  100%{ width: 0ch;} /*Text stays hidden    
+    }
+*/
 	
 			h2{
 				font-family: 'Nixie One', cursive;

@@ -1,7 +1,7 @@
 @charset "UTF-8";
     @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Love+Ya+Like+A+Sister|Marcellus+SC|Megrim|Nixie+One|Poiret+One|Pompiere|UnifrakturMaguntia|Montserrat&display=swap');
 	@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wdth,wght@0,5..1200,87.5..112.5,300..900;1,5..1200,87.5..112.5,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wdth,wght@0,5..1200,87.5..112.5,300..900;1,5..1200,87.5..112.5,300..900&display=swap&family=Euphoria+Script');
 
 	/*
 	font-family: 'Raleway', sans-serif;
@@ -20,7 +20,7 @@
 	font-family: 'Londrina Outline', cursive;
 	font-family: 'Megrim', cursive;
 	font-family: 'UnifrakturMaguntia', cursive;
-
+    font-family: 'Euphoria Script', cursive;
 	font-family: 'Montserrat', sans-serif;
 	*/
 
@@ -509,12 +509,14 @@ h1, h2, h3, h4, h5, h6 {
             font-size: 13vw;
             padding-top: 35%;
              z-index: -1;
-          }
+}
+
 
 		h2 {
 			margin-top: 3%;
 			font-size: 9rem;
 			font-family: 'Playfair', serif;
+            letter-space: 2rem;
 			}
 
 		h3 { 
@@ -529,7 +531,9 @@ h1, h2, h3, h4, h5, h6 {
 			}
 
 		h5 {
-			font-family: 'Love Ya Like A Sister', cursive;
+		font-family: 'Euphoria Script', cursive;
+        font-size: 1.6rem;
+        padding: 3%;, cursive;
 			font-size: 2rem;
 			}
 
@@ -809,6 +813,9 @@ h1, h2, h3, h4, h5, h6 {
 			padding-top: 200px;
 			font-size: 11vw;
 			margin-bottom: 50px;
+              animation: cursor 1s              infinite step-end, typing 15s           infinite steps(16);
+  white-space: nowrap;
+  overflow: hidden;
 			}
 
 		h2 {
