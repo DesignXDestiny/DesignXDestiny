@@ -505,12 +505,12 @@ h1, h2, h3, h4, h5, h6 {
 		h2 {
 			margin-top: 3%;
 			font-size: 9rem;
-			font-family: 'Playfair Display SC', serif;
+			font-family: 'Euphoria Script', cursive;
             letter-space: 2.5rem;
 			}
 
 		h3 { 
-			font-family: 'Euphoria Script', cursive;
+        	font-family: 'Playfair Display SC', serif;
 			font-size: 2.7rem;
 		 	}
 
