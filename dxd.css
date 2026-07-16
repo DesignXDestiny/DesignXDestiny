@@ -1,25 +1,15 @@
 @charset "UTF-8";
-    @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Fredericka+the+Great|Love+Ya+Like+A+Sister|Marcellus+SC|Megrim|Nixie+One|Poiret+One|Pompiere|UnifrakturMaguntia|Montserrat&display=swap');
-	@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Megrim|Poiret+One|Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wdth,wght@0,5..1200,87.5..112.5,300..900;1,5..1200,87.5..112.5,300..900&display=swap&family=Euphoria+Script');
 
 	/*
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Major Mono Display', monospace;
-	font-family: 'Special Elite', cursive;
-	font-family: 'Gochi Hand', cursive;
 
 	font-family: 'Amatic SC', cursive;
 	font-family: 'Poiret One', cursive;
-	font-family: 'Fredericka the Great', cursive;
-	font-family: 'Cabin Sketch', cursive;
-	font-family: 'Marcellus SC', serif;
-	font-family: 'Love Ya Like A Sister', cursive;
-	font-family: 'Nixie One', cursive;
-	font-family: 'Pompiere', cursive;
 	font-family: 'Londrina Outline', cursive;
 	font-family: 'Megrim', cursive;
-	font-family: 'UnifrakturMaguntia', cursive;
     font-family: 'Euphoria Script', cursive;
 	font-family: 'Montserrat', sans-serif;
 	*/
@@ -503,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
          h1 {
             text-align: center;
              font-weight: bolder;
-            font-family: 'Poiret One', cursive;
+            font-family: 'Poiret One', san-serif;
              text-shadow: 8px 6px 20px black;
              color: white;
             font-size: 13vw;
@@ -515,12 +505,12 @@ h1, h2, h3, h4, h5, h6 {
 		h2 {
 			margin-top: 3%;
 			font-size: 9rem;
-			font-family: 'Playfair', serif;
-            letter-space: 2rem;
+			font-family: 'Playfair Display SC', serif;
+            letter-space: 2.5rem;
 			}
 
 		h3 { 
-			font-family: 'Londrina Outline', cursive;
+			font-family: 'Euphoria Script', cursive;
 			font-size: 2.7rem;
 		 	}
 
@@ -533,9 +523,13 @@ h1, h2, h3, h4, h5, h6 {
 		h5 {
 		font-family: 'Euphoria Script', cursive;
         font-size: 1.6rem;
-        padding: 3%;, cursive;
+        padding: 3%;
 			font-size: 2rem;
 			}
+
+        h6 {
+          font-family: 'Poiret One', san-serif;
+            }
 
  a {
 	text-decoration: none;
@@ -547,8 +541,12 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 
-	 span, small {
-	    font-family: 'Amatic SC', cursive;
+	 span
+        {font-family: 'Euphoria Script', cursive;
+        }
+
+small {
+          font-family: 'Poiret One', san-serif;
 		}
 
 	span {
