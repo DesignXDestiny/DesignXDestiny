@@ -42,7 +42,9 @@ body {
 	padding: 0px;
 	margin: 0px;
 	}
-
+    p {
+        text-align: left;
+        }
 
 section {
 	padding: 2%;
@@ -85,10 +87,10 @@ header {
 	z-index: -1;
 
  	background-image: url("../images/7-12-2019_dwntwn_LV_sunset.jpg");
-
+    text-align: center;
     /* Full height */
     max-height: 100%; 
-        min-height: 400px;
+    min-height: 400px;
     min-width: 100%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -99,6 +101,8 @@ header {
     margin-bottom: 10%;
     padding: 0;
 }
+    .parallaax2 p { text-align:center; }
+
 .parallax3 { 
 	z-index: -1;
 
@@ -140,25 +144,30 @@ footer {
 	align-items: center;
 	display: block;
 	}
-	nav a {
-        	   	text-align: center;
-        	   	padding-right: 10%;
-        	   	margin: 2%;
-        	   	font-weight: bold;
 
-	}
 
 
 button {
 		font-family: 'Poiret One', sans-serif;
-		font-size: 2rem;
-		font-weight: bolder;
+		font-size: 1.8rem;
 		border-radius: 50px;
 		border: 0px;
 		padding: 3%;
-		margin: 3%;
+		margin: 2%;
 	    background: -webkit-linear-gradient(pink, black);
 		}
+
+nav { width: 100%;
+     margin: 0px;
+     }
+
+ nav button a { 
+     font-size: .5rem;
+      }
+
+ nav a:visited {
+     color: dodgerblue;
+     }
 
 
 		.fa {
@@ -267,19 +276,20 @@ img {
 
 
 		body{
-			line-height: 1.7;
+			line-height: 1.6;
 			}
 
 
 			article {
 				margin: 5%;
-				margin-bottom: 12%;
-				min-width: 70%;
+				margin-bottom: 10%;
+				min-width: 80%;
 				max-width: 100%;
 				display: block;
-				min-height: 150px;
+				min-height: 80%;
 				}
-
+    p { line-height: 1.7rem;
+       }
 
 
 		h1 {
@@ -298,6 +308,9 @@ img {
 		h4 {
 			font-size: 3rem;
 			}
+    
+
+    
  	footer {
  		font-size: 1rem;
  		color: silver;
