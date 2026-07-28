@@ -15,16 +15,22 @@
         <meta name="author" content="Destiny Barrett">
 
 	<!-- Google tag (gtag.js) added May 2026-->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=G-B8X9RFPEK1"></script>
+<!-- Google tag (gtag.js) -->
+<script>
+  window.addEventListener('load', function() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-B8X9RFPEK1';
+    document.head.appendChild(script);
 
-     	
-		<script>
- 			 window.dataLayer = window.dataLayer || [];
- 			 function gtag(){dataLayer.push(arguments);}
- 			 gtag('js', new Date());
-
- 			 gtag('config', 'G-B8X9RFPEK1');
-			</script>
+    script.onload = function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B8X9RFPEK1');
+    };
+  });
+</script>
             <meta name="facebook-domain-verification" content="9dyw650vxhv22kifoznpen0gb230wp">
 
    </head>
