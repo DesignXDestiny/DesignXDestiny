@@ -675,11 +675,6 @@ section h2, section h3, section h4, section h5, footer h2, footer h3, footer h4 
 
  /* GRAPHIC */
 
- * {
-    margin: 0;
-    padding: 0;
-	}
-
 			article img, section img{
 			        border-radius: 30px;
             		max-width: 95%;
@@ -718,15 +713,15 @@ section h2, section h3, section h4, section h5, footer h2, footer h3, footer h4 
 
 
  /*Sizing & Transition*/
-		*, *:after, *:before {
-		  -webkit-box-sizing: border-box;
-		  -moz-box-sizing: border-box;
-		  box-sizing: border-box;
-		}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 		 
 		* {
-		  margin: 0;
-		  padding: 0;
 		  -webkit-transition: all 1s ease;
 		  -moz-transition: all 1s ease;
 		  -o-transition: all 1s ease;
