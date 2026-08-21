@@ -466,7 +466,6 @@ form {
         align-items: center;
 		margin: 0 auto;
 		padding: 1%;
-		background-color: rgba(0, 0, 0, .6);
 		display: inline-block;
 		border-radius: 40px;
 		text-align: center;
@@ -483,10 +482,15 @@ form {
         text-align: center;
         justify-content: center;
         align-items: center;
+        background-color: rgba(0, 0, 0, .4);
 		}
+
+		nav a:visited{
+			color: dodgerblue;
+			}
 		nav a:hover{
 			color: yellow;
-			background-color: rgba(0, 0, 0, .8);
+			background-color: rgba(0, 0, 0, .6);
 			font-size: 2rem;
 			padding: 2%;
 			border-radius: 60px;
@@ -497,9 +501,6 @@ form {
 			color: pink;
 			}
 
-		nav a:visited{
-			color: dodgerblue;
-			}
 
 		#navigation{
 		  position:absolute;
@@ -511,6 +512,25 @@ form {
 		  bottom: 95%;
 			}
 
+nav a img{ height: 2.5rem;
+           width: auto;
+           align-items: center;
+           padding: 5%;
+           border-radius: 25px;
+            }
+nav a img:hover{ 
+          height: 3.5rem;
+          width: 3.5rem;
+          padding: 4%;
+          align-items: center;
+          background-color: rgba(255, 255, 255, .3);
+        }
+ .homebtn a:link{
+          height: 3rem;
+          width: 3rem;
+          align-items: center;
+          background-color: rgba(255, 255, 255, .1);
+} 
 
 
 
