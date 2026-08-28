@@ -18,17 +18,19 @@
 <!-- Google tag (gtag.js) -->
 <script>
   window.addEventListener('load', function() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-B8X9RFPEK1';
-    document.head.appendChild(script);
+    setTimeout(function() {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-B8X9RFPEK1';
+      document.head.appendChild(script);
 
-    script.onload = function() {
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-B8X9RFPEK1');
-    };
+      script.onload = function() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-B8X9RFPEK1');
+      };
+    }, 3000); // Delays loading analytics by 3 seconds after page load
   });
 </script>
 
