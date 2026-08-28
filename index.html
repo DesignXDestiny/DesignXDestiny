@@ -18,19 +18,17 @@
 <!-- Google tag (gtag.js) -->
 <script>
   window.addEventListener('load', function() {
-    setTimeout(function() {
-      var script = document.createElement('script');
-      script.async = true;
-      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-B8X9RFPEK1';
-      document.head.appendChild(script);
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-B8X9RFPEK1';
+    document.head.appendChild(script);
 
-      script.onload = function() {
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-B8X9RFPEK1');
-      };
-    }, 3000); // Delays loading analytics by 3 seconds after page load
+    script.onload = function() {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-B8X9RFPEK1');
+    };
   });
 </script>
 
@@ -398,7 +396,6 @@ What I love most is creating custom designs for each person.
 		          }
 		      }
 			</script>
-
 
         <script>
             let slideIndex = [1,1];
