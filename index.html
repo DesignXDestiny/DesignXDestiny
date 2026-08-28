@@ -339,19 +339,38 @@ What I love most is creating custom designs for each person.
 
     <!--https://stackoverflow.com/questions/425216/issue-with-background-color-and-google-chrome-->
 
+ <!-- Combined & Optimized Scroll Script to Fix TBT -->
     <script>
-	  /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
-	      var prevScrollpos = window.pageYOffset;
-	      window.onscroll = function() {
-	        var currentScrollPos = window.pageYOffset;
-	        if (prevScrollpos > currentScrollPos) {
-	          document.getElementById("navigation").style.top = "0";
-	        } else {
-	          document.getElementById("navigation").style.top = "-35%";
-	        }
-	        prevScrollpos = currentScrollPos;
-	  	    }
-	  	</script>
+      let lastScrollPos = window.pageYOffset;
+      let ticking = false;
+
+      window.addEventListener('scroll', function() {
+        lastScrollPos = window.pageYOffset;
+        if (!ticking) {
+          window.requestAnimationFrame(function() {
+            // NAVIGATION: Handles hiding/showing and fixing the navbar on scroll
+            var currentScrollPos = window.pageYOffset;
+            const nav = document.getElementById("navigation");
+            
+            if (prevScrollpos > currentScrollPos) {
+              nav.style.top = "0";
+            } else {
+              nav.style.top = "-35%";
+            }
+            prevScrollpos = currentScrollPos;
+
+            // handleScroll equivalent (fixed class toggle)
+            var offset = window.pageYOffset ? window.pageYOffset : document.documentElement.scrollTop;
+            nav.className = (offset > 104 ? 'fixed' : '');
+
+            ticking = false;
+          });
+          ticking = true;
+        }
+      });
+      // Initialize prevScrollpos for the scroll check
+      var prevScrollpos = window.pageYOffset;
+    </script>
 
 	  <script>  /*  Search Bar  */
 
@@ -377,32 +396,6 @@ What I love most is creating custom designs for each person.
 		          }
 		      }
 			</script>
-	    <script>
-	 /* NAVIGATION 
-        Handles the page being scrolled by ensuring the navigation is always in view.*/
-	function handleScroll(){
-
-		  // check that this is a relatively modern browser
-		  if (window.XMLHttpRequest){
-
-		    // distance scrolled down the page
-		    var offset = window.pageYOffset
-		               ? window.pageYOffset
-		               : document.documentElement.scrollTop;
-
-		    // set class on the navigation
-		    document.getElementById('navigation').className =
-		        (offset > 104 ? 'fixed' : '');
-		    }
-		}
-
-		// add the scroll event listener
-		if (window.addEventListener){
-		  window.addEventListener('scroll', handleScroll, false);
-		}else{
-		  window.attachEvent('onscroll', handleScroll);
-		}
-		</script>
 
 
         <script>
