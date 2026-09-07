@@ -453,7 +453,6 @@ form {
 	font-size: 1.2rem;
 	margin: 0 auto;
 	position: fixed;
-	transition: all 0.4s ease;
     min-width: 100%;
     margin-top: -9px;
     padding-top: 0px;
@@ -468,7 +467,6 @@ form {
 		display: inline-block;
 		border-radius: 40px;
 		text-align: center;
-	    transition: all 0.3s ease;
 	    max-height: 3em;
 	    position: -webkit-sticky;
         position: sticky;
@@ -482,8 +480,6 @@ form {
         justify-content: center;
         align-items: center;
         background-color: rgba(0, 0, 0, .4);
-        transition: all 0.3s ease;
-
 		}
 
 		nav a:visited{
@@ -496,13 +492,10 @@ form {
 			padding: 2%;
 			border-radius: 60px;
 			text-align: center;
-            transition: all 0.3s ease;
-
 			}
 
 		nav a:active{
 			color: pink;
-            transition: all 0.3s ease;
 			}
 
 
@@ -726,6 +719,7 @@ section h2, section h3, section h4, section h5, footer h2, footer h3, footer h4 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+     margin: 0px;
 	}
 
 
