@@ -214,7 +214,7 @@ html, body {
 
 	section {
 		width: auto;
-        padding: 5%;
+        padding: 4%;
 		padding-bottom: 3%;
 		border-radius: 30px;
 		justify-content: center;
@@ -340,7 +340,7 @@ img {
 
 		article {
 			margin-bottom: 2%;
-			margin: auto;
+			margin: 0 auto;
             min-width: 95%;
 			}
 			article footer {
