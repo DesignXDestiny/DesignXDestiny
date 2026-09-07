@@ -740,7 +740,7 @@ section h2, section h3, section h4, section h5, footer h2, footer h3, footer h4 
   padding: 0;
 }
 		 
-		nav, a, section, articles, footer, li, img, h1, h2, p, header, *:hover, *:active {
+		* {
 		  -webkit-transition: all 1s ease;
 		  -moz-transition: all 1s ease;
 		  -o-transition: all 1s ease;
